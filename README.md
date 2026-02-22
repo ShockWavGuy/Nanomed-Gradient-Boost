@@ -10,7 +10,7 @@ LGBM + CatBoost
 MLP
 
 Main variance hypothesis is that heterogeneity, rather than batch effects, dominates signal; stronger biological & chemical terms may mitigate variance.
-Mediocre/Poor MLP + GNN framework, as well as Catboost + group column categorical showed that batch effects hold minimal predictive power (or are near impossible to derive)
+Mediocre MLP + GNN framework performance, as well as Catboost(with group column as a categorical feature) performance showed that batch effects hold minimal predictive power (or are near impossible to derive from the sparse data)
 
 
 Datasets: 
