@@ -16,4 +16,4 @@ Mediocre/Poor MLP + GNN framework, as well as Catboost + group column categorica
 Datasets: 
 
 Brain Delivery(https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00121-7)
-PLGA Nanoparticle Formulations(https://www.nature.com/articles/s41597-025-05520-9)
+                   PLGA Nanoparticle Formulations(https://www.nature.com/articles/s41597-025-05520-9)
