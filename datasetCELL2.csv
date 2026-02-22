@@ -1,0 +1,1303 @@
+number,prep,comp,PEG,PEGRatio,surface-coating,ligand-type,ligand,mechanism,receptor-type,receptor,Pgp,Pgp-inhibitor,size,PDI,zeta,EE%,DL,animal-model,route,ligand-density-mol,ligand-density-num,encapsulation,external,ID%,delivery-efficiency,mod-ratio-unmod,group
+1,liposome,PC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.0013,,,1
+1,liposome,DPPC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.0017,,,1
+2,liposome,PC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.0024,,,2
+4,liposome,PC,0.0,0.0,none,glycosol,mannose derivative,transporter mediated,hexose transporter,GLUT-1,,,,,,,,normal,i.v.,10.0,,,none,0.019,,,4
+4,liposome,PC,0.0,0.0,none,glycosol,"fucose
+derivative (L-type)",transporter mediated,hexose transporter,GLUT-1,,,,,,,,normal,i.v.,10.0,,,none,0.011,,,4
+4,liposome,PC,0.0,0.0,none,glycosol,"fucose
+derivative (R-type)",transporter mediated,hexose transporter,GLUT-1,,,,,,,,normal,i.v.,10.0,,,none,0.0048,,,4
+4,liposome,PC,0.0,0.0,none,glycosol,galactose derivative,transporter mediated,hexose transporter,GLUT-1,,,,,,,,normal,i.v.,10.0,,,none,0.0043,,,4
+6,liposome,PC/PI,0.0,0.0,none,none,,passive transport,,,,,,,,,,brain tumor,through carotid artery,,,,none,0.0006,,,6
+7,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,,none,0.0025,1,,7
+7,liposome,DMPC/DMPG,0.0,0.0,none,none,,passive transport,,,,,,,,93.08,,normal,i.v.,,,,none,0.0035,1.4,,7
+8,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Daunomycin,none,3.1e-05,1,,8
+8,liposome,DSPC/DSPE,0.0,0.0,none,none,,passive transport,,,,,85.0,,,89.9,,normal,i.v.,,,Daunomycin,none,3.1e-05,1,1,8
+8,liposome,DSPC/DSPE-PEG2000,1.0,3.0,none,none,,passive transport,,,,,85.0,,,89.9,,normal,i.v.,,,Daunomycin,none,0.0,,0,8
+8,liposome,DSPC/DSPE-PEG2000,1.0,3.0,none,antibody,OX26,receptor mediated,transferrin receptor,transferrin receptor,,,85.0,,,89.9,,normal,i.v.,3.0,,Daunomycin,none,0.00011,3.55,3.55,8
+9,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Cisplatin,none,0.0,,,9
+9,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Cisplatin,heat,0.0,,,9
+9,liposome,DPPC/DSPC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,Cisplatin,none,0.0,,,9
+9,thermosensitive liposome,DPPC/DSPC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,Cisplatin,heat,0.0027,,,9
+10,free drug,,,,,,,,,,,,,,,,,normal,i.p.,,,SiPc,none,0.009,1,,10
+10,liposome,DPPC,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.p.,,,SiPc,none,0.016,1.78,,10
+11,liposome,DMPC/NPPE,0.0,0.0,none,none,,passive transport,,,,,106.3,0.173,-27.5,,,normal,through carotid artery,,,,none,3.2e-05,,1,11
+11,liposome,DMPC/NPPE,0.0,0.0,none,glycosol,glucose,transporter mediated,hexose transporter,GLUT-1,,,105.4,0.102,-27.8,,,normal,through carotid artery,10.0,,,none,6e-06,,0.1875,11
+11,liposome,DMPC/NPPE,0.0,0.0,none,glycosol,mannose,transporter mediated,hexose transporter,GLUT-1,,,113.3,0.059,-28.2,,,normal,through carotid artery,10.0,,,none,4.2e-05,,1.3125,11
+11,liposome,DMPC/NPPE,0.0,0.0,none,glycosol,monosialoganglioside,transporter mediated,hexose transporter,GLUT-1,,,121.5,0.144,-15.5,,,normal,through carotid artery,10.0,,,none,0.000466,,14.5625,11
+11,liposome,DMPC/NPPE,0.0,0.0,none,others,sulfatide,receptor mediated,,,,,102.8,0.119,-27.4,,,normal,through carotid artery,10.0,,,none,2.5e-05,,0.78125,11
+12,liposome,PC/PG,0.0,0.0,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,paclitaxel,none,0.00017,1.13333333333333,,12
+12,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,paclitaxel,none,0.00015,1,,12
+13,free drug,,,,,,,,,,,,,,,,,ischemic stroke/reperfusion,i.v.,,,diclofenac sodium,none,0.024,1,,13
+13,liposome,PC/PS,0.0,0.0,none,none,none,passive transport,,,,,1190.0,,,,,ischemic stroke/reperfusion,i.v.,,,diclofenac sodium,none,0.019,0.792,1,13
+13,liposome,PC/PE/PS,0.0,0.0,none,peptide,RGD,receptor mediated,others,αvβ1,,,1210.0,,,,,ischemic stroke/reperfusion,i.v.,10.0,,diclofenac sodium,none,0.033,1.375,1.73684210526316,13
+13,liposome,PC/PS,0.0,0.0,none,none,none,passive transport,,,,,1190.0,,,,,ischemic stroke/reperfusion,i.v.,,,diclofenac sodium,magnetic field,0.14,5.833,7.36842105263158,13
+13,liposome,PC/PE/PS,0.0,0.0,none,peptide,RGD,receptor mediated,others,αvβ1,,,1210.0,,,,,ischemic stroke/reperfusion,i.v.,10.0,,diclofenac sodium,magnetic field,0.22,9.167,11.5789473684211,13
+13,,,,,,,,,,,,,,,,,,,,,,,,,,,13
+14,liposome,PC/sulfatides,0.0,0.0,none,none,none,passive transport,,,,,45.0,,,,,normal,i.v.,,,cAMP,none,0.0005,1.429,,14
+14,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,cAMP,none,0.00036,1,,14
+14,,,,,,,,,,,,,,,,,,,,,,,,,,,14
+15,liposome,EPC/DSPE-PEG,1.0,5.7,none,none,none,passive transport,,,,,70.0,,,,,normal,i.v.,,,none,none,0.00027,,1,15
+15,liposome,EPC/DSPE-PEG,1.0,5.7,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,,,70.0,,,,,normal,i.v.,0.94,,none,none,0.00035,,1.2962962962963,15
+15,,,,,,,,,,,,,,,,,,,,,,,,,,,15
+16,free drug,,,,,,,,,,,,,,,,,normal,i.p.,,,gentamicin,none,0.00019,1,,16
+16,liposome,PC,0.0,0.0,none,none,none,passive transport,,,,,3170.0,,,,,normal,i.p.,,,gentamicin,none,0.00017,0.895,1,16
+16,liposome,PC,0.0,0.0,none,none,none,passive transport,,,,,3170.0,,,,,normal,i.p.,,,gentamicin,none,0.00032,1.684,1.88235294117647,16
+16,cationic liposome,PC,0.0,0.0,none,none,none,absorption mediated,,,,,3170.0,,,,,normal,i.p.,,,gentamicin,none,0.00026,1.368,1.52941176470588,16
+16,,,,,,,,,,,,,,,,,,,,,,,,,,,16
+17,liposome,DSPC/DSPE-PEG/bio-PEGDSPE,1.0,13.0,none,none,IgG2a-DSPE-PEG,passive transport,,,,,150.0,,,,,normal,i.v.,,,daunomycin,none,0.0001,0.909,1,17
+17,liposome,DSPC/DSPE-PEG/bio-PEGDSPE,1.0,13.0,none,antibody,OX26-DSPE-PEG,receptor mediated,transferrin receptor,,,,150.0,,,,,normal,i.v.,9.6,,daunomycin,none,0.00018,1.636,1.8,17
+17,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,daunomycin,none,0.00011,1,,17
+17,,,,,,,,,,,,,,,,,,,,,,,,,,,17
+18,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,"Nerve Growth
+Factor",none,0.00037,1,,18
+18,liposome,SPC,0.0,0.0,none,none,none,passive transport,,,,,73.37,,,,,normal,i.v.,,,"Nerve Growth
+Factor",none,0.0004,1.081,1,18
+18,liposome,SPC/DSPE-PEG,1.0,6.0,none,cell-penetrating peptide,Cereport (RMP-7)-PEGDSPE,absorption mediated,,,,,69.57,,,,,normal,i.v.,1.0,,"Nerve Growth
+Factor",none,0.0035,9.46,8.75,18
+18,,,,,,,,,,,,,,,,,,,,,,,,,,,18
+19,free drug,,,,,,,,,,,,,,,,,ischemic stroke/reperfusion,i.v.,,,ferulic acid,none,1e-05,1,,19
+19,liposome,,,,none,none,none,passive transport,,,,,,,,,,ischemic stroke/reperfusion,i.v.,,,ferulic acid,,3.1e-05,3.1,1,19
+19,liposome,,,,none,peptide,RGD,receptor mediated,others,αvβ1,,,,,,,,ischemic stroke/reperfusion,i.v.,,,ferulic acid,,0.00011,11,3.54838709677419,19
+19,,,,,none,,,,,,,,,,,,,,,,,,,,,,19
+20,free drug,,,,,,,,,,,,,,,,,ischemic stroke/reperfusion,i.v.,,,ferulic acid,none,0.0002,1,,20
+20,liposome,SPC,0.0,0.0,none,none,none,passive transport,,,,,152.0,,,,,ischemic stroke/reperfusion,i.v.,,,ferulic acid,none,0.0026,13,1,20
+20,liposome,SPC,0.0,0.0,none,peptide,RGD,receptor mediated,others,αvβ1,,,155.0,,,,,ischemic stroke/reperfusion,i.v.,3.8,,ferulic acid,none,0.0077,38.5,2.96153846153846,20
+20,,,,,,,,,,,,,,,,,,,,,,,,,,,20
+23,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,5-fluorouracil,none,0.022,1,,23
+23,liposome,PC,0.0,0.0,none,none,none,passive transport,,,,,750.0,,,37.6,,normal,i.v.,,,5-fluorouracil,none,0.25,11.364,1,23
+23,liposome,PC,0.0,0.0,none,non-antibody protein,transferrin-stearylamine,receptor mediated,transferrin receptor,,,,1010.0,,,29.16,,normal,i.v.,10.0,,5-fluorouracil,none,0.47,21.636,1.88,23
+23,,,,,,,,,,,,,,,,,,,,,,,,,,,23
+25,liposome,POPC/POPG,1.0,3.0,none,,none,passive transport,,,,,134.0,,-4.06,95.0,,normal,i.v.,,,"[32P]oligodeoxy
+nucleotides
+(ODN)",none,0.00011,,1,25
+25,liposome,POPC/POPG,1.0,3.0,none,antibody,Anti-transferrin receptor antibody (8D3)-PEGDSPE,receptor mediated,transferrin receptor,,,,142.0,,-0.71,95.0,,normal,i.v.,0.3,,"[32P]oligodeoxy
+nucleotides
+(ODN)",none,0.0015,,13.6363636363636,25
+25,,,,,,,,,,,,,,,,,,,,,,,,,,,25
+27,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,doxorubicin,none,0.011,1,,27
+27,liposome,,0.0,0.0,none,none,none,passive transport,,,,,273.9,0.21,-22.8,95.32,0.095,normal,i.v.,,,doxorubicin,none,0.024,2.182,1,27
+27,cationic liposome,,0.0,0.0,none,none,none,absorption mediated,,,,,184.23,0.29,-23.83,90.99,0.092,normal,i.v.,,,doxorubicin,none,0.048,4.364,2,27
+27,cationic liposome,,0.0,0.0,none,non-antibody protein,Lactoferrin,receptor mediated,transferrin receptor,,,,208.97,0.13,-5.37,90.99,0.089,normal,i.v.,,,doxorubicin,none,0.067,6.091,2.79166666666667,27
+27,,,,,,,,,,,,,,,,,,,,,,,,,,,27
+28,free drug,,,,,,,,,,,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.00018,1,,28
+28,liposome,EPC,1.0,3.8,none,none,none,passive transport,,,,,121.66,,,99.47,,brain tumor,i.v.,,,doxorubicin,none,0.0003,1.666666667,1,28
+28,thermosensitive liposome,DPPC/MSPC,1.0,4.2,none,none,none,passive transport,,,,,123.51,,,99.65,,brain tumor,i.v.,,,doxorubicin,heat,0.0011,6.111111111,3.66666666666667,28
+28,,,,,,,,,,,,,,,,,,,,,,,,,,,28
+29,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,indinavir,none,0.0065,1,,29
+29,emulsion,,0.0,0.0,none,none,none,passive transport,,,,,251.1,0.06,-33.9,,,normal,i.v.,,,indinavir,none,0.0089,1.369230769,1,29
+29,emulsion,,1.0,,none,none,none,passive transport,,,,,241.3,0.21,-42.3,,,normal,i.v.,,,indinavir,none,0.019,2.923076923,2.13483146097778,29
+29,emulsion,,1.0,,none,none,none,passive transport,,,,,271.9,0.17,-28.6,,,normal,i.v.,,,indinavir,none,0.016,2.461538462,1.79775280962883,29
+29,,,,,,,,,,,,,,,,,,,,,,,,,,,29
+30,others,,,,none,,,,,,,,,,,,,normal,,,,,none,,,,30
+30,others,,,,none,,,,,,,,,,,,,normal,,,,,none,,,,30
+30,,,,,,,,,,,,,,,,,,,,,,,,,,,30
+31,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Doxorubicin,none,0.00049,1,,31
+31,liposome,SPC,0.0,0.0,none,none,none,passive transport,,,,,166.1,0.184,-8.2,96.65,,normal,i.v.,,,Doxorubicin,none,0.00043,0.87755102,1,31
+31,liposome,SPC,1.0,8.0,none,none,none,passive transport,,,,,100.2,0.161,-6.43,97.96,,normal,i.v.,,,Doxorubicin,none,0.0018,3.673469388,4.18604651162791,31
+31,liposome,SPC,1.0,3.0,none,peptide,细胞穿透肽TAT (AYGRKKRRQRRR),absorption mediated,,,,,105.1,0.179,22.87,93.53,,normal,i.v.,5.0,,Doxorubicin,none,0.0031,6.326530612,7.20930232558139,31
+31,,,,,,,,,,,,,,,,,,,,,,,,,,,31
+32,liposome,SPC,0.0,0.0,none,none,none,passive transport,,,,,143.4,0.262,-22.66,,,normal,i.v.,,,coumarin-6,none,0.003,,1,32
+32,cationic liposome,DOPE,0.0,0.0,none,none,none,absorption mediated,,,,,89.1,0.276,36.37,,,normal,i.v.,,,coumarin-6,none,0.0032,,1.06666666666667,32
+32,liposome,SPC/PEG-CH,1.0,8.0,none,none,none,passive transport,,,,,119.7,0.21,-8.0,,,normal,i.v.,,,coumarin-6,none,0.0038,,1.26666666666667,32
+32,liposome,SPC/PEG-CH,1.0,3.0,none,peptide,细胞穿透肽TAT (AYGRKKRRQRRR)-PEG-CH,absorption mediated,,,,,147.6,0.207,3.87,,,normal,i.v.,5.0,,coumarin-6,none,0.0061,,2.03333333333333,32
+32,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+32,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+32,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+35,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,daunorubicin,none,0.0049,1,,35
+35,liposome,EPC,1.0,5.0,none,none,none,passive transport,,,,,115.87,0.25,-8.28,,,normal,i.v.,,,daunorubicin,none,0.0064,1.306122449,1,35
+35,liposome,EPC,1.0,4.5,none,glycosol,DSPEPEG-mannose,transporter mediated,hexose transporter,,,,127.27,0.13,-7.46,,,normal,i.v.,0.5,,daunorubicin,none,0.0036,0.734693878,0.5625,35
+35,liposome,EPC,1.0,4.5,none,non-antibody protein,DSPEPEG-transferrin,receptor mediated,transferrin receptor,,,,121.33,0.23,-11.38,,,normal,i.v.,0.5,,daunorubicin,none,0.008,1.632653061,1.25,35
+35,liposome,EPC,1.0,4.0,none,glycosol,DSPEPEG-mannose/DSPEPEG-transferrin,transporter mediated,hexose transporter,,,,122.8,0.17,-6.37,,,normal,i.v.,1.0,,daunorubicin,none,0.0174,3.551020408,2.71875,35
+35,,,,,,,,,,,,,,,,,,,,,,,,,,,35
+36,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,doxorubicin,none,0.00059,1,,36
+36,others,,0.0,0.0,none,others,N-palmitoylglucosamine (NPG),receptor mediated,others,,,,161.0,0.3,,57.8,,normal,i.v.,9.1,,doxorubicin,none,0.0017,2.881355932,,36
+36,,,,,,,,,,,,,,,,,,,,,,,,,,,36
+37,,,,,,,,,,,,,,,,,,normal,,,,,,,,,37
+37,,,,,,,,,,,,,,,,,,,,,,,,,,,37
+38,,,,,,,,,,,,,,,,,,normal,,,,,,,,,38
+38,,,,,,,,,,,,,,,,,,,,,,,,,,,38
+39,liposome,DSPC,0.0,0.0,none,none,none,passive transport,,,,,,,,0.974,,ischemic stroke/reperfusion,i.v.,,,isopropylidene shikimic acid,none,0.0026,,,39
+39,,,,,,,,,,,,,,,,,,,,,,,,,,,39
+40,liposome,PC,0.0,0.0,none,none,none,passive transport,,,,,158.0,0.172,-60.4,,,normal,i.v.,,,coumarin-6,none,0.00042,,1,40
+40,liposome,PC,1.0,34.0,none,glycosol, glucose-PEG200-CH,transporter mediated,hexose transporter,,,,86.3,0.27,-33.3,,,normal,i.v.,34.0,,coumarin-6,none,0.0006,,1.42857142857143,40
+40,liposome,PC,1.0,34.0,none,glycosol, glucose-PEG400-CH,transporter mediated,hexose transporter,,,,81.5,0.252,-36.2,,,normal,i.v.,34.0,,coumarin-6,none,0.00072,,1.71428571428571,40
+40,liposome,PC,1.0,34.0,none,glycosol, glucose-PEG1000-CH,transporter mediated,hexose transporter,,,,100.0,0.265,-24.9,,,normal,i.v.,34.0,,coumarin-6,none,0.0017,,4.04761904761905,40
+40,liposome,PC,1.0,34.0,none,glycosol, glucose-PEG2000-CH,transporter mediated,hexose transporter,,,,104.9,0.289,-20.9,,,normal,i.v.,34.0,,coumarin-6,none,0.00096,,2.28571428571429,40
+40,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+41,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,paclitaxel,none,0.002,1,,41
+41,cationic liposome,,,,none,none,none,absorption mediated,,,,,,,,,,normal,i.v.,,,paclitaxel,magnetic field,0.01,5,,41
+41,cationic liposome,,,,none,none,none,absorption mediated,,,,,,,,,,normal,through carotid artery,,,paclitaxel,magnetic field,0.0097,4.85,,41
+41,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+41,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+43,,,,,none,,,,,,,,,,,,,normal,,,,,,,,,43
+43,,,,,none,,,,,,,,,,,,,,,,,,,,,,43
+43,solid lipid nanoparticles,,,,,,,passive transport,,,,,,,,,,,,,,,,,,,43
+44,free drug,,,0.0,none,none,none,,,,,,,,,,,normal,i.v.,,,camptothecin,none,0.00045,1,,44
+44,solid lipid nanoparticles,soybean lecithin,0.0,,none,none,none,passive transport,,,,,196.8,,-45.2,99.6,0.048,normal,i.v.,,,camptothecin,none,0.0041,9.111111111,,44
+44,,,,,,,,,,,,,,,,,,,,,,,,,,,44
+45,free drug,,,0.0,none,none,none,,,,,,,,,,,normal,i.v.,,,doxorubicin,none,0.0,,,45
+45,solid lipid nanoparticles,hexadecylphosphate,0.0,0.0,none,none,none,passive transport,,,,,80.0,0.18,,,0.05,normal,i.v.,,,doxorubicin,none,0.0,,,45
+45,solid lipid nanoparticles,hexadecylphosphate,1.0,0.15,none,none,none,passive transport,,,,,90.0,0.19,,,0.05,normal,i.v.,,,doxorubicin,none,0.00012,,,45
+45,,,,,,,,,,,,,,,,,,,,,,,,,,,45
+46,polymer-based nanoparticles,PHDCA,0.0,0.0,none,none,none,passive transport,,,,,137.0,,,,,normal,i.v.,,,none,none,4.5e-05,,1,46
+46,polymer-based nanoparticles,PHDCA,1.0,25.0,none,none,none,passive transport,,,,,164.0,,,,,normal,i.v.,,,none,none,7.7e-05,,1.71111111111111,46
+46,,,,,,,,,,,,,,,,,,,,,,,,,,,46
+47,solid lipid nanoparticles,,,,none,,,,,,,,,,,,,normal,,,,,none,,,,47
+47,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+47,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+52,polymer-based nanoparticles,butyl-2-cyano[3-14C]acrylate,0.0,,none,none,none,passive transport,none,,,,201.5,,-14.0,,,brain tumor,,,,,none,0.0049,,1,52
+52,polymer-based nanoparticles,butyl-2-cyano[3-14C]acrylate,0.0,,polysorbate 80,none,none,absorption mediated,none,,,,214.0,,-10.0,,,brain tumor,,,,,none,0.0076,,1.55,52
+52,,,,,,,,,,,,,,,,,,,,,,,,,,,52
+53,free drug,,,,,,,,,,,,,,,,,,,,,methotrexate,none,5e-05,1,,53
+53,solid lipid nanoparticles,n-Butyl-cyanoacrylate,0.0,,polysorbate 80,none,none,absorption mediated,none,,,,70.0,,,,,normal,i.v.,,,methotrexate,none,0.00023,4.6,,53
+53,solid lipid nanoparticles,n-Butyl-cyanoacrylate,0.0,,polysorbate 80,none,none,absorption mediated,none,,,,170.0,,,,,normal,i.v.,,,methotrexate,none,0.00021,4.2,,53
+53,solid lipid nanoparticles,n-Butyl-cyanoacrylate,0.0,,polysorbate 80,none,none,absorption mediated,none,,,,220.0,,,,,normal,i.v.,,,methotrexate,none,0.0002,4,,53
+53,solid lipid nanoparticles,n-Butyl-cyanoacrylate,0.0,,polysorbate 80,none,none,absorption mediated,none,,,,345.0,,,,,normal,i.v.,,,methotrexate,none,0.00018,2.3,,53
+53,solid lipid nanoparticles,n-Butyl-cyanoacrylate,0.0,,none,none,none,passive transport,none,,,,170.0,,,,,normal,i.v.,,,methotrexate,none,0.0,0,,53
+53,,,,,,,,,,,,,,,,,,,,,,,,,,,53
+54,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,,,0.0145,1,,54
+54,solid lipid nanoparticles,,0.0,,none,none,none,passive transport,none,,,,108.2,0.024,15.4,,,normal,i.v.,0.0,,querquinine dihydrochloride,none,0.032,2.21,1,54
+54,solid lipid nanoparticles,,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,,,126.4,0.068,3.7,,,normal,i.v.,,,quinine dihydrochloride,none,0.15,10.34,4.68,54
+54,,,,,,,,,,,,,,,,,,,,,,,,,,,54
+55,albumin nanoparticles,Mal-PEG-PLA/MPEG-PLA,0.0,,cationic bovine srum albumin,none,,absorption mediated,none,,,,100.3,,16.78,,,normal,i.v.,,,coumarin-6,none,0.0005,,,55
+55,albumin nanoparticles,Mal-PEG-PLA/MPEG-PLA,0.0,,cationic bovine srum albumin,none,,absorption mediated,none,,,,97.4,,16.23,,,normal,i.v.,,,coumarin-6,none,0.00042,,,55
+55,albumin nanoparticles,Mal-PEG-PLA/MPEG-PLA,0.0,,cationic bovine srum albumin,none,,absorption mediated,none,,,,104.1,,13.98,,,normal,i.v.,,,coumarin-6,none,0.00072,,,55
+55,albumin nanoparticles,Mal-PEG-PLA/MPEG-PLA,0.0,,cationic bovine srum albumin,none,,absorption mediated,none,,,,105.4,,12.19,,,normal,i.v.,,,coumarin-6,none,0.0011,,,55
+55,albumin nanoparticles,Mal-PEG-PLA/MPEG-PLA,0.0,,cationic bovine srum albumin,none,,absorption mediated,none,,,,105.9,,9.78,,,normal,i.v.,,,coumarin-6,none,0.0009,,,55
+55,,,,,,,,,,,,,,,,,,,,,,,,,,,55
+56,others,,0.0,,none,none,,,none,,,,,,,,,normal,i.v.,,,,,0.00053,,1,56
+56,others,,0.0,,none,peptide,OX26,receptor mediated,transferrin receptor,,,,,,,,,normal,i.v.,35.0,,,none,0.00057,,1.2,56
+56,others,,0.0,,none,antibody,OX26 and Fab',receptor mediated,transferrin receptor,,,,,,,,,normal,i.v.,35.0,,,none,0.0008,,1.6,56
+56,,,,,,,,,,,,,,,,,,,,,,,,,,,56
+57,magnetic liposome,iron oxide,0.0,,none,none,,passive transport,none,,,,193.0,0.262,-0.22,,,normal,i.v.,,,,none,0.0064,,,57
+57,,,,,,,,,,,,,,,,,,,,,,,,,,,57
+58,free drug,,,,,,,,,,,,,,,,,normal,s.c.,,,didanosine,none,0.023,1,,58
+58,others,type A gelatin,0.0,,none,none,,,none,,,,120.0,18.6,,71.2,,normal,s.c.,,,didanosine,none,0.12,5.22,1,58
+58,others,type A gelatin,0.0,,none,glycosol,,receptor mediated,hexose transporter,,,,140.0,7.2,,79.5,,normal,s.c.,,,didanosine,none,0.25,10.87,2.08,58
+58,,,,,,,,,,,,,,,,,,,,,,,,,,,58
+59,polymer-based nanoparticles,PEG-PCL,0.0,,none,none,,,none,,,,95.0,,20.4,,0.007,normal,i.v.,0.0,,coumarin-6,none,0.0009,,1,59
+59,polymer-based nanoparticles,PEG-PCL,0.0,,none,antibody,OX 26,receptor mediated,transferrin receptor,,,,102.0,,-20.6,,0.007,normal,i.v.,5.0,,coumarin-6,none,0.00126,,1.44,59
+59,polymer-based nanoparticles,PEG-PCL,0.0,,none,antibody,OX 26,receptor mediated,transferrin receptor,,,,102.0,,-20.6,,0.007,normal,i.v.,34.0,,coumarin-6,none,0.00252,,2.78,59
+59,polymer-based nanoparticles,PEG-PCL,0.0,,none,antibody,OX 26,receptor mediated,transferrin receptor,,,,102.0,,-20.6,,0.007,normal,i.v.,92.0,,coumarin-6,none,0.00126,,1.44,59
+59,,,,,,,,,,,,,,,,,,,,,,,,,,,59
+60,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,ritonavir,none,4e-05,1,,60
+60,polymer-based nanoparticles,PLA,0.0,,none,cell-penetrating peptide,TAT-peptide :Tyr-Gly-Arg- (Lys)2-(Arg)2-Gln-(Arg)3,absorption mediated,none,,,,340.0,0.14,2.4,89.7,0.183,normal,i.v.,,2012.0,ritonavir,none,0.032,800,6.67,60
+60,polymer-based nanoparticles,PLA,0.0,,none,none,,,none,,,,300.0,0.1,-19.3,89.7,0.183,normal,i.v.,,0.0,ritonavir,none,0.0048,120,1,60
+60,,,,,,,,,,,,,,,,,,,,,,,,,,,60
+61,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Tacrine,none,0.00044,1,,61
+61,polymer-based nanoparticles,poly(n-butylcyanoacrylate),0.0,,none,none,,passive transport,none,,,,35.58,,-41.8,,17.18,normal,i.v.,,,Tacrine,none,0.00056,1.27,1,61
+61,polymer-based nanoparticles,poly(n-butylcyanoacrylate),0.0,,polysorbate 80,none,,absorption mediated,none,,,,35.58,,-39.5,,14.68,normal,i.v.,,,Tacrine,none,0.0018,4.09,3.22,61
+61,,,,,,,,,,,,,,,,,,,,,,,,,,,61
+63,polymer-based nanoparticles,PEG-PLA,0.0,,none,none,,passive transport,none,,,,100.0,,,0.71,,normal,i.v.,,,coumarin-6,none,0.0038,,,63
+63,polymer-based nanoparticles,PEG-PLA,0.0,,none,non-antibody protein,Lactoferrin,receptor mediated,transferrin receptor,,,,131.0,,,0.69,,normal,i.v.,55.0,,coumarin-6,none,0.019,,,63
+63,,,,,,,,,,,,,,,,,,,,,,,,,,,63
+64,free drug,,,,,,,,,,,,,,,,,,,,,,,0.087,1,,64
+64,polymer-based nanoparticles,poly(butyl cyanoacrylate),0.0,,none,none,,passive transport,none,,,,,,,97.0,,Parkinson's disease,i.v.,,,nerve growth factor,none,0.093,1.07,1,64
+64,polymer-based nanoparticles,poly(butyl cyanoacrylate),0.0,,polysorbate 80,none,,absorption mediated,none,,,,,,,96.0,,Parkinson's disease,i.v.,,,nerve growth factor,none,0.23,2.64,1.49,64
+64,,,,,,,,,,,,,,,,,,,,,,,,,,,64
+65,polymer-based nanoparticles,PLGA,0.0,,none,none,,,none,,,,167.0,0.17,-18.2,,,normal,i.v.,,,rhodamine,none,0.0,,,65
+65,polymer-based nanoparticles,PLGA,0.0,,none,glycosol,Gly-L- Phe-D-Thr-Gly-L-Phe-L-Leu-L-Ser(O-β-D-glucose)- CONH2.,transporter mediated,none,,,,189.0,0.19,-15.5,,,normal,i.v.,,,rhodamine,none,0.28,,,65
+65,,,,,,,,,,,,,,,,,,,,,,,,,,,65
+67,free drug,,,,,,,passive transport,,,,,,,,,,,,,,,,1.9e-06,1,,67
+67,solid lipid nanoparticles,compritol 888 ATO,0.0,,none,none,,passive transport,none,,,,88.0,0.27,-45.8,,0.145,normal,i.v.,,,,none,4.1e-05,21.58,,67
+67,,,,,,,,,,,,,,,,,,,,,,,,,,,67
+68,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,239.1,0.265,-22.8,47.69,,normal,i.v.,,,coumarin-6,none,0.0025,,1,68
+68,polymer-based nanoparticles,poly(lactide)-D-a- Tocopheryl polyethylene glycol succinate,0.0,,none,none,,passive transport,none,,,,228.6,0.265,-30.0,58.83,,normal,i.v.,,,coumarin-6,none,0.0049,,1.96,68
+68,polymer-based nanoparticles,poly(lactide)-D-a- Tocopheryl polyethylene glycol succinate,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,,,245.8,0.271,-29.0,60.84,,normal,i.v.,,,coumarin-6,none,0.011,,2.24,68
+68,,,,,,,,,,,,,,,,,,,,,,,,,,,68
+69,gold nanoparticles,Au,0.0,,none,none,,passive transport,none,,,,12.0,,,,,normal,i.v.,,0.0,,none,4.8e-05,,,69
+69,gold nanoparticles,Au,0.0,,none,peptide,CLPFFD,receptor mediated,others,,,,,,,,,normal,i.v.,,400.0,,none,0.00024,,,69
+69,,,,,,,,,,,,,,,,,,,,,,,,,,,69
+70,others,CdSe/ZnS-core/shell-typed quantom dots,0.0,,none,none,,passive transport,none,,,,13.5,,,,,normal,i.p.,,,,none,0.001,,,70
+70,,,,,,,,,,,,,,,,,,,,,,,,,,,70
+71,free drug,,,,,,,passive transport,,,,,,,,,,,,,,,,0.0,,,71
+71,others,Fe,0.0,,oleic acid,none,,absorption mediated,none,,,,236.0,0.34,-13.62,57.0,,normal,i.v.,,,,magnetic field,0.0186,,,71
+71,,,,,,,,,,,,,,,,,,,,,,,,,,,71
+72,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,187.0,0.12,-21.7,,,normal,i.v.,,,rhodamine-123,none,0.0014,,1,72
+72,polymer-based nanoparticles,PLGA,0.0,,none,peptide,NH2-Gly-L-Phe-D-Thr-Gly-L-Phe-L-Leu-L-Ser(O-β-D-Glucose)-COOH,receptor mediated,others,,,,169.0,0.09,-18.9,,,normal,i.v.,,,rhodamine-123,none,0.21,,150,72
+72,polymer-based nanoparticles,PLGA,0.0,,none,peptide,NH2-Gly-L-Phe-D-Thr-Gly-L-Phe-L-Leu-L-Ser(O-β-D-Glucose)-COOH,receptor mediated,others,,,,197.0,0.22,-15.9,,,normal,i.v.,,,rhodamine-123,none,0.087,,62.1,72
+72,,,,,,,,,,,,,,,,,,,,,,,,,,,72
+73,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,224.2,-22.4,0.25,44.6,,normal,i.v.,,,coumarin-6,none,0.0067,,,73
+73,polymer-based nanoparticles,PLGA- PEG-PLGA,0.0,,none,none,,passive transport,none,,,,196.5,-0.4,0.21,60.3,,normal,i.v.,,,coumarin-6,none,0.009,,1,73
+73,polymer-based nanoparticles,PLGA- PEG-PLGA,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,,,190.3,1.2,0.25,62.4,,normal,i.v.,,,coumarin-6,none,0.012,,1.3,73
+73,polymer-based nanoparticles,PLGA- PEG-PLGA,0.0,,poloxamer 188,none,,receptor mediated,low density lipoprotein-related receptor,,,,200.5,2.4,0.28,57.8,,normal,i.v.,,,coumarin-6,none,0.016,,1.78,73
+73,,,,,,,,,,,,,,,,,,,,,,,,,,,73
+73,,,,,,,,,,,,,,,,,,,,,,,,,,,73
+75,polymer-based nanoparticles,PEG-PLGA,0.0,,none,none,,passive transport,none,,,,,,,,,Parkinson's disease,i.v.,,,coumarin-6,none,0.015,,1,75
+75,polymer-based nanoparticles,PEG-PLGA,0.0,,none,non-antibody protein,Lactoferrin,receptor mediated,transferrin receptor,,,,,,,,,Parkinson's disease,i.v.,42.0,,coumarin-6,none,0.036,,2.4,75
+75,,,,,,,,,,,,,,,,,,,,,,,,,,,75
+76,free drug,,,,tween 80,,,passive transport,,,,,,,,,,,,,,coumarin-6,none,0.0088,1,,76
+76,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,177.0,0.088,-31.1,60.23,,normal,i.v.,,,coumarin-6,none,0.032,3.64,1,76
+76,polymer-based nanoparticles,PLGA,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,,,194.0,0.096,-23.1,34.21,,normal,i.v.,,,coumarin-6,none,0.045,5.11,1.4,76
+76,polymer-based nanoparticles,PLGA,0.0,,poloxamer 407,none,,receptor mediated,low density lipoprotein-related receptor,,,,188.0,0.102,-20.6,38.45,,normal,i.v.,,,coumarin-6,none,0.064,7.27,2,76
+76,polymer-based nanoparticles,PLGA,0.0,,poloxamer 188,none,,receptor mediated,low density lipoprotein-related receptor,,,,196.0,0.14,-20.2,37.74,,normal,i.v.,,,coumarin-6,none,0.066,7.5,2.06,76
+76,,,,,,,,,,,,,,,,,,,,,,,,,,,76
+77,polymer-based nanoparticles,PEG-poly(caprolactone),0.0,,none,none,,passive transport,none,,,,98.2,,-20.3,,,normal,i.v.,,,coumarin-6,none,0.00076,,1,77
+77,polymer-based nanoparticles,PEG-poly(caprolactone),1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,,,101.4,,-19.9,,,normal,i.v.,,,coumarin-6,none,0.0017,,2.13,77
+77,,,,,,,,,,,,,,,,,,,,,,,,,,,77
+78,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,294.2,,6.1,,,normal,i.v.,,,coumarin-6,none,0.025,,,78
+78,polymer-based nanoparticles,PLGA,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,,,214.9,,-20.3,,,normal,i.v.,,,coumarin-6,none,0.014,,,78
+78,polymer-based nanoparticles,PLGA,0.0,,poloxamer 188,none,,receptor mediated,low density lipoprotein-related receptor,,,,232.4,,-19.0,,,normal,i.v.,,,coumarin-6,none,0.015,,,78
+78,,,,,,,,,,,,,,,,,,,,,,,,,,,78
+79,free drug,,,,,,,passive transport,,,,,,,,,,,,,,,,0.00035,1,,79
+79,polymer-based nanoparticles,PBCA,0.0,,none,none,,passive transport,none,,,,135.8,0.191,-24.8,44.23,,normal,i.v.,,,Temozolomide,none,0.00051,1.48,1,79
+79,polymer-based nanoparticles,PBCA,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,,,,,,,,normal,i.v.,,,Temozolomide,none,0.00079,2.26,1.53,79
+79,,,,,,,,,,,,,,,,,,,,,,,,,,,79
+80,polymer-based nanoparticles,PLGA,0.0,,none,none,,,none,,,,182.0,0.14,-17.5,,0.0033,normal,i.v.,,,rhodamine 123,none,0.0081,,1,80
+80,polymer-based nanoparticles,PLGA,0.0,,none,peptide,H2N-Gly- l-Phe-d-Thr-Gly-l-Phe-l-Leu-l-Ser[O-b-d- glucose]-CONH2; g7,receptor mediated,others,,,,179.0,0.14,-18.2,,0.0036,normal,i.v.,,,rhodamine 123,none,0.16,,19.75,80
+80,,,,,,,,,,,,,,,,,,,,,,,,,,,80
+81,polymer-based nanoparticles,PBCA,0.0,,none,none,,passive transport,none,,,,189.7,0.236,-19.0,62.6,0.205,normal,i.v.,,,doxorubicin,none,0.0014,,1,81
+81,polymer-based nanoparticles,PBCA,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,,,,,,,,normal,i.v.,,,doxorubicin,none,0.0036,,2.57,81
+81,,,,,,,,,,,,,,,,,,,,,,,,,,,81
+82,free drug,,,,,,,passive transport,none,,,,,,,,,normal,i.v.,,,paclitaxel,none,0.0086,1,,82
+82,polymer-based nanoparticles,Fe,0.0,,none,none,,passive transport,none,,,,202.0,0.14,23.0,95.0,,normal,i.v.,,,paclitaxel,none,0.035,4.07,,82
+82,,,,,,,,,,,,,,,,,,,,,,,,,,,82
+83,gold nanoparticles,Au,,,none,none,,passive transport,,,,,20.0,,,,,normal,i.v.,,,,ultrasound,0.0004,,2,83
+83,gold nanoparticles,Au,,,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.0002,,1,83
+83,,,,,,,,,,,,,,,,,,,,,,,,,,,83
+84,free drug,,,,,,,,,,,,,,,,,,,,,rhodamine 123,none,0.001,1,,84
+84,polymer-based nanoparticles,PLGA-PEG-PLA,1.0,,oleic acid,none,,receptor mediated,other,,,,266.0,0.13,,,,normal,i.v.,,,rhodamine 123,none,0.0025,2.5,1,84
+84,polymer-based nanoparticles,PLGA-PEG-PLA,1.0,,oleic acid,none,,receptor mediated,other,,,,266.0,0.13,,,,normal,i.v.,,,rhodamine 123,magnet,0.01,11,4.4,84
+84,,,,,,,,,,,,,,,,,,,,,,,,,,,84
+85,free drug,,,,,,,passive transport,,,,,,,,,,,,,,,,0.00024,1,,85
+85,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,none,,,,141.0,0.053,-10.32,73.57,,normal,i.v.,,,,none,0.00034,1.42,1,85
+85,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,,,157.5,0.091,-11.6,71.49,,normal,i.v.,,,,none,0.0011,4.58,3.23,85
+85,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,lactoferrin,receptor mediated,transferrin receptor,,,,158.8,0.111,-9.35,71.16,,normal,i.v.,,,,none,0.002,8.3,5.85,85
+85,,,,,,,,,,,,,,,,,,,,,,,,,,,85
+86,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,,,0.00015,,,86
+86,others,chitosan Quaternary ammonium palmitoyl glycol chitosan,0.0,,none,none,,passive transport,none,,,,,,,,,normal,i.v.,,,,none,0.00024,,,86
+86,others,chitosan Quaternary ammonium palmitoyl glycol chitosan,0.0,,none,none,,passive transport,none,,,,,,,,,normal,p.o.,,,,none,0.00017,,,86
+86,others,chitosan Quaternary ammonium palmitoyl glycol chitosan,0.0,,none,none,,passive transport,none,,,,,,,,,normal,p.o.,,,,none,0.00027,,,86
+86,others,chitosan Quaternary ammonium palmitoyl glycol chitosan,0.0,,none,none,,passive transport,none,,,,,,,,,normal,p.o.,,,,none,0.00027,,,86
+86,,,,,,,,,,,,,,,,,,,,,,,,,,,86
+87,free drug,,,,,,,passive transport,,,,,,,,,,,,,,tamshinone IIA,,3.6e-05,1,,87
+87,albumin nanoparticles,methoxy PEG-PLA/maleimide PEG-PLA,1.0,,cationic bovine srum albumin,none,,passive transport,none,,,,118.0,,-19.6,83.2,0.0569,ischemic stroke/reperfusion,i.v.,,,tamshinone IIA,none,0.00011,3.6,,87
+87,,,,,,,,,,,,,,,,,,,,,,,,,,,87
+88,free drug,,,,,,,passive transport,none,,,,,,,,,,,,,noscapine,none,0.00025,1,,88
+88,solid lipid nanoparticles,stearoyl chloride,0.0,,none,none,,passive transport,none,,,,61.3,0.06,-35.1,80.4,,normal,i.v.,,,noscapine,none,0.11,440,1,88
+88,solid lipid nanoparticles,stearoyl chloride/mPEG,1.0,,none,none,,passive transport,none,,,,80.5,0.08,-42.4,83.6,,normal,i.v.,,,noscapine,none,0.15,600,1.36,88
+88,,,,,,,,,,,,,,,,,,,,,,,,,,,88
+89,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,,,13.0,,,,,normal,i.v.,,,,none,0.0001,,,89
+89,gold nanoparticles,Au,0.0,,none,peptide,CLPFFD,receptor mediated,others,,,,,,,,,normal,i.v.,,,,none,0.00048,,,89
+89,gold nanoparticles,Au,0.0,,none,peptide,THRPPMWSPVWP,receptor mediated,transferrin receptor,,,,,,,,,normal,i.v.,,125.0,,none,0.00017,,,89
+89,gold nanoparticles,Au,0.0,,none,peptide,THRPPMWSPVWP,receptor mediated,transferrin receptor,,,,,,,,,normal,i.v.,,125.0,,none,0.00062,,,89
+89,,,,,,,,,,,,,,,,,,,,,,,,,,,89
+90,free drug,,,,,,,passive transport,,,,,,,,,,,,,,,none,0.0007,1,,90
+90,solid lipid nanoparticles,Glyceryl monostearate Glycerol/poly- oxyethylene glycol palmitostearat,0.0,,none,none,,passive transport,none,,,,125.3,0.12,-18.3,67.68,0.078,normal,i.v.,,,,none,0.0049,7,1,90
+90,solid lipid nanoparticles,Glyceryl monostearate Glycerol/poly- oxyethylene glycol palmitostearat,0.0,,none,others,borneol,receptor mediated,,,,,113.7,0.12,-17.7,65.55,0.0679,normal,i.v.,,,,none,0.0024,3.43,0.489795918367347,90
+90,solid lipid nanoparticles,Glyceryl monostearate Glycerol/poly- oxyethylene glycol palmitostearat,0.0,,none,others,borneol,receptor mediated,,,,,123.0,0.11,-16.5,66.87,0.0618,normal,i.v.,,,,none,0.0052,7.43,1.06122448979592,90
+90,solid lipid nanoparticles,Glyceryl monostearate Glycerol/poly- oxyethylene glycol palmitostearat,0.0,,none,others,borneol,receptor mediated,,,,,142.5,0.13,-15.1,62.76,0.0497,normal,i.v.,,,,none,0.0027,3.86,0.551020408163265,90
+90,,,,,,,,,,,,,,,,,,,,,,,,,,,90
+93,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,docetaxel,none,3.2e-05,1,,93
+93,solid lipid nanoparticles,monostearin/vitamine E/soya lecithin,0.0,,none,none,,passive transport,none,,,,76.4,0.17,-28.6,99.8,,normal,i.v.,,,docetaxel,none,0.00021,6.56,1,93
+93,solid lipid nanoparticles,monostearin/vitamine E/soya lecithin,0.0,,none,others,β-Hydroxybutyric acid,receptor mediated,monocarboxylic acid transporter,,,,90.1,0.22,-33.8,95.8,,normal,i.v.,,,docetaxel,none,0.00063,19.69,3,93
+93,,,,,,,,,,,,,,,,,,,,,,,,,,,93
+94,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.0003,1,,94
+94,solid lipid nanoparticles,glyceryl monostearate/vitamine E/SPC,0.0,,none,none,,passive transport,none,,,,80.8,0.19,-32.1,,,normal,i.v.,,,,none,0.00048,16,1,94
+94,solid lipid nanoparticles,glyceryl monostearate/vitamine E/SPC,0.0,,none,folic acid,folic acid,receptor mediated,folic acid receptor,,,,95.9,0.21,-24.4,,,normal,i.v.,,,,none,0.0011,36.67,2.29,94
+94,,,,,,,,,,,,,,,,,,,,,,,,,,,94
+95,polymer-based nanoparticles,PEG-PLA,1.0,,none,none,,passive transport,,,,,90.0,,-20.5,,,normal,i.v.,,,coumarin-6,none,7e-05,,1,95
+95,polymer-based nanoparticles,PEG-PLA,1.0,,none,cell-penetrating peptide,RQIKIWFQNRRMKWKK,absorption mediated,none,,,,100.0,,-4.42,,,normal,i.v.,,,coumarin-6,none,0.00018,,2.57142857142857,95
+95,polymer-based nanoparticles,PEG-PLA,1.0,,none,peptide,CVSRRRRRRGGRRRR,receptor mediated,none,,,,,,,,,normal,i.v.,,,coumarin-6,none,0.0001,,1.42857142857143,95
+95,,,,,,,,,,,,,,,,,,,,,,,,,,,95
+95,,,,,,,,,,,,,,,,,,,,,,,,,,,95
+3,free drug,,,0.0,,,,passive transport,,,0.0,,,,,,,normal,i.v.,,,coumarin 6,none,0.0045,1,,3
+3,polymer-based nanoparticles,PLGA,0.0,0.0,none,none,,passive transport,,,0.0,,224.2,0.25,-22.4,44.6,,normal,i.v.,,,coumarin 6,none,0.0164,3.64444444444444,,3
+3,polymer-based nanoparticles,PLGA-PEG-PLGA,1.0,0.0,none,none,,passive transport,,,0.0,,196.5,0.21,-0.4,60.3,,normal,i.v.,,,coumarin 6,none,0.0221,4.91111111111111,,3
+3,polymer-based nanoparticles,PLGA-PEG-PLGA,1.0,0.0,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,0.0,,190.3,0.25,1.2,62.4,,normal,i.v.,,,coumarin 6,none,0.0306,6.8,,3
+3,polymer-based nanoparticles,PLGA-PEG-PLGA,1.0,0.0,poloxamer 188,none,,receptor mediated,low density lipoprotein-related receptor,,0.0,,200.5,0.28,2.4,57.8,,normal,i.v.,,,coumarin 6,none,0.0389,8.64444444444444,,3
+6,free drug,,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,docetaxel,none,0.00162,1,,6
+6,solid lipid nanoparticles,SPC,0.0,0.0,none,none,,passive transport,,,0.0,,76.4,0.18,-31.7,99.8,0.15,normal,i.v.,,,docetaxel,none,0.00432,2.5,,6
+6,solid lipid nanoparticles,SPC,0.0,0.0,none,none,,passive transport,,,1.0,ketoconazole,80.8,0.19,-32.1,95.4,0.1,normal,i.v.,,,docetaxel,none,0.00576,3.5,,6
+6,solid lipid nanoparticles,SPC,0.0,0.0,none,folic acid,,receptor mediated,,folic acid receptor,1.0,ketoconazole,95.9,0.21,-24.4,97.7,0.1,normal,i.v.,,,docetaxel,none,0.01404,9,,6
+20,free drug,,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,docetaxel,none,0.001,1,,20
+20,solid lipid nanoparticles,SPC,0.0,0.0,none,none,,receptor mediated,monocarboxylic acid transporter,monocarboxylic acid transporter ,0.0,,76.4,0.17,-28.6,99.8,,normal,i.v.,,,docetaxel,none,0.002718,3,,20
+20,,,,,,,,,,,,,,,,,,,,,,,,,,,20
+20,,,,,,,,,,,,,,,,,,,,,,,,,,,20
+31,polymer-based nanoparticles,cationic bovine serum albumin-PEG-PLA,1.0,,none,none,,absorption mediated,,,0.0,,118.0,,,83.2,5.69,ischemic stroke,i.v.,0.0,,tanshinone IIA,none,0.0077,2.6551724137931,1.395,31
+31,free drug,,,,,,,passive transport,,,0.0,,,,,,,ischemic stroke,i.v.,,,tanshinone IIA,none,0.0029,1,,31
+32,solid lipid nanoparticles,Stearic acid,0.0,0.0,none,none,,passive transport,,,0.0,,61.3,0.06,-35.1,80.4,,brain tumor,i.v.,0.0,,noscapine,none,0.5636,1.34,1.31174591909155,32
+32,solid lipid nanoparticles,Stearic acid,1.0,,none,none,,passive transport,,,0.0,,80.5,0.08,-42.4,83.6,,brain tumor,i.v.,0.0,,noscapine,none,0.7393,1.76,,32
+32,free drug,,,,,,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,noscapine,none,0.4198,1,,32
+44,solid lipid nanoparticles,Glycerol/polyoxyethylene glycol palmitostearate/Cremophor ELP;polyoxyethylene caster oil,0.0,0.0,none,others,borneol,receptor mediated,,,0.0,,125.3,0.12,-18.3,67.68,7.8,normal,i.v.,,,ganciclovir,none,0.000204,,,44
+44,solid lipid nanoparticles,Glycerol/polyoxyethylene glycol palmitostearate/Cremophor ELP;polyoxyethylene caster oil,0.0,0.0,none,others,borneol,receptor mediated,,,0.0,,113.7,0.12,-17.7,65.55,6.79,normal,i.v.,,,ganciclovir,none,0.000238,,,44
+44,solid lipid nanoparticles,Glycerol/polyoxyethylene glycol palmitostearate/Cremophor ELP;polyoxyethylene caster oil,0.0,0.0,none,others,borneol,receptor mediated,,,0.0,,123.0,0.11,-16.5,66.87,6.18,normal,i.v.,,,ganciclovir,none,0.00049,,,44
+44,solid lipid nanoparticles,Glycerol/polyoxyethylene glycol palmitostearate/Cremophor ELP;polyoxyethylene caster oil,0.0,0.0,none,others,borneol,,,,0.0,,142.5,0.13,-15.1,62.76,4.97,normal,i.v.,,,ganciclovir,none,0.005271,,,44
+53,polymer-based nanoparticles,Chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,157.4,0.31,52.54,,,Parkinson's disease,i.n.,,,Bromocriptine,none,,,,53
+53,free drug,Bromocriptine,,0.0,none,none,,passive transport,,,0.0,,,,,,,Parkinson's disease,i.n.,,,Bromocriptine,none,0.0009,1,,53
+53,polymer-based nanoparticles,Bromocriptine/Chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,161.3,0.44,40.32,,,Parkinson's disease,i.n.,,,Bromocriptine,none,0.0015,1.66666666666667,,53
+67,polymer-based nanoparticles,chitosan,0.0,,tween 80,none,,passive transport,,,0.0,,,0.4,30.0,,,normal,i.v.,,,Minocycline hydrochloride,none,0.062,8.85,6.13,67
+81,free drug,,,,none,none,,passive transport,others,,0.0,none,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.0001,1,,81
+81,liposome,PC,1.0,0.0,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,doxorubicin,,0.0026,26,,81
+121,free drug,,,0.0,none,none,,,,,0.0,,,,,,,Alzheimer's disease,i.v.,,,donepezil ,,0.000126,1,,121
+121,liposome,PLGA,0.0,0.0,tween 80,none,,,,,1.0,tween 80,89.67,0.013,-36.0,88.65,18.04,Alzheimer's disease,i.v.,,,donepezil ,none,0.0011,8.42,,121
+141,polymer-based nanoparticles,"Me-PEG-PCL/Chitosan
+",1.0,0.0,none,others,Lactoferrin,receptor mediated,transferrin receptor,Lactoferrin recepter,0.0,,88.4,0.22,23.56,47.61,0.62,Alzheimer's disease,i.n.,46.0,,coumarin-6,none,0.000384,2.18,,141
+141,,,,,,,,,,,,,,,,,,,,,,,,,,,141
+141,,,,,,,,,,,,,,,,,,,,,,,,,,,141
+141,,,,,,,,,,,,,,,,,,,,,,,,,,,141
+150,polymer-based nanoparticles,PAMAM(G5),0.0,0.0,none,none,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,receptor mediated,low density lipoprotein-related receptor,Lactoferrin recepter,0.0,,7.2,0.314,6.1,,,normal,i.v.,1.2,,,none,0.00023,1.92,,150
+150,polymer-based nanoparticles,PAMAM(G5),0.0,0.0,none,none,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,receptor mediated,low density lipoprotein-related receptor,Lactoferrin recepter,0.0,,7.4,0.345,6.4,,,normal,i.v.,4.2,,,none,0.00043,3.58,,150
+150,polymer-based nanoparticles,PAMAM(G5),0.0,0.0,none,none,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,receptor mediated,low density lipoprotein-related receptor,Lactoferrin recepter,0.0,,7.9,0.269,7.2,,,normal,i.v.,8.1,,,none,0.00017,1.42,,150
+152,polymer-based nanoparticles,chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,,i.v.,,,pcDNA3.1-gC,none,,1.52,,152
+152,liposome,PC/Cholesterol,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,,i.v.,,,pcDNA3.1-gC,none,,1.17,,152
+164,solid lipid nanoparticles,SPC,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,99m Tc,none,,1.86,,164
+164,solid lipid nanoparticles,SPC,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,99m Tc,none,,2.424,,164
+167,magnetic liposome,octadecyl quaternized carboxymethyl chitosan/Fe3O4/cholesterol,0.0,0.0,none,none,,passive transport,,,0.0,,,,,0.95,0.096,normal,i.v.,,,paclitaxel,magnetic field,0.0062,4.59,,167
+186,polymer-based nanoparticles,PEG-PLGA,1.0,,none,peptide,aprotinin,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein receptor-related protein,0.0,,91.0,0.052,-25.9,,,normal,i.v.,,,huperzine A,none,0.0052,1.16,,186
+186,polymer-based nanoparticles,PEG-PLGA,1.0,,none,others,others,passive transport,,,1.0,borneol,91.0,0.052,-25.9,,,normal,p.o.,,,huperzine A,none,0.0063,1.37,,186
+196,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,others,,0.0,,79.0,,,59.5,0.2857,normal,iv.,,,Zidovudine,none,,2.59,,196
+196,polymer-based nanoparticles,PLGA,0.0,,tween 80,none,,receptor madiated,others,,0.0,,83.0,,-20.0,57.27,0.2857,normal,iv.,,,Zidovudine,none,,6.99,,196
+204,polymer-based nanoparticles,ethylene oxide/propylene oxide,0.0,,none,,,passive transport,,,,,97.7,0.16,,72.92,1.78,others,i.n.,,,olanzapine,none,0.0044,1.51,,204
+204,polymer-based nanoparticles,ethylene oxide/propylene oxide,0.0,,none,,,passive transport,,,,,97.7,0.16,,72.92,1.78,others,i.n.,,,olanzapine,none,0.0027,0.93,,204
+204,free drug,,,,,,,passive transport,,,,,,,,,,others,i.v.,,,olanzapine,none,0.0029,1,,204
+204,,,,,,,,,,,,,,,,,,,,,,,,,,,204
+204,,,,,,,,,,,,,,,,,,,,,,,,,,,204
+207,polymer-based nanoparticles,PNIPAM (Polymeric N-isopropyl acryl amide: vinyl Pyrilidone: acrylic acid),0.0,,none,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,,curcumin (Cur),none,0.002025,0.43,,207
+207,free drug,,,,,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,,curcumin (Cur),none,0.004725,1,,207
+207,polymer-based nanoparticles,PNIPAM (Polymeric N-isopropyl acryl amide: vinyl Pyrilidone: acrylic acid),0.0,,none,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,,demethoxycurcumin (DMC),none,0.001985,0.41,,207
+207,free drug,,,,,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,,demethoxycurcumin (DMC),none,0.00483,1,,207
+207,polymer-based nanoparticles,PNIPAM (Polymeric N-isopropyl acryl amide: vinyl Pyrilidone: acrylic acid),0.0,,none,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,, bisdemethoxycurcumin (BDMC),none,0.0015,0.32,,207
+207,free drug,,,,,,,passive transport,,,,,,,,,,ischemic stroke,i.n.,,, bisdemethoxycurcumin (BDMC),none,0.00476,1,,207
+207,,,,,,,,,,,,,,,,,,,,,,,,,,,207
+207,,,,,,,,,,,,,,,,,,,,,,,,,,,207
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,none,,passive transport,,,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,,246
+246,polymer-based nanoparticles,PEI,1.0,25.0,none,none,,passive transport,,,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,1.7974025974026,246
+246,polymer-based nanoparticles,PEI,1.0,50.0,none,none,,passive transport,,,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,0.24987012987013,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,none,,passive transport,,,0.0,,85.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,,246
+246,polymer-based nanoparticles,PEI,1.0,25.0,none,none,,passive transport,,,0.0,,85.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,0.21382322713258,246
+246,polymer-based nanoparticles,PEI,1.0,50.0,none,none,,passive transport,,,0.0,,85.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,0.7327852004111,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,none,,passive transport,,,0.0,,210.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,,246
+246,polymer-based nanoparticles,PEI,1.0,25.0,none,none,,passive transport,,,0.0,,210.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,0.70725294650952,246
+246,polymer-based nanoparticles,PEI,1.0,50.0,none,none,,passive transport,,,0.0,,210.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,0.707651858567543,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,none,,passive transport,,,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,non-antibody protein,Apolipopretoein E,receptor mediated,low density lipoprotein-related receptor,apolipoprotein E receptor ,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,1.07615505090055,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,non-antibody protein,Apolipopretoein E,receptor mediated,low density lipoprotein-related receptor,apolipoprotein E receptor ,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,1.82850430696946,246
+246,polymer-based nanoparticles,PEI,0.0,0.0,none,non-antibody protein,Apolipopretoein E,receptor mediated,low density lipoprotein-related receptor,apolipoprotein E receptor ,0.0,,46.0,0.22,3.7,,,normal,i.v.,,,3H labeled,none,,,2.46671887235709,246
+249,polymer-based nanoparticles,Dendrigraft poly-l-lysine ,0.0,0.0,none,none,,,,,0.0,,141.6,,3.19,,,normal,i.v.,,,ethidium monoazide bromide ,none,,,,249
+249,polymer-based nanoparticles,Dendrigraft poly-l-lysine ,0.0,0.0,none,peptide,T7 序列： CHAIYPRH,receptor mediated,transferrin receptor,transferrin receptor,0.0,,141.6,,3.19,,,normal,i.v.,,,ethidium monoazide bromide ,none,,,2.77341597796143,249
+257,free drug,cyclobenzaprine HCl solution ,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,99mTC labeled,none,,1,,257
+257,free drug,cyclobenzaprine HCl solution ,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,99mTC labeled,none,,1,,257
+257,free drug,cyclobenzaprine HCl solution ,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,99mTC labeled,none,,1,,257
+257,polymer-based nanoparticles,low molecular weight chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,472.6,,24.7,,,normal,i.n.,,,99mTC labeled,none,,5.25905118601748,,257
+257,polymer-based nanoparticles,medium molecular weight chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,628.2,,25.1,,,normal,i.n.,,,99mTC labeled,none,,5.19662921348315,,257
+257,polymer-based nanoparticles,low molecular weight thiolated chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,272.1,,20.9,,,normal,i.n.,,,99mTC labeled,none,,11.8149188514357,,257
+257,polymer-based nanoparticles,medium molecular weight thiolated chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,282.9,,27.7,,,normal,i.n.,,,99mTC labeled,none,,9.8876404494382,,257
+264,polymer-based nanoparticles,mPEG-PEI,1.0,,none,non-antibody protein,Arg-Gly-Asp (RGD),receptor mediated,others,αvβ3 integrin,0.0,,233.1,0.153,2.9,,,brain tumor,i.v.,,,DNA coding EGFP,none,,,,264
+264,polymer-based nanoparticles,mPEG-ss-PEI,1.0,,none,non-antibody protein,Arg-Gly-Asp (RGD),receptor mediated,others,αvβ3 integrin,0.0,,205.5,0.14,4.6,,,brain tumor,i.v.,,,DNA coding EGFP,none,,,,264
+266,free drug,docetaxel,,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,docetaxel,none,,1,,266
+266,others,nano-diamonds,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,docetaxel,none,,1.09433962324922,,266
+267,free drug,,,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,coumarin-6,none,0.0025,1,,267
+267,solid lipid nanoparticles,cetyl palmitate,0.0,0.0,none,none,,passive transport,,,0.0,,99.7,0.19,-13.0,,,normal,i.v.,,,coumarin-6,none,0.01,4.2,,267
+273,free drug,,,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,coumarin-6,none,0.00025,1,,273
+273,polymer-based nanoparticles,PLGA/chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,177.0,,19.6,,,brain tumor,i.v.,,,coumarin-6,none,0.00084,3.391304348,,273
+273,,,,,,,,,,,,,,,,,,,,,,,,,,,273
+273,,,,,,,,,,,,,,,,,,,,,,,,,,,273
+281,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,camptothecin,none,0.005,1,,281
+281,solid lipid nanoparticles,ceytl palmitate,0.0,0.0,polysorbate 60,none,,receptor mediated,low density lipoprotein-related receptor,apolipoprotein E receptor,0.0,,131.2,0.13,-21.4,,,normal,i.v.,,,camptothecin,none,0.019,3.8,,281
+281,solid lipid nanoparticles,ceytl palmitate,0.0,0.0,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,apolipoprotein E receptor,0.0,,159.7,0.16,-24.0,,,normal,i.v.,,,camptothecin,none,0.035,7,,281
+282,free drug,,,,,,,passive transport,,,,,,,,,,brain tumor,i.n.,,,Alexa-dextran,none,0.081,1,,282
+282,polymer-based nanoparticles,polyethylene glycolepolycaprolactone,1.0,0.0,none,cell-penetrating peptide,Gly-Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg- Gly (Tat),absorption mediated,others,,0.0,,65.0,,,,,brain tumor,i.v.,,,Alexa-dextran,none,0.025,0.308641975308642,,282
+282,polymer-based nanoparticles,polyethylene glycolepolycaprolactone,1.0,0.0,none,cell-penetrating peptide,Gly-Arg-Lys-Lys-Arg-Arg-Gln-Arg-Arg-Arg- Gly (Tat),absorption mediated,others,,0.0,,65.0,,,,,brain tumor,i.n.,,,Alexa-dextran,none,0.374,4.61728395061728,4.62,282
+292,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,none,,passive transport,,,0.0,,123.8,,-9.7,,,brain tumor,i.v.,,,DiR,none,,,,292
+292,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,peptide,Peptide-22 (NH2-C6-[cMPRLRGC]c-NH2),receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,137.4,,-30.1,,,brain tumor,i.v.,,,DiR,none,,,1.33,292
+292,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,none,,passive transport,,,0.0,,123.8,,-9.7,,,brain tumor,i.v.,,,DiR,none,,,,292
+292,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,peptide,Peptide-22 (NH2-C6-[cMPRLRGC]c-NH2),receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,137.4,,-30.1,,,brain tumor,i.v.,,,DiR,none,,,2.46,292
+304,free drug,,,,,,,passive transport,,,,,,,,,,brain tumor,i.v.,,,oxaliplatin,none,,1,,304
+304,polymer-based nanoparticles,RGD-PEG-b-poly(l-glutamic acid),1.0,100.0,none,peptide,Arg-Gly-Asp (RGD),receptor mediated,others,αvβ3 integrin,0.0,,29.0,0.099,,,,brain tumor,i.v.,20.0,,oxaliplatin,none,,2.97335701598579,1.395,304
+304,polymer-based nanoparticles,RAD-PEG-b-poly(l-glutamic acid),1.0,100.0,none,peptide,Arg-Ala-Asp (RAD),passive transport,,,0.0,,31.0,0.101,,,,brain tumor,i.v.,20.0,,oxaliplatin,none,,2.13143872113677,,304
+307,polymer-based nanoparticles,PEG-PLA,1.0,100.0,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,153.3,,-9.6,78.2,4.35,brain tumor,i.p.,20.0,,"Resveratrol (trans-3,40,5-trihydroxystilbene)",none,3.79728e-06,2.11693872089912,1.81,307
+307,polymer-based nanoparticles,PEG-PLA,1.0,100.0,none,none,,passive transport,,,0.0,,145.7,,-10.0,80.5,4.4,brain tumor,i.p.,0.0,,"Resveratrol (trans-3,40,5-trihydroxystilbene)",none,2.09424e-06,1.16751404870217,,307
+307,free drug,,,,,,,passive transport,,,0.0,,12107.5,,,,,brain tumor,i.p.,,,"Resveratrol (trans-3,40,5-trihydroxystilbene)",none,1.79376e-06,1,,307
+310,polymer-based nanoparticles,fluorescent carboxylated-polystyrene,0.0,0.0,none,none,,passive transport,,,0.0,,24.0,0.33,41.86,,,normal,i.v.,0.0,,none,none,0.004335,,,310
+310,polymer-based nanoparticles,fluorescent carboxylated-polystyrene,0.0,0.0,none,none,,passive transport,,,0.0,,56.0,0.13,42.68,,,normal,i.v.,0.0,,none,none,0.006375,,,310
+310,polymer-based nanoparticles,fluorescent carboxylated-polystyrene,0.0,0.0,none,none,,passive transport,,,0.0,,110.0,0.03,43.06,,,normal,i.v.,0.0,,none,none,0.006583,,,310
+310,polymer-based nanoparticles,fluorescent carboxylated-polystyrene,0.0,0.0,none,none,,passive transport,,,0.0,,200.0,0.03,44.54,,,normal,i.v.,0.0,,none,none,0.0113,,,310
+310,polymer-based nanoparticles,fluorescent carboxylated-polystyrene,0.0,0.0,none,none,,passive transport,,,0.0,,490.0,0.13,44.4,,,normal,i.v.,0.0,,none,none,0.01245,,,310
+320,free drug,,,0.0,,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Methotrexate,none,,1,,320
+320,others,chitosan nanogels,0.0,0.0,none,none,,absorption mediated,,,0.0,,118.54,21.92,0.34,61.82,0.5368,normal,i.v.,0.0,,Methotrexate,none,,2.12526278906797,,320
+320,others,chitosan nanogels,0.0,0.0,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,,0.0,,106.68,16.13,0.36,,,normal,i.v.,0.0,,Methotrexate,none,,2.14681149264191,1.01013931250515,320
+327,polymer-based nanoparticles,Lactoferrin (Lf)/β-cyclodextrin (β-CD)/heterobifunctional polyethyleneglycol (PEG) linker NHS-PEG-MAL/IR-775chloride(IR),0.0,0.0,none,peptide,Lactoferrin (Lf),receptor mediated,others,lactoferrin receptor,0.0,,,,,,,normal,i.v.,,,IR-775chloride(IR),none,,7.6009,,327
+327,polymer-based nanoparticles,β-cyclodextrin (β-CD)/heterobifunctional polyethyleneglycol (PEG) linker NHS-PEG-MAL/ IR-775chloride(IR),0.0,0.0,none,peptide,Transferrin (Tf),receptor mediated,transferrin receptor,transferrin receptor,0.0,,,,,,,normal,i.v.,,,IR-775chloride(IR),none,,3.9337,,327
+327,polymer-based nanoparticles,heterobifunctional polyethyleneglycol (PEG) linker NHS-PEG-MAL/IR-775chloride(IR),0.0,0.0,none,peptide,Transferrin (Tf),receptor mediated,transferrin receptor,transferrin receptor,0.0,,,,,,,normal,i.v.,,,IR-775chloride(IR),none,,2.5334,,327
+327,polymer-based nanoparticles,β-cyclodextrin (β-CD)/heterobifunctional polyethyleneglycol (PEG) linker NHS-PEG-MAL/IR-775chloride(IR),0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,IR-775chloride(IR),none,,1.9337,,327
+327,free drug,IR-775chloride(IR),,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,IR-775chloride(IR),none,,1,,327
+335,polymer-based nanoparticles,Ethylenediamine-core poly-(amidoamine) [PAMAM] hydroxyl-terminated generation-4 dendrimer [G4(OH)64],0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,none,none,,,,335
+335,polymer-based nanoparticles,Ethylenediamine-core poly-(amidoamine) [PAMAM] hydroxyl-terminated generation-4 dendrimer [G4(OH)64],0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,none,none,,,,335
+337,gold nanoparticles,Au,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,siRNA targeting the oncoprotein Bcl2Like12 (Bcl2L12),none,,,,337
+337,gold nanoparticles,Au,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,siRNA targeting the oncoprotein Bcl2Like12 (Bcl2L12),none,,,,337
+337,gold nanoparticles,Au,0.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,siRNA targeting the oncoprotein Bcl2Like12 (Bcl2L12),none,,,,337
+345,polymer-based nanoparticles,DSPE-PEG2000,0.0,,none,peptide,CREKA,receptor mediated,others,"肿瘤区域内沉积的纤维蛋白
+",0.0,,8.2,,-12.6,,,brain tumor,i.v.,,,cy7,none,,,7.64,345
+345,polymer-based nanoparticles,DSPE-PEG2001,0.0,,none,none,,passive transport,,,,,7.6,,-27.4,,,brain tumor,i.v.,,,cy8,none,,,,345
+351,liposome,DOPE/DOTAP/cholesterol,1.0,,none,cell-penetrating peptide,CPPs-TAT,absorption mediated,,,0.0,,183.0,0.319,13.16,68.38,,normal,i.v.,,,Doxorubicin,none,0.029,4.2,,351
+351,liposome,DOPE/DOTAP/cholesterol,1.0,,none,cell-penetrating peptide,Penetratin,absorption mediated,,,0.0,,186.82,0.201,15.28,65.81,,normal,i.v.,,,Doxorubicin,none,0.037,5.36,,351
+351,liposome,DOPE/DOTAP/cholesterol,1.0,,none,cell-penetrating peptide,Mastoparan,absorption mediated,,,0.0,,188.3,0.212,11.28,66.73,,normal,i.v.,,,Doxorubicin,none,0.0228,3.3,,351
+355,others,,0.0,,none,antibody,血小板-内皮细胞黏附分子抗体,receptor mediated,others,血小板-内皮细胞黏附分子,0.0,,130.0,,28.0,,,normal,颈动脉注射,63.67,,Doxorubicin,none,1.6e-05,,,355
+368,free drug,,,,,,,passive transport,,,,,,,,,,,i.v.,,,"Basic
+fibroblast growth factor",none,0.00306,1,,368
+368,free drug,,,,,,,passive transport,,,,,,,,,,,i.n.,,,"Basic
+fibroblast growth factor",none,0.00423,1,,368
+368,polymer-based nanoparticles,PEG-PLGA,0.0,10.0,none,,,passive transport,,,0.0,,104.8,,-33.87,94.48,0.06,normal,i.n.,,,"Basic
+fibroblast growth factor",none,0.004464,1.05531914893617,,368
+368,polymer-based nanoparticles,PEG-PLGA,0.0,10.0,none,peptide,"Solanum
+tuberosum lectin",receptor mediated,others,,0.0,,118.7,,-31.18,69.21,0.05,normal,i.n.,,,"Solanum
+tuberosum lectin-Basic
+fibroblast growth factor",none,0.005004,1.18297872340426,1.1,368
+377,free drug,,,,none,,,passive transport,,,,,,,,,,normal,i.v.,,,docetaxel,none,0.0006,1,,377
+377,liposome,SPC,0.0,,none,,,passive transport,,,,,121.6,0.219,-64.1,93.54,0.076,normal,i.v.,,,docetaxel,none,0.0011,1.70857142857143,,377
+377,liposome,SPC,0.0,,none,glycosol,Glucose,receptor mediated,transferrin receptor,glucose transporter-1,0.0,,118.3,0.264,-44.8,84.79,0.076,normal,i.v.,,,docetaxel,none,0.00213,4.05714285714286,2.37,377
+377,liposome,SPC,0.0,,none,glycosol,L- disulfide system- glucose,receptor mediated,transferrin receptor,glucose transporter-1,0.0,,133.4,0.245,-37.6,82.83,0.076,normal,i.v.,,,docetaxel,none,0.00225,4.28571428571429,2.51,377
+378,polymer-based nanoparticles,GD-DTPA-chitosan,0.0,,none,antibody,IgG4.1,passive transport,low density lipoprotein-related receptor,amyloid beta (Aβ) 40 and 42 proteins,0.0,,145.0,,7.7,,3e-05,Alzheimer's disease,i.v.,,,Curcumin,none,,,,378
+378,polymer-based nanoparticles,GD-DTPA-chitosan,0.0,,none,antibody,IgG4.1,passive transport,low density lipoprotein-related receptor,amyloid beta (Aβ) 40 and 42 proteins,0.0,,145.0,,7.7,,3e-05,Alzheimer's disease,i.v.,,,Curcumin,none,,,,378
+380,,,,,,,,passive transport,,,,,,,,,,,,,,curcumin,none,0.1789,,,380
+380,polymer-based nanoparticles,PLGA,0.0,,none,,,passive transport,,,0.0,,200.0,,-19.0,77.0,,normal,i.v.,,,curcumin,none,0.4867,2.72,,380
+380,free drug,,,,,,,passive transport,,,,,,,,,,others,i.v.,,,Breviscapine,none,7e-06,1,,380
+380,,,,,,,,,,,,,,,,,,,,,,,,,,,380
+380,,,,,,,,,,,,,,,,,,,,,,,,,,,380
+490,gold nanoparticles,,0.0,,none,peptide,chlorotoxin ,receptor mediated,others,,,,44.2,,-16.2,,,brain tumor,i.v.,,,,magnetic field,,,,490
+491,polymer-based nanoparticles,PEG-PLGA,1.0,,none,non-antibody protein,lactoferrin,receptor mediated,others,TfR,,,120.0,,-4.0,21.78,0.78,Alzheimer's disease,i.v.,,101.0,S14G-humanin,none,0.0266,2.1,,491
+494,solid lipid nanoparticles,glycerol monostearate,0.0,,tween 80,none,,absorption mediated,,,,,149.0,,-38.27,61.9,,others,i.n.,,,        rosmarinic acid,none,0.0379,,,494
+495,liposome,Medium chain triglyceride,0.0,,none,none,,passive transport,,,,,123.4,,-34.4,97.18,19.54,others,i.n.,,,artemether,none,0.027,,,495
+503,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,none,,passive transport,,,0.0,,123.1,,-9.5,,,brain tumor,i.v.,,,DiR,none,,,,503
+503,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,non-antibody protein,EGFP-EGF1 (a protein derived from factor VII ),receptor mediated,others,,0.0,,133.3,,-18.9,,,brain tumor,i.v.,,,DiR,none,,,1.08239700374532,503
+503,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,none,,passive transport,,,0.0,,123.1,,-9.5,,,brain tumor,i.v.,,,DiR,none,,,,503
+503,polymer-based nanoparticles,PEG-PLA,1.0,0.0,none,non-antibody protein,EGFP-EGF1 (a protein derived from factor VII ),receptor mediated,others,,0.0,,133.3,,-18.9,,,brain tumor,i.v.,,,DiR,none,,,2.40898748577929,503
+508,polymer-based nanoparticles,PEG-PCL,1.0,0.0,none,none,,passive transport,,,0.0,,103.1,0.187,-10.23,,,brain tumor,i.v.,,,DiR,none,,,,508
+508,polymer-based nanoparticles,PEG-PCL,1.0,0.0,none,peptide,IL-13,receptor mediated,others,,0.0,,110.5,0.195,-9.98,,,brain tumor,i.v.,,,DiR,none,,,2.43877551020408,508
+508,polymer-based nanoparticles,PEG-PCL,1.0,0.0,none,peptide,Arg-Gly-Asp (RGD),receptor mediated,others,,0.0,,121.3,0.204,-10.29,,,brain tumor,i.v.,,,DiR,none,,,2.94897959183673,508
+508,polymer-based nanoparticles,PEG-PCL,1.0,0.0,none,peptide,Arg-Gly-Asp (RGD)+IL-13,receptor mediated,others,,0.0,,120.1,0.187,-9.67,,,brain tumor,i.v.,,,DiR,none,,,3.8469387755102,508
+512,polymer-based nanoparticles,PLGA-PEG,1.0,0.0,none,none,,passive transport,,,0.0,,101.9,,,49.39,1.51,brain tumor,i.v.,,,DiR,none,,,,512
+512,polymer-based nanoparticles,PLGA-PEG,1.0,0.0,none,peptide,cNGR(CNGRCG),receptor mediated,others,,0.0,,124.2,,,47.63,1.47,brain tumor,i.v.,,689.0,DiR,none,,,1.49315028298005,512
+512,polymer-based nanoparticles,PLGA-PEG,1.0,0.0,none,peptide,iNGR(CRNGRGPDC),receptor mediated,others,,0.0,,127.8,,,48.05,1.43,brain tumor,i.v.,,627.0,DiR,none,,,2.6164375044101,512
+515,,,,,,,,,,,0.0,,,,,,,normal,i.v.,,,Glial cell line-derived neutrophic factor(GNDF),none,,,,515
+515,liposome,SPC/Cholesterol,0.0,0.0,none,none,,receptor mediated,others,,0.0,,85.65,,,33.25,,normal,i.v.,,,Glial cell line-derived neutrophic factor(GNDF),none,,,1.10474308300395,515
+515,liposome,SPC/Cholesterol/DSPE-PEG,1.0,,none,peptide,RMP-7,receptor mediated,others,,0.0,,81.5,,,37.46,,normal,i.v.,,,Glial cell line-derived neutrophic factor(GNDF),none,,,7.15217391304348,515
+524,polymer-based nanoparticles,MPEG-PCL/HOOC-PEG-PCL,1.0,,none,none,,passive transport,,,0.0,,106.9,0.209,-1.52,,,brain tumor,i.v.,,,DiR,none,,,,524
+524,polymer-based nanoparticles,MPEG-PCL/HOOC-PEG-PCL,1.0,0.0,none,peptide,IL-13,receptor mediated,others,Lactoferrin,0.0,,104.3,0.221,-0.54,,,brain tumor,i.v.,,,DiR,none,,,1.08,524
+524,polymer-based nanoparticles,MPEG-PCL/HOOC-PEG-PCL,1.0,,none,none,,passive transport,,,0.0,,106.9,0.209,-1.52,,,brain tumor,i.v.,,,DiR,none,,,,524
+524,polymer-based nanoparticles,MPEG-PCL/HOOC-PEG-PCL,1.0,0.0,none,peptide,IL-13,receptor mediated,others,,0.0,,104.3,0.221,-0.54,,,brain tumor,i.v.,,,DiR,none,,,1.73,524
+529,liposome,EPC/PEG2000-DSPE/NH2-PEG2000-DSPE,1.0,,none,none,,,,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,0.0,,112.9,0.19,-10.73,86.84,,normal,i.v.,,,DiR,none,,,,529
+529,liposome,EPC/PEG2000-DSPE/NH2-PEG2000-DSPE,1.0,,none,glycosol,p-aminophenyl-α-D-mannopyranoside,receptor mediated,hexose transporter,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,0.0,,121.2,0.25,-11.77,84.22,,normal,i.v.,,,DiR,none,,,1.71,529
+543,free drug,,,,none,none,,passive transport,,H-Thr(Bzl)-Phe-Phe-Tyr(Br-Z)-Gly-Gly-Ser(Bzl)-Arg(Tos)-Gly-Lys(Cl-Z)-Arg(Tos)-Asn(Xan)-Asn(Xan)-Phe-Lys(Cl-Z)-Thr(Bzl)-Glu(OcHex)-Glu(OcHex)-Tyr(Br-Z)-Cys(PMeBzl)-OH,0.0,,,,,,,normal,i.n.,,,Bromocriptine,none,,1,,543
+543,polymer-based nanoparticles,chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,161.3,0.44,,84.2,37.8,normal,i.v.,,,Bromocriptine,none,,3.08,,543
+543,polymer-based nanoparticles,chitosan,0.0,0.0,none,none,,passive transport,,,0.0,,161.3,0.44,,84.2,37.8,normal,i.n.,,,Bromocriptine,none,,1.4,,543
+548,polymer-based nanoparticles,mPEG-DSPE,1.0,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,,548
+548,polymer-based nanoparticles,mPEG-DSPE,1.0,0.0,none,peptide,LAngiopep,receptor mediated,low density lipoprotein-related receptor,,0.0,,14.0,,,,,normal,i.v.,,,DiR,none,,,1.47,548
+548,polymer-based nanoparticles,mPEG-DSPE,1.0,0.0,none,peptide,DAngiopep,receptor mediated,low density lipoprotein-related receptor,,0.0,,14.0,,,,,normal,i.v.,,,DiR,none,,,1.66,548
+559,polymer-based nanoparticles,PAMAM,1.0,90.91,none,others,,passive transport,,,0.0,,6.713,0.133,11.6,,,normal,i.v.,,,Rhodamine,none,,,,559
+559,polymer-based nanoparticles,PAMAM,1.0,94.12,none,others,adenosine-based agonists,transporter mediated,nucleoside transporter,,0.0,,7.967,0.271,6.04,,,normal,i.v.,16.7,,Rhodamine,none,,,2.58,559
+567,polymer-based nanoparticles,MPEG-PCL,1.0,0.0,none,cell-penetrating peptide,(Tat)GlyArgLysLysArgArgGlnArgArg- ArgCysGly,absorption mediated,,,0.0,,64.0,,13.0,,,brain tumor,i.v.,,,"antirat Raf-1
+siRNA",none,0.0148,,,567
+567,polymer-based nanoparticles,MPEG-PCL,1.0,0.0,none,cell-penetrating peptide,(Tat)GlyArgLysLysArgArgGlnArgArg- ArgCysGly,absorption mediated,,,0.0,,64.0,,13.0,,,brain tumor,i.n.,,,"antirat Raf-1
+siRNA",none,0.0401,,,567
+569,magnetic nanoparticles,MnFe2O4,0.0,0.0,none,none,,passive transport,,,0.0,,59.0,,-37.0,,,normal,i.v.,,,,none,0.0027,,,569
+577,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.n.,,,rasagiline,none,,1,,577
+577,polymer-based nanoparticles,Chitosan glutamate,0.0,,none,,,passive transport,,,0.0,,151.1,0.38,,96.43,,normal,i.n.,,2012.0,rasagiline,none,,1.62,,577
+583,solid lipid nanoparticles,Precirol®ATO 5/Transcutol,0.0,0.0,none,none,,passive transport,,,0.0,,313.7,0.562,-18.7,70.5,,normal,i.v.,,0.0,Itraconazole,none,0.002279475,1.99988155868767,,583
+583,free drug,,,0.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Itraconazole,none,0.001139805,1,,583
+597,free drug,,,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.038592,1,,597
+597,albumin nanoparticles,serum albumin,0.0,0.0,none,none,,passive transport,,,0.0,,132.48,,-27.78,0.985,,brain tumor,i.v.,,,doxorubicin,none,0.032292,0.8368,,597
+597,albumin nanoparticles,mPEG2000/serum albumin,1.0,97.0,none,none,,passive transport,,,0.0,,149.78,,-13.32,,,brain tumor,i.v.,,,doxorubicin,none,0.05274,1.3666,,597
+597,albumin nanoparticles,lactoferrin/mPEG2000/serum albumin ,1.0,97.0,none,peptide,Lactofferin,receptor mediated,others,lactoferrin receptor,0.0,,154.33,,-8.28,,,brain tumor,i.v.,,,doxorubicin,none,0.070668,1.8312,,597
+597,,,,,,,,,,,,,,,,,,,,,,,,,,,597
+617,polymer-based nanoparticles,MePEG-PLA/Male-PEG-PLA,1.0,,none,none,,passive transport,,,0.0,,112.8,,-35.5,,,brain tumor,i.v.,,,paclitaxel,none,,,,617
+617,polymer-based nanoparticles,MePEG-PLA/Male-PEG-PLA,1.0,,none,peptide,EDB-targeted peptide APT,receptor mediated,,extra domain B (EDB),0.0,,125.93,,-30.87,,,brain tumor,i.v.,,,paclitaxel,none,,,2.58,617
+645,polymer-based nanoparticles,PLGA LMW-b-PEG-TPP(triphenylphosphonium),0.0,0.0,none,none,,passive transport,,,0.0,,50.1,0.154,35.7,0.466,14.0,normal,i.v.,,,Platin-M,none,0.02801232,72.4506517690875,,645
+645,polymer-based nanoparticles,PLGA LMW-b-PEG-OH,0.0,0.0,none,none,,passive transport,,,0.0,,50.6,0.156,31.1,0.507,14.6,normal,i.v.,,,Platin-M,none,0.0,,,645
+648,polymer-based nanoparticles,PLGA,0.0,0.0,polysorbate 80,none,,passive transport,,,0.0,,77.0,0.391,-19.0,0.5711,20.5,normal,i.v.,,,Bacoside-A,none,0.0598,9.34390139596444,,648
+648,,,,,,,,,,,,,,,,,,,,,,,,,,,648
+650,polymer-based nanoparticles,PEG-PAMAM,1.0,1.0,none,peptide,"internalizing Tumor-penetrating peptide, iRGD",receptor mediated,others,,0.0,,20.11,,2.45,,,brain tumor,i.v.,,,DOX,none,0.016856,6.07554786620531,0.16639684106614,650
+650,polymer-based nanoparticles,PEG-PAMAM,1.0,1.0,none,peptide,"internalizing Tumor-penetrating peptide, iRGD",receptor mediated,others,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.015239,5.49271914648212,0.150434353405726,650
+650,polymer-based nanoparticles,PEG-PAMAM,1.0,1.0,none,peptide,"penetrating peptide, RGD",receptor mediated,others,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.012184,4.39158016147635,0.120276406712734,650
+650,polymer-based nanoparticles,PEG-PAMAM,1.0,1.0,none,peptide,"penetrating peptide, RGD",receptor mediated,others,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.01051,3.78820645905421,0.103751233958539,650
+650,polymer-based nanoparticles,PEG-PAMAM,1.0,1.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.010134,3.65268166089965,0.100039486673248,650
+650,free drug,PEG-PAMAM,,0.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.002774,0.999855824682814,0.0273840078973346,650
+652,polymer-based nanoparticles,PLA,0.0,,none,none,PLA,passive transport,others,,0.0,,234.0,0.455,-29.9,60.55,,brain tumor,i.v.,,,temozolomide,none,0.2523,4.012,,652
+661,others,cetyl palmitate/squalene/Myverol/PF68/SPC,1.0,0.2,none,none,,passive transport,,,,,196.38,0.23,-37.52,73.74,,others,i.v.,,,"DSM-RX78 , novel and highly selective PDE4 inhibitors",none,0.005993,0.0638,0.0036,661
+661,others,cetyl palmitate/squalene/Myverol/PF68/SPC,1.0,0.2,none,none,,passive transport,,,,,194.8,0.22,-34.5,73.16,,others,i.v.,,0.0,"EFB-1, novel and highly selective PDE4 inhibitors",none,0.069685,2.2504,0.2904,661
+661,others,cetyl palmitate/squalene/Myverol/PF68/SPC,0.0,0.0,none,none,,passive transport,,,,,193.85,0.22,-36.95,81.9,,others,i.v.,,400.0,"DSM-RX78 , novel and highly selective PDE4 inhibitors",none,0.165854,1.7662,,661
+661,others,cetyl palmitate/squalene/Myverol/PF68/SPC,0.0,0.0,none,none,,passive transport,,,,,190.26,0.2,-36.68,90.52,,others,i.v.,,,"EFB-1, novel and highly selective PDE4 inhibitors",none,0.24,7.7504,,661
+661,free drug,,,,,none,,passive transport,,,,,,,,,,others,i.v.,,,"DSM-RX78 , novel and highly selective PDE4 inhibitors",none,0.093902,1,,661
+661,free drug,,,,,none,,passive transport,,,,,,,,,,others,i.v.,,,"EFB-1, novel and highly selective PDE4 inhibitors",none,0.030966,1,,661
+662,solid lipid nanoparticles,palmitic acid/cholesterol/TPGS,0.0,,N-trimethyl chitosan(TMC),none,,passive transport,,,0.0,,412.0,0.26,35.7,93.13,,normal,p.o.,,,curcumin,none,,,1.43,662
+662,solid lipid nanoparticles,palmitic acid/cholesterol/TPGS,0.0,,chitosan,non-antibody protein,Apolipopretoein E,receptor mediated,,,0.0,,311.9,0.24,27.08,93.12,,normal,p.o.,,,curcumin,none,,,,662
+662,solid lipid nanoparticles,palmitic acid/cholesterol/TPGS,0.0,,none,non-antibody protein,Apolipopretoein E,receptor mediated,,,0.0,,138.8,0.15,-29.67,93.12,,normal,p.o.,,,curcumin,none,,,,662
+670,solid lipid nanoparticles,Compritol 888 ATO,0.0,,2.5% (w/v) tween 80 and 0.5% (w/v) polyvinyl alcohol,peptide,T7 序列： CHAIYPRH,receptor mediated,,,,,248.3,0.277,-25.49,33.93,,normal,i.p.,,,resveratrol,none,0.06228,5.01,,670
+670,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.p.,,,resveratrol,none,0.01242,1,,670
+671,albumin nanoparticles,PEG-PLA,1.0,,none,none,,passive transport,,,,,115.0,0.118,-27.6,66.0,0.61,Alzheimer's disease,i.v.,,,H102 peptide,none,0.00512,,,671
+671,albumin nanoparticles,PEG-PLA,1.0,,none,peptide,TGNYKALHPHNGC,receptor mediated,others,,,,119.0,0.131,-28.22,57.68,0.53,Alzheimer's disease,i.v.,3.0,,H102 peptide,none,0.03075,6.03,,671
+671,albumin nanoparticles,PEG-PLA,1.0,,none,peptide,"TGNYKALHPHNGC, QSHYRHISPAQVC",receptor mediated,others,Aβ42,,,125.0,0.127,-29.33,58.49,0.54,Alzheimer's disease,i.v.,3.0,,H102 peptide,none,0.03712,7.3,,671
+681,free drug,,,,none,,,,,,,,,,,,,,,,,,,0.000487,1,,681
+681,polymer-based nanoparticles,non-crosslinked PEG-pLys-pPhe,1.0,,none,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,itraconazole,none,0.001125,2.31274274,,681
+681,polymer-based nanoparticles,non-crosslinked PEG-pLys-pPhe,1.0,,none,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,itraconazole,none,0.001511,3.10597374,,681
+681,polymer-based nanoparticles,non-crosslinked PEG-pLys-pPhe,1.0,,none,others,dehydroascorbic acid,transporter mediated,hexose transporter,Glucose transporter-1,0.0,,,,,,,others,i.v.,,,itraconazole,none,0.001294,2.65896061,1.15,681
+681,polymer-based nanoparticles,non-crosslinked PEG-pLys-pPhe,1.0,,none,others,dehydroascorbic acid,transporter mediated,hexose transporter,Glucose transporter-1,0.0,,,,,,,others,i.v.,,,itraconazole,none,0.00165,3.39023488,1.09,681
+688,magnetic liposome,Fe3O4,0.0,,none,none,,passive transport,,,0.0,,240.0,0.092,,79.32,,,carotid artery injection,,,amphotericin B,magnetic field,0.036275,,,688
+688,magnetic liposome,Fe3O4,0.0,,none,none,,passive transport,,,0.0,,240.0,0.092,,79.32,,,carotid artery injection,,,amphotericin B,none,0.015383,,,688
+707,liposome,EPG/bovine serum albumin,0.0,,none,none,,passive transport,,,0.0,,113.2,0.151,-23.19,92.5,2.98,brain tumor,i.v.,,,PTX,none,,1.63,,707
+707,free drug,,,,,,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,PTX,none,,1,,707
+716,liposome,,1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.0106668,,,716
+739,liposome,DSPE/PEG1000-Maleimide,1.0,71.0,none,none,,passive transport,,,0.0,,99.7,0.157,-6.69,,,brain tumor,i.v.,,,doxorubicin,none,3e-06,1.4981,,739
+739,liposome,DSPE/PEG1000-Maleimide,1.0,71.0,none,peptide,T7 (HAIYPRH) peptide,receptor mediated,transferrin receptor,transferrin receptor,0.0,,110.5,0.17,-5.62,,,brain tumor,i.v.,6.0,,doxorubicin,none,8.5e-05,41.4475,,739
+739,liposome,DSPE/PEG1000-Maleimide,1.0,55.0,none,peptide,TAT (AYGRKKRRQRRR) peptide,absorption mediated,,Cell-penetrating peptides (CPPs),0.0,,101.0,0.187,-5.02,,,brain tumor,i.v.,0.7,,doxorubicin,none,7.6e-05,37.2023,,739
+739,liposome,DSPE/PEG1000-Maleimide,1.0,70.0,none,peptide,"T7 (HAIYPRH) peptide, TAT (AYGRKKRRQRRR) peptide",receptor mediated,,Combo,0.0,,118.0,0.204,-6.32,,,brain tumor,i.v.,6.7,,doxorubicin,none,0.000117,56.6809,,739
+739,free drug,,,0.0,none,none,,,,,0.0,,,,,,,,,,,doxorubicin,none,2e-06,1,,739
+741,others,,1.0,,none,none,,,,,0.0,,2640.0,,,,8.91,normal,i.v.,,,MTX,none,0.0729,3.73,,741
+748,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,转铁蛋白受体,0.0,,151.0,0.107,-12.88,76.05,,normal,i.v.,,,LTG（拉莫三嗪）,none,0.0009,1.81,,748
+748,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,lactoferrin,receptor mediated,others,乳铁蛋白受体,0.0,,150.4,0.083,-11.21,,,normal,i.v.,,,LTG（拉莫三嗪）,none,0.001,2.05,,748
+748,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,133.9,0.048,-12.07,78.28,,normal,i.v.,,,LTG（拉莫三嗪）,none,0.0006,1.16,,748
+755,others,Precirol ATO5/capmul MCM,0.0,,tween 80,,,passive transport,,,0.0,,146.8,0.18,-21.4,0.9086,,normal,i.n.,,,CRM(姜黄素),none,,1.59,,755
+759,others,,1.0,,,peptide,Angiopep-2,receptor mediated,low density lipoprotein-related receptor,LRT-1,0.0,,38.0,,-23.5,,,brain tumor,i.v.,,,香豆素-6,none,,,1.58,759
+759,,,1.0,,,none,,none,,,0.0,,35.0,,-23.5,,,brain tumor,i.v.,,,香豆素-6,none,,,,759
+761,free drug,,,,,,,,,,,,,,,,,normal,i.n.,0.0,,resveratrol,none,,1,,761
+761,emulsion,vitamin E/sefol,0.0,0.0,none,none,,passive transport,,,0.0,,102.0,0.158,-35.0,,,normal,i.n.,0.0,,resveratrol,none,,1.42,,761
+769,free drug,,,,,,,,,,,,,,,,,,i.n.,0.0,,haloperidol,none,0.045418,1,,769
+769,solid lipid nanoparticles,,0.0,0.0,none,none,,passive transport,,,0.0,,115.1,0.409,-16.7,71.56,26.35,normal,i.n.,0.0,,haloperidol,none,0.165875,3.69,,769
+780,others,,,,,,,passive transport,,,,,,,,,,,i.n.,0.0,,rimonabant,none,0.217979,,,780
+780,solid lipid nanoparticles,tristearin/miglyol,1.0,,polysorbate 80,none,,passive transport,,,1.0,polysorbate 80,204.0,,,98.0,,normal,i.n.,0.0,,rimonabant,none,0.24313,1.12,,780
+865,solid lipid nanoparticles,phosphatidyl choline/lecithin/Glyceryl monostearate,0.0,,poloxamer 188,none,,,,,1.0,Venlafaxine,186.3,0.262,-22.8,74.9,35.9,normal,i.v.,,,Venlafaxine,none,,,,865
+872,liposome,,1.0,,none,peptide,LCDX (FKESWREARGTRIERG),receptor mediated,transferrin receptor,nicotine acetylcholine receptors (nAChRs),,,,,,,,,i.v.,,,Rhodamine B,none,,,1.77,872
+872,liposome,,1.0,,none,peptide,"DCDX, the retro–inverso isomer ofLCDX,",receptor mediated,transferrin receptor,nicotine acetylcholine receptors (nAChRs),,,,,,,,,i.v.,,,Rhodamine B,none,,,2.53,872
+872,liposome,,1.0,,none,,,passive transport,,,,,,,,,,,i.v.,,,Rhodamine B,none,,,,872
+941,solid lipid nanoparticles,Glyceryl monostearate/SA/SL,0.0,,none,glycosol,p-Amino-phenyl-a-D-mannopyranoside,receptor mediated,others,GLUT-1,0.0,,127.9,,-6.38,83.8,,others,i.v.,82.0,,DTX,none,,,1.7416624499747,941
+952,polymer-based nanoparticles,CS-PAA,0.0,,none,none,,passive transport,,,0.0,,212.0,,,,,normal,i.v.,,,Gd-DTPA,none,,8,,952
+967,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,efavirenz,none,0.001488,1,,967
+967,solid lipid nanoparticles,tristearin/HSPC/DSPE,0.0,,none,none,,passive transport,,,0.0,,113.0,0.214,-28.8,72.1,,normal,i.v.,,,efavirenz,none,0.003864,2.59,,967
+967,solid lipid nanoparticles,tristearin/HSPC/DSPE,0.0,,none,others,phenylalanine,receptor mediated,amino acid transporter,l-amino acid transporter,0.0,,163.0,0.22,-36.2,63.5,,normal,i.v.,,,efavirenz,none,0.006692,4.51,1.74,967
+972,free drug,,,,none,,,passive transport,,,,,,,,,,normal,i.v.,,,methotrexate,none,0.00082,1,,972
+972,others,chitosan,0.0,,none,none,,passive transport,,,0.0,,118.0,,,,0.6182,normal,i.v.,,,methotrexate,none,0.001715,2.09,,972
+972,others,chitosan,0.0,,polysorbate 80,none,,receptor mediated,low density lipoprotein-related receptor,Apo E,1.0,polysorbate 80,106.0,,,,0.5368,normal,i.v.,,,methotrexate,none,0.001708,2.08,1,972
+915,polymer-based nanoparticles,superparamagnetic iron oxide nanoparticles (SPIONs)/polythylene glycol-block-polycaprolactone,1.0,,none,none,,passive transport,,,0.0,,92.1,,,,,brain tumor,i.v.,,,Cy 5.5,none,,,,915
+915,polymer-based nanoparticles,superparamagnetic iron oxide nanoparticles (SPIONs)/polythylene glycol-block-polycaprolactone,1.0,,none,others,lactoferrin,transporter mediated,transferrin receptor,transferrin receptor,0.0,,390.4,0.083,2.53,,,brain tumor,i.v.,,,Cy 5.5,none,,,2.35,915
+915,polymer-based nanoparticles,superparamagnetic iron oxide nanoparticles (SPIONs)/polythylene glycol-block-polycaprolactone,1.0,,none,none,,passive transport,,,0.0,,92.1,,,,,brain tumor,i.v.,,,Cy 5.5,none,,,,915
+915,polymer-based nanoparticles,superparamagnetic iron oxide nanoparticles (SPIONs)/polythylene glycol-block-polycaprolactone,1.0,,none,others,lactoferrin,transporter mediated,transferrin receptor,transferrin receptor,0.0,,390.4,0.083,2.53,,,brain tumor,i.v.,,,Cy 5.5,none,,,5.77,915
+915,,,,,,,,,,,,,,,,,,,,,,,,,,,915
+933,dendrimer,Hydroxyl-terminated generation 4 poly(amidoamine) (PAMAM G4-OH),0.0,0.0,none,,,passive transport,,,0.0,,4.0,,4.5,,,brain tumor,i.v.,,,cy-5,none,0.000266,,,933
+938,dendrimer,Polyamidoamine,1.0,,none,none,,passive transport,,,0.0,,6.53,0.19,3.26,,,brain tumor,i.v.,,,FITC,none,0.0067,,,938
+938,dendrimer,Polyamidoamine,1.0,,none,peptide,Tumor-homing peptide CREKA,receptor mediated,,,0.0,,7.52,0.21,3.39,,,brain tumor,i.v.,,11.4,FITC,none,0.0097,,1.4478,938
+938,,,,,,,,,,,,,,,,,,,,,,,,,,,938
+1002,gold nanoparticles,Thiol-alkyl-hydrazone bond-DOX (SH-R-Hyz-DOX),0.0,,none,peptide,tandem peptide of RGD and octarginine,receptor mediated,others,others,0.0,,188.2,0.251,-4.32,,,brain tumor,i.v.,,,DOX,none,,2.96974722347857,1.15747723043776,1002
+1002,gold nanoparticles,,0.0,,none,none,,passive transport,,,,,33.6,0.281,-12.77,,,brain tumor,i.v.,,125.0,DOX,none,,2.56570681943816,1,1002
+1002,gold nanoparticles,,0.0,,none,none,,passive transport,,,,,179.3,0.232,-5.62,,,brain tumor,i.v.,,125.0,DOX,none,,1.81823207196342,1.13207133917397,1002
+1002,gold nanoparticles,,0.0,,none,none,,passive transport,,,,,30.38,0.263,-14.58,,,brain tumor,i.v.,,,DOX,none,,1.6061108598422,1,1002
+1002,free drug,,,,,,,,,,,,,,,,,brain tumor,i.v.,,,DOX,none,,1,,1002
+1004,polymer-based nanoparticles,poly(n-butylcyanoacrylate) ,0.0,,polysorbate 80,none,,passive transport,,,0.0,,166.6,,-25.57,74.58,,normal,p.o.,,,Quercetin,none,,1.9,1.12,1004
+1004,polymer-based nanoparticles,poly(n-butylcyanoacrylate) ,0.0,,none,none,,passive transport,,,0.0,,161.1,,-7.28,79.86,,normal,p.o.,,,Quercetin,none,,1.4,,1004
+1004,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,Quercetin,none,,1,,1004
+1011,liposome,phosphatidyl choline,0.0,,none,peptide,Lactoferrin,transporter mediated,transferrin receptor,transferrin receptor,0.0,,103.8,0.15,5.8,96.51,2.6,Alzheimer's disease,i.v.,0.0057,,Curcumin,none,,,2.78,1011
+1011,,,,,,,,,,,,,,,,,,,,,,,,,,,1011
+1018,liposome,EPC,0.0,,none,none,,passive transport,,,0.0,,211.1,,-26.9,91.37,,normal,p.o.,,,G. bilobaextract (GbE),none,,3,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,4.84,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,11.43,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,2,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,2.67,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,6,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,2.23,,1018
+1018,,,,,,,,,,,,,,,,,,,,,,,,,,,1018
+1020,polymer-based nanoparticles,PLGA,0.0,,tween 80,peptide,Transferrin,transporter mediated,transferrin receptor,transferrin receptor,1.0,Tween 80,93.47,0.188,-11.38,70.1,,brain tumor,i.v.,,,methotrexate(Mtx),none,0.0185,4.617351,2.494424,1020
+1020,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,1.0,Tween 80,85.59,0.168,11.08,73.6,,brain tumor,i.v.,,,methotrexate(Mtx),none,0.0247,2.957729,1.597849,1020
+1020,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,83.34,0.168,11.08,76.3,,brain tumor,i.v.,,,methotrexate(Mtx),none,0.1111,2.298108,1.241503,1020
+1020,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,77.21,0.099,14.37,80.7,,brain tumor,i.v.,,,methotrexate(Mtx),none,0.1234,1.851069,1,1020
+1020,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,methotrexate(Mtx),none,0.8519,0.787171,0.425252,1020
+1021,polymer-based nanoparticles,PAMAM-PEG,1.0,,none,peptide,Serine–Arginine–Leucine,receptor mediated,others,others,0.0,,150.0,0.62,20.0,,,normal,i.v.,,,BODIPY,none,,,2.25,1021
+1037,polymer-based nanoparticles,PLA-PEG,1.0,,none,peptide,scrambled peptide (HWPYAHPTHPSW),receptor mediated,others,others,0.0,,322.0,0.17,-15.8,,5.65,brain tumor,i.v.,,,Tylocrebrine,none,0.0046,0.92,,1037
+1037,polymer-based nanoparticles,PLA-PEG,1.0,,,peptide,EGFR-targeting peptide (YHWYGYTPQNVI),receptor mediated,others,others,0.0,,365.0,0.17,-14.8,,5.78,brain tumor,i.v.,,,Tylocrebrine,none,0.0048,3.95,4.29,1037
+1037,,,,,,,,,,,0.0,,74.45,0.21,13.17,,,brain tumor,i.v.,,,——,none,,,,1037
+1037,,,,,,,,,,,,,,,,,,,,,,,,,,,1037
+1041,liposome,DOPC/cholesterol/stearylamine,0.0,,none,none,,,,,,,,,,,,others,i.n.,,,glial cell line- derived neurotrophic factor (GDNF),none,,3.82,,1041
+1041,liposome,DOPC/cholesterol/stearylamine,0.0,,none,none,,,,,,,,,,,,others,i.n.,,,none,none,,,,1041
+1041,free drug,DOPC/cholesterol/stearylamine,,,,,,,,,,,,,,,,others,i.n.,,,glial cell line- derived neurotrophic factor (GDNF),none,,1,,1041
+1043,others,O-Carboxymethyl chitosan/O-carboxymethyl chitosan (O-CMC),0.0,,none,none,,,,,,,132.0,0.112,24.5,87.5,32.5,ischemic stroke/reperfusion,i.v.,,,Acetyl-11-keto-β-boswellic acid (AKBA),none,,3.9,,1043
+1043,free drug,,,,,,,,,,,,,,,,,,,,,,,,1,,1043
+1045,others,,,,,none,,,,,,,,,,,,ischemic stroke,i.p.,,,dendrimer,none,1e-06,1.12,,1045
+1049,liposome,lecithin/cholesterol/span 65,1.0,,,peptide,Glutathione ,absorption mediated,transferrin receptor,,,,90.0,0.29,-64.3,75.65,,,i.v.,,,flucytosine,none,0.044,2.36,,1049
+1049,free drug,,,,,,,,,,,,,,,,,,i.v.,,,flucytosine,none,0.01848,1,,1049
+1054,solid lipid nanoparticles,Tristearin/HSPC /SA/ALB/PRD/LA,0.0,,Lactic acid,none,,,,,,,100.2,0.376,-23.6,62.2,70.2,others,i.v.,,,Albendazole (ALB)  and Prednisolone (PRD),none,,0.57,0.92；0.83,1054
+1054,solid lipid nanoparticles,Tristearin/HSPC /SA/ALB/PRD/LA,,,none,none,,,,,,,95.4,0.265,-25.6,73.6,78.3,others,i.v.,,,Albendazole (ALB)  and Prednisolone (PRD),none,,0.62,,1054
+1054,free drug,,,,,,,,,,,,,,,,,others,i.v.,,,Albendazole (ALB)  and Prednisolone (PRD),none,,1,,1054
+1056,polymer-based nanoparticles,thiolated chitosan(TCS)/tripolyphosphates/sodium alginate,0.0,,none,none,,,,,,,226.7,0.483,,81.13,48.75,others,i.n.,,,Buspirone hydrochloride (BUH),none,,1.91,,1056
+1056,free drug,,,,,,,,,,,,,,,,,,i.v.,,,Buspirone hydrochloride (BUH),none,,1,,1056
+1056,free drug,,,,,,,,,,,,,,,,,,i.n.,,,Buspirone hydrochloride (BUH),none,,1,,1056
+1084,free drug,,,0.0,none,,,,,,0.0,,,,,,,normal,i.v.,,,asiatic acid,none,,1,,1084
+1084,albumin nanoparticles,bovine serum albumin,0.0,0.0,none,none,,,,,0.0,,,,,,,normal,i.v.,,,asiatic acid,none,,7.95,1,1084
+1084,albumin nanoparticles,bovine serum albumin,0.0,0.0,none,peptide,glutathione,receptor mediated,amino acid transporter,,0.0,,,,,,,normal,i.v.,,,asiatic acid,none,,10.63,1.34,1084
+1115,free drug,Labrafac Lipophile/Labrafac PG,0.0,0.0,none,,,,,,0.0,,,,,,,normal,i.n.,,,resveratrol,none,,1,,1115
+1115,emulsion,Labrafac Lipophile/Labrafac PG,0.0,0.0,none,none,,passive transport,,,0.0,,115.2,0.235,-23.9,,,normal,i.n.,,,resveratrol,none,,6.9317165647244,,1115
+1115,free drug,Labrafac Lipophile/Labrafac PG,0.0,0.0,none,,,,,,0.0,,,,,,,normal,i.n.,,,curcumin,none,,1,,1115
+1115,emulsion,Labrafac Lipophile/Labrafac PG,0.0,0.0,none,none,,passive transport,,,0.0,,115.2,0.235,-23.9,,,normal,i.n.,,,curcumin,none,,9.7341011093234,,1115
+1116,free drug,,,0.0,none,,,,,,0.0,,,,,,,brain tumor,i.v.,,,Doxorubicin,none,3.9282e-05,1,,1116
+1116,polymer-based nanoparticles,polybutylcyanoacrylate,0.0,0.0,none,none,,passive transport,,,0.0,,120.5,,-9.0,87.49,0.106,brain tumor,i.v.,,,Doxorubicin,none,5.973e-05,1.52054376050099,,1116
+1120,free drug,,,,,,,,,,0.0,,,,,,,normal,i.v.,,,Acetylpuerarin,none,0.000107316,1,,1120
+1120,polymer-based nanoparticles,PLGA,0.0,0.0,polysorbate 80,none,,passive transport,,,0.0,,145.0,,-14.81,90.51,0.171,normal,i.v.,,,Acetylpuerarin,none,0.000203292,1.89433076148943,,1120
+1134,others,TPGS-COOH,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,16.79,0.275,,84.0,21.0,normal,i.v.,,,DTX,none,0.167,23.5833463805629,4.49206380251955,1134
+1142,others,quantum dots,0.0,,none,antibody,8d3,passive transport,,,0.0,,,,,,,normal,i.v.,3.5,,,none,0.0006,,,1142
+1142,others,quantum dots,0.0,,none,antibody,Ri7217.1.4,receptor mediated,transferrin receptor,murine transferrin receptor,0.0,,,,,,,normal,i.v.,3.5,,,none,0.0021,,3.5,1142
+1143,others,lipids extracted from grapefruit exosome-like nanoparticle,0.0,,none,none,,,,,0.0,,87.2,,-13.9,,,brain tumor,i.n.,,,grapefruit exosome,none,,,,1143
+1143,others,lipids extracted from grapefruit exosome-like nanoparticle,0.0,,none,folic acid,folic acid,receptor mediated,amino acid transporter,folate ligand,0.0,,,,,,,brain tumor,i.n.,,,grapefruit exosome,none,,,2.99,1143
+1157,polymer-based nanoparticles,PLGA,0.0,,none,peptide,biotin,passive transport,,,0.0,,138.0,,,,,normal,i.n.,,,camptothecin,none,0.0013,,,1157
+1157,polymer-based nanoparticles,PLGA,0.0,,none,peptide,"RVG29-biotin peptide (sequence: N term-YTIWMPENPRPGTPCDIFTNSRGKRASNG-
+C2-Biotin)",receptor mediated,low density lipoprotein-related receptor,"neural cell adhesion molecule (NCAM);p75 neurotrophin receptor (P75NTR);
+nicotinic acetylcholine receptors (NAChRs)",0.0,,156.0,,,,,normal,i.n.,,,camptothecin,none,0.0019,,1.43,1157
+1181,polymer-based nanoparticles,PEG-PLGA,1.0,100.0,none,peptide,Pep-1 (CGEMGWVRC) peptide,receptor mediated,others,IL-13Rα2 endocytosis,0.0,,95.78,0.137,34.5,77.27,3.77,brain tumor,i.v.,,,PTX,none,0.00023,2.58,1.922,1181
+1181,polymer-based nanoparticles,,,,,,,,,,,,,,,,,,,,,,,0.00012,1.34,,1181
+1181,free drug,,,,,,,,,,,,,,,,,,,,,,,9.1e-05,1,,1181
+1261,free drug,,,,,,,,,,,,,,,,,normal,p.o.,,,nimodipine,none,2.34e-05,1,,1261
+1261,others,Solutol®HS15,1.0,,none,none,,passive transport,,,0.0,,12.57,0.071,,95.75,0.0323,normal,p.o.,,,nimodipine,none,7.02e-05,3,,1261
+1269,others,,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,,1269
+1269,others,,0.0,,none,peptide,cRGD,receptor mediated,others,,0.0,,28.5,,,,,brain tumor,i.v.,,,DiR,none,,1.51237935375577,,1269
+1269,,,,,,,,,,,,,,,,,,,,,,,,,,,1269
+1283,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,183.5,,33.63,,0.2,normal,i.v.,,,thymoquinone,none,0.001636,,,1283
+1283,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,183.5,,33.63,,0.2,normal,i.n.,,,thymoquinone,none,0.000655,,2.74,1283
+1291,others,Low-density lipoprotein,0.0,,none,none,,passive transport,,,0.0,,20.13,,-14.14,,,normal,i.v.,,,DHA,,,,,1291
+1291,others,Low-density lipoprotein,0.0,,none,none,,passive transport,,,0.0,,20.13,,-14.14,,,normal,i.v.,,,DHA,focused ultrasound,,,64.1,1291
+1299,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,donepezil,none,0.000719,,,1299
+1299,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,donepezil,none,0.001076,,1.5,1299
+1321,polymer-based nanoparticles,mal-PEG-PLGA/mPEG-PLGA,1.0,100.0,none,peptide,Bovine Lf,receptor mediated,transferrin receptor,transferrin receptor,0.0,,122.0,0.194,21.28,,,Parkinson's disease,i.n.,18.99,1.44,rotigotine,none,,,6.33,1321
+1321,,,,,,,,,,,,,58.1,0.137,20.44,,,Parkinson's disease,i.n.,,,rotigotine,none,,,,1321
+1322,others,soybean lecithin/Chitosan,0.0,,,,,,,,0.0,,204.5,0.098,48.45,98.53,,normal,i.n.,,,simvastatin,none,,27.96,,1322
+1326,polymer-based nanoparticles,Chitosan,0.0,,none,none,,passive transport,,,0.0,,80.0,,,,,normal,i.n.,,,rutin,none,0.001043,9,,1326
+1326,free drug,,,,,none,,passive transport,,,,,,,,,,,,,,,none,0.000146,1,,1326
+1367,others,PAMAM,0.0,,folic acid (FA)， borneol (BO),none,,receptor mediated,,,,,22.0,,7.6,64.58,6.64,brain tumor,i.v.,,,doxorubicin,none,0.045624,64.07,0.4,1367
+1367,others,PAMAM,0.0,,borneol (BO),none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.114696,161.09,,1367
+1367,free drug,,,,,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.000712,1,,1367
+1373,others, Pluronic P123/ Pluronic F68,0.0,,chitosan,none,,passive transport,,,,,51.5,,22.38,91.72,15.63,brain tumor,i.g.,,,myricetin,none,0.005408,2.04,,1373
+1373,free drug,,,,,none,,passive transport,,,,,,,,,,brain tumor,i.g.,,,myricetin,none,0.002656,1,,1373
+1376,emulsion,oleic acid/carbitol/Smix/tween20/labrasol/cremophore ELv,0.0,,none,none,,passive transport,,,,,94.8,0.26,-13.5,,,ischemic stroke/reperfusion,i.n.,,,Thymoquinone,none,0.006187,6.79,,1376
+1376,emulsion,oleic acid/carbitol/Smix/tween20/labrasol/cremophore ELv,0.0,,none,none,,passive transport,,,,,94.8,0.26,-13.5,,,ischemic stroke/reperfusion,i.v.,,,Thymoquinone,none,0.001506,,,1376
+1376,free drug,,,,,none,,passive transport,,,,,,,,,,ischemic stroke/reperfusion,i.n.,,,Thymoquinone,none,0.000912,1,,1376
+1376,free drug,,,,,,,,,,,,,,,,,ischemic stroke/reperfusion,i.v.,,,Thymoquinone,none,0.000543,1,,1376
+1405,,,0.0,0.0,none,,,passive transport,,,0.0,,,,,,,normal,i.v.,,,docetaxel,none,9e-05,1,,1405
+1405,liposome,phospholipid/cholestrol/quantum dot,0.0,0.0,none,none,,passive transport,,,0.0,,168.2,0.278,-8.31,69.75,,normal,i.v.,,,docetaxel,none,0.00049,5.44,1,1405
+1405,liposome,phospholipid/cholestrol/quantum dot,0.0,0.0,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,182.5,0.365,-1.89,64.1,,normal,i.v.,,,docetaxel,none,0.000881,9.79,1.8,1405
+1456,solid lipid nanoparticles,PC,0.0,,polysorbate 80,non-antibody protein,lactoferrin,receptor mediated,others,lactoferrin  receptor,1.0,PS80,90.5,0.145,20.39,94.39,3.29,normal,i.v.,,,DiR,none,,,2.32,1456
+1456,,,,,,,,,,,,,177.6,0.126,13.96,96.22,3.81,normal,i.v.,,,DiR,none,,,,1456
+1456,,,,,,,,,,,,,,,,,,,,,,,,,,,1456
+1463,polymer-based nanoparticles,PLGA/Pluronic ®F-68 (PF-68) ,0.0,,none,none,,passive transport,,,,,133.13,0.21,-30.25,64.11,,Alzheimer's disease,i.n.,,,tarenflurbil,none,0.084176,1.93,,1463
+1463,solid lipid nanoparticles,glyceryl monostearate/stearic acid/soya lecithin,0.0,,none,none,,passive transport,,,,,169.87,0.24,-23.13,57.81,,Alzheimer's disease,i.n.,,,tarenflurbil,none,0.073392,1.69,,1463
+1463,free drug,,,,none,none,,passive transport,,,,,,,,,,Alzheimer's disease,i.n.,,,tarenflurbil,none,0.043478,1,,1463
+1463,free drug,,,,none,none,,passive transport,,,,,,,,,,Alzheimer's disease,i.v.,,,tarenflurbil,none,0.047653,1,,1463
+1463,free drug,,,,none,none,,passive transport,,,,,,,,,,Alzheimer's disease,p.o.,,,tarenflurbil,none,0.018086,1,,1463
+1464,liposome,PC/cholesterol,1.0,,D-􏱀-tocopheryl polyethylene glycol 1000 succinate (TPGS),none,,passive transport,,,1.0,d-􏱀-tocopheryl polyethylene glycol 1000 succinate (TPGS),64.5,0.398,-1.05,83.05,,brain tumor,i.v.,,,resveratrol (RSV),none,0.01784,10.25,1.22,1464
+1464,liposome,PC/cholesterol,0.0,,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,resveratrol (RSV),none,0.01468,8.44,,1464
+1464,free drug,,,,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,resveratrol (RSV),none,0.00174,1,,1464
+1467,polymer-based nanoparticles,,0.0,,none,none,,passive transport,,,,,110.0,0.201,-28.3,,,normal,i.p.,,,Efavirenz,none,0.004169,2.34,,1467
+1467,free drug,,,,,none,,passive transport,,,,,,,,,,normal,i.p.,,,Efavirenz,none,0.001779,1,,1467
+1502,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,rutin,none,,1,,1502
+1502,polymer-based nanoparticles,chitosan,0.0,,none,none,,passive transport,,,0.0,,92.28,0.206,31.04,84.98,,normal,i.v.,,,rutin,none,,7.03,,1502
+1502,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,rutin,none,,1,,1502
+1502,polymer-based nanoparticles,chitosan,0.0,,none,none,,passive transport,,,0.0,,92.28,0.206,31.04,84.98,,normal,i.n.,,,rutin,none,,3.48,,1502
+1505,free drug,,,,,,,,,,0.0,,,,,,,brain tumor,i.v.,,,,none,,1,,1505
+1505,albumin nanoparticles,human serum albumin,0.0,,none,none,,passive transport,,,0.0,,140.0,0.189,21.4,84.9,,brain tumor,i.v.,,,,none,,4.34,,1505
+1519,others,silicon,0.0,,graphene oxide,peptide,RVG,receptor mediated,choline transporter,acetylcholine receptor,0.0,,170.0,,,,,others,i.v.,,,,none,,,,1519
+1519,others,silicon,0.0,,none,peptide,RVG,receptor mediated,choline transporter,acetylcholine receptor,0.0,,190.0,,22.1,,,others,i.v.,,,,none,,,2.5,1519
+1524,polymer-based nanoparticles,MPEG-PLA/Male-PEG-PLA,1.0,,none,none,,passive transport,,,0.0,,105.2,0.09,-27.4,45.3,,brain tumor,i.v.,,,DiR,none,,,1,1524
+1524,polymer-based nanoparticles,MPEG-PLA/Male-PEG-PLA,1.0,,none,peptide,tLyp-1,receptor mediated,others,neuropilin-1,0.0,,112.6,0.12,-21.6,38.2,,brain tumor,i.v.,,,DiR,none,,,2.18603194,1524
+1524,polymer-based nanoparticles,MPEG-PLA/Male-PEG-PLA,1.0,,none,peptide,FHK(FHKHKSPALSPV),receptor mediated,others,tenascin C,0.0,,124.8,0.13,-34.5,39.6,,brain tumor,i.v.,,,DiR,none,,,1.95352333,1524
+1524,polymer-based nanoparticles,MPEG-PLA/Male-PEG-PLA,1.0,,none,peptide,tLyp-1 and FHK,receptor mediated,others,neuropilin-1 and tenascin C,0.0,,132.5,0.17,-30.3,36.8,,brain tumor,i.v.,,,DiR,none,,,2.86050736,1524
+1526,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,1,,1526
+1526,dendrimer,heptadecanoic acids/cholesterols/D-α-tocopherol succinates,0.0,,none,none,,passive transport,,,,,32.0,,-3.0,,,brain tumor,i.v.,,,DiR,none,,3.37,,1526
+1589,liposome,DPPC/cholesterol,0.0,,none,peptide,arginine–glycine–aspartic acid (RGD),receptor mediated,others,𝛂v𝛃3,1.0,D-alpha-tocopheryl polyethylene glycol 1000 succinate (vitamin E TPGS or TPGS),182.3,0.265,1.1,68.45,,normal,i.v.,,,docetaxel (DTX) and quantum dots (QDs),none,0.044,,,1589
+1589,liposome,DPPC/cholesterol,0.0,,none,none,,passive transport,,,1.0,D-alpha-tocopheryl polyethylene glycol 1000 succinate (vitamin E TPGS or TPGS),178.2,0.189,0.95,70.04,,normal,i.v.,,,docetaxel (DTX) and quantum dots (QDs),none,0.024,,,1589
+1589,liposome,DPPC/cholesterol,0.0,,none,none,,passive transport,,,,,175.6,0.148,-1.95,72.15,,normal,i.v.,,,docetaxel (DTX) ,none,0.000586,,,1589
+1606,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,donepezil,none,,1,,1606
+1606,polymer-based nanoparticles,mango gum polymer,0.0,,none,none,,passive transport,,,0.0,,135.5,0.53,8.25,72.0,51.0,normal,i.v.,,,donepezil,none,,4.3,,1606
+1606,polymer-based nanoparticles,mango gum polymer,0.0,,none,none,,passive transport,,,0.0,,95.1,0.26,25.92,85.0,76.0,normal,i.v.,,,donepezil,none,,12.7,,1606
+1617,others,,0.0,,none,none,,passive transport,,,0.0,,241.0,0.234,-8.8,,,normal,i.n.,,,resveratrol,none,0.0005,,,1617
+1617,others,,0.0,,none,none,,passive transport,,,0.0,,241.0,0.234,-8.8,,,normal,i.v.,,,resveratrol,none,0.0002,,,1617
+1613,dendrimer,PAMAM,1.0,,none,none,,passive transport,,,0.0,,5.1,0.18,3.15,,,brain tumor,i.v.,,,Cy5.5,none,,,1,1613
+1613,dendrimer,PAMAM,1.0,,none,peptide,Pep-1(CGEMGWVRC),receptor mediated,others,IL-13R􏰇2,0.0,,8.0,0.2,2.07,,,brain tumor,i.v.,,,Cy5.5,none,,,2.02,1613
+1635,free drug,,,,,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,, risperidone,none,,1,,1635
+1635,liposome,SPC/cholesterol,0.0,,none,none,,passive transport,,,0.0,,91.86,,53.8,49.6,,normal,i.n.,,, risperidone,none,,2.41,,1635
+1635,liposome,SPC/cholesterol/stearylamine,0.0,,none,none,,passive transport,,,0.0,,98.55,,15.61,51.13,,normal,i.n.,,, risperidone,none,,2.05,,1635
+1635,liposome,SPC/cholesterol,1.0,2.2,none,none,,passive transport,,,0.0,,98.51,,28.6,58.86,,normal,i.n.,,, risperidone,none,,1.69,,1635
+1640,polymer-based nanoparticles,PEG-PLA,1.0,,none,none,,passive transport,,,0.0,,102.0,0.13,-37.5,,,brain tumor,i.v.,,,DiR,none,,,,1640
+1640,polymer-based nanoparticles,PEG-PLA,1.0,,none,peptide,ATWLPPR,receptor mediated,,heparan sulfate proteoglycan,0.0,,113.0,0.14,-31.6,,,brain tumor,i.v.,,,DiR,none,,,2.03,1640
+1640,polymer-based nanoparticles,PEG-PLA,1.0,,none,peptide,CGCRK,receptor mediated,,neuropilin-1,0.0,,119.0,0.17,-14.6,,,brain tumor,i.v.,,,DiR,none,,,3.33,1640
+1640,polymer-based nanoparticles,PEG-PLA,1.0,,none,peptide,CGKRKGYGATWLLPPR,receptor mediated,,heparan sulfate proteoglycan and neuropilin-1,0.0,,123.0,0.15,-11.4,,,brain tumor,i.v.,,,DiR,none,,,5.47,1640
+1640,,,,,,,,,,,,,,,,,,,,,,,,,,,1640
+1653,free drug,,,,,none,,,,,,,,,,,,,,,,,,,,,1653
+1653,polymer-based nanoparticles,PEG-PLGA,1.0,,poloxamer 188,none,,,,,,,,,,,,,,,,,none,,,,1653
+1653,polymer-based nanoparticles,PEG-PLGA,1.0,,poloxamer 188,peptide, Pep-1 (CGEMGWVRC),receptor mediated,others,heparan sulfate,,,,,,,,,,,,,none,,,,1653
+1653,polymer-based nanoparticles,PEG-PLGA,1.0,,poloxamer 188,peptide,CGKRK ,receptor mediated,amino acid transporter,IL-13Rα2,,,,,,,,,,,,,none,,,,1653
+1653,polymer-based nanoparticles,PEG-PLGA,1.0,,poloxamer 188,peptide,CGKRK &  Pep-1 (CGEMGWVRC),receptor mediated,amino acid transporter,IL-13Rα2 and heparan sulfate,,,,,,,,,,,,,none,,,,1653
+1682,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,,none,0.01584,1,,1682
+1682,others,EPC/chitosan,0.0,,none,none,,passive transport,,,0.0,,204.5,0.098,48.45,98.52,,normal,i.n.,,,,none,0.47322,29.875,,1682
+1697,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,,i.v.,,,,none,0.0135,1,,1697
+1697,others,tocopherol/compritol/phospholipon 90G,0.0,,none,none,,passive transport,,,0.0,,67.46,,-7.7,,,,i.v.,,,quercetin,none,0.0436,5.6,,1697
+1697,solid lipid nanoparticles,compritol,0.0,,none,none,,passive transport,,,0.0,,74.61,,-8.9,,,,i.v.,,,quercetin,none,0.0768,3.2,,1697
+1697,,,,,,,,,,,,,,,,,,,,,,,,,,,1697
+1692,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.p.,,,,none,0.000612,1,,1692
+1692,micelle,polysialic acid-octadecylamine copolymer,0.0,,none,none,,passive transport,,,0.0,,107.0,,-20.8,,,normal,i.p.,,,,none,0.001278,2.09,,1692
+1701,others,Schisantherin A,0.0,,none,none,,passive transport,,,,,160.0,,,,,Parkinson's disease,p.o.,,,,none,0.0515,5.47,,1701
+1701,free drug,Schisantherin A,,,,none,,passive transport,,,,,,,,,,Parkinson's disease,p.o.,,,,none,0.0094,1,,1701
+1704,others,polysialic acid,0.0,,none,none,,passive transport,,,,,107.0,,-20.8,90.0,3.6,others,i.p.,,,calmodulin antagonist,none,0.005,2.04,,1704
+1704,free drug,,,,,none,,passive transport,,,,,,,,,,,i.p.,,,calmodulin antagonist,none,0.00248,1,,1704
+1717,emulsion,,0.0,,none,none,,passive transport,,,,,26.33,0.203,-8.46,,,others,p.o.,,,olmesartan,none,0.00023976,24.47,,1717
+1717,free drug,,,,,none,,passive transport,,,,,,,,,,others,p.o.,,,olmesartan,none,9.84e-06,1,,1717
+1717,,,,,,,,,,,,,,,,,,,,,,,,,,,1717
+1718,others,poly(ethylene oxide)-poly(propylene oxide) -poly(ethylene oxide),0.0,,polysorbate 80,none,,passive transport,,,,,571.5,0.43,,,,normal,i.n.,,,Nimodipine,none,0.001836,1.24,,1718
+1718,others,poly(ethylene oxide)-poly(propylene oxide) -poly(ethylene oxide),0.0,,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,Nimodipine,none,0.002196,1.49,,1718
+1718,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,Nimodipine,none,0.001476,1,,1718
+1726,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.004,1,,1726
+1726,magnetic nanoparticles,mesoporous silica,0.0,,none,none,,passive transport,,,0.0,,156.1,,-24.0,,,brain tumor,i.v.,,,DOX,none,0.0037,0.93,,1726
+1726,magnetic nanoparticles,mesoporous silica,0.0,,none,peptide,Asn-Gly-Arg (NGR),receptor mediated,,"aminopeptidase N (cluster of differentiation 13, CD13) ",0.0,,168.0,,-22.0,19.02,0.408,brain tumor,i.v.,,,DOX,none,0.0063,1.56,1.68,1726
+1727,albumin nanoparticles,Bovine Serum Albumin,0.0,,none,none,,receptor mediated,, SPARC (secreted protein acidic and rich in cysteine) and glycoprotein 60 (gp60),0.0,,140.0,0.089,-30.0,51.63,3.6,brain tumor,i.v.,,,Cy5,none,,6.58,,1727
+1727,albumin nanoparticles,Bovine Serum Albumin,0.0,,none,peptide,LMWP,receptor mediated,, SPARC (secreted protein acidic and rich in cysteine) and glycoprotein 60 (gp60),0.0,,145.0,0.074,-16.0,53.24,3.7,brain tumor,i.v.,,,Cy5,none,,9.68,1.472,1727
+1731,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,0.0,,34.57,0.388,,,,brain tumor,i.v.,,,Cy5.5,none,,1.44,1.36,1731
+1731,gold nanoparticles,Au/PEG,1.0,,none,none,,passive transport,,,0.0,,32.28,0.322,,,0.0387,brain tumor,i.v.,,,Cy5.5,none,,1.01,,1731
+1731,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,0.0,,33.46,0.367,,,0.0387,brain tumor,i.v.,,,Cy5.5,none,,1.06,,1731
+1731,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,0.0,,31.93,0.353,,,0.0391,brain tumor,i.v.,,,Cy5.5,none,,1.06,,1731
+1734,polymer-based nanoparticles,PVA-COOH-(SS-alkynyl),0.0,,none,peptide,cRGD(Arg-Gly-Asp),receptor mediated,others,αvβ3,0.0,,168.0,0.2,-10.9,65.4,,brain tumor,i.v.,,,DOX,none,0.055,7.27,1.82,1734
+1734,polymer-based nanoparticles,PVA-COOH-(SS-alkynyl),0.0,,none,none,,passive transport,,,0.0,,154.0,0.18,-12.7,79.2,,brain tumor,i.v.,,,DOX,none,0.032,4,,1734
+1734,polymer-based nanoparticles,PVA-N3,0.0,,none,none,,passive transport,,,0.0,,92.0,0.15,-28.7,77.0,,brain tumor,i.v.,,,DOX,none,0.017,2.18,,1734
+1734,free drug,,,,none,none,,,,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.0072,1,,1734
+1783,polymer-based nanoparticles,dodecylamine / terpolymer/starch,0.0,,polysorbate 80,none,,passive transport,,,,,100.1,0.17,-48.0,98.2,6.8,others,i.v.,,,docetaxel (DTX),none,0.000702,3.11,,1783
+1783,free drug,,,,,,,,,,,,,,,,,,i.v.,,,docetaxel (DTX),none,0.000225,1,,1783
+1784,polymer-based nanoparticles,PLGA/chitosan,0.0,,none,none,,passive transport,,,,,172.5,0.254,35.63,76.4,30.8,others,i.n.,,,Desvenlafaxine,none,,1.69,,1784
+1784,polymer-based nanoparticles,PLGA/chitosan,0.0,,none,none,,passive transport,,,,,172.5,0.254,35.63,76.4,30.8,others,i.v.,,,Desvenlafaxine,none,,0.7,,1784
+1784,free drug,,,,none,none,,passive transport,,,,,,,,,,others,i.n.,,,Desvenlafaxine,none,,1,,1784
+1806,free drug,,,,,,,passive transport,,,,,,,,,,brain tumor,i.v.,,,Cy5-SiRNA,none,,1,,1806
+1806,liposome, DSPE- PEG2000/cholesterol/malate dehydrogenases ,1.0,,none,,,passive transport,,,0.0,,114.0,0.154,3.99,,,brain tumor,i.v.,,,Cy5-SiRNA,none,,1.64444444,,1806
+1806,liposome,Bis(palmitoyloxy)- 3-(dimethylamino)propane,1.0,,none,,,passive transport,,,0.0,,103.1,0.161,3.44,,,brain tumor,i.v.,,,Cy5-SiRNA,none,,1.2,,1806
+1808,polymer-based nanoparticles,PEG2000/chitosan,1.0,,none,none,,passive transport,,,0.0,,233.6,0.101,-28.1,85.4,,normal,i.v.,,,DiR,none,,,1,1808
+1808,polymer-based nanoparticles,PEG2000/chitosan,1.0,,lactoferrin,none,,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,232.5,0.095,-24.6,84.3,,normal,i.v.,,,DiR,none,,,2.39,1808
+1835,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,,i.v.,,,docetaxel,none,,1,,1835
+1835,liposome,DSPE-PEG2000/cholestrol,1.0,,none,none,,passive transport,,,0.0,,169.4,,,18.7,,brain tumor,i.v.,,,docetaxel,none,,2.51,,1835
+1841,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Agomelatine,none,,1,,1841
+1841,solid lipid nanoparticles,tripalmitin/EPC,0.0,,none,none,,passive transport,,,0.0,,167.7,,-17.9,91.25,,normal,i.n.,,,Agomelatine,none,,1.37060741456346,,1841
+1851,liposome,DSPE-PEG2000/DPPC/cholesterol,1.0,10.0,none,none,,passive transport,,,0.0,,98.3,0.171,,,,brain tumor,i.v.,,,Paclitaxel,none,0.00078246,,,1851
+1851,liposome,DSPE-PEG2000/DPPC/cholesterol,1.0,10.0,none,none,,passive transport,,,0.0,,98.3,0.171,,,,brain tumor,i.v.,,,Paclitaxel,focused ultrasound,0.00117378,1.50011502185415,,1851
+1853,polymer-based nanoparticles,dendrigraft poly-L-lysine,1.0,,none,none,,passive transport,,,0.0,,97.21,,5.41,58.53,,ischemic stroke/reperfusion,i.v.,,,BODIPY 650/665,none,,,1,1853
+1853,polymer-based nanoparticles,dendrigraft poly-L-lysine,1.0,,none,peptide,N-acetyl Pro-Gly-Pro,receptor mediated,,,0.0,,99.56,,5.6,70.69,,ischemic stroke/reperfusion,i.v.,,,BODIPY 650/665,none,,,3.83647798742138,1853
+1853,,,,,,,,,,,,,,,,,,,,,,,,,,,1853
+1894,cationic liposome,nicotinylated amphiphiles,0.0,,none,non-antibody protein,NIC-1,receptor mediated,others,nicotinicreceptor,0.0,,121.4,,12.3,,,normal,i.v.,,,WP-1066,none,0.000822,,,1894
+1894,cationic liposome,,,,none,non-antibody protein,NIC-2,receptor mediated,others,nicotinicreceptor,0.0,,126.4,,12.1,,,normal,i.v.,,,WP-1067,none,0.001151,,,1894
+1894,cationic liposome,,,,none,none,,passive transport,,,0.0,,116.3,,18.0,,,normal,i.v.,,,WP-1068,none,8e-05,,,1894
+1894,,,,,,,,,,,,,,,,,,,,,,,,,,,1894
+1927,polymer-based nanoparticles,PLGA/quantum dots,,,none,none,,passive transport,,,0.0,,296.0,0.12,-4.65,,,normal,i.v.,,,quantum dots,none,0.0135,,1,1927
+1927,polymer-based nanoparticles,PLGA/quantum dots,,,none,cell-penetrating peptide,TAT-biotin peptide (sequence: Biotin-YGRKKRRQRRR) ,absorption mediated,,,0.0,,280.0,0.12,-2.97,,,normal,i.v.,,,quantum dots,none,0.018,,1.3,1927
+1935,magnetic liposome,PLGA/SPION,0.0,,none,none,,,,,0.0,,110.0,0.11,,,,brain tumor,i.v.,,,Cy5.5,none,,,1,1935
+1935,magnetic liposome,PLGA/SPION,0.0,,none,others,adipose-derived stem cells,cell-mediated transportation,,,0.0,,,,,,,brain tumor,i.v.,,,Cy5.5,none,,,1.9,1935
+1932,polymer-based nanoparticles,"poly(lactic-co-glycolic)-
+block-poly ethylene glycol (PLGA-b-PEG)",1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Bodipy,none,,,1,1932
+1932,polymer-based nanoparticles,"poly(lactic-co-glycolic)-
+block-poly ethylene glycol (PLGA-b-PEG)",1.0,,none,aptamer,anti-PDGFRβ aptamer,receptor mediated,others,platelet-derived growth factor receptors,0.0,,52.0,0.169,-13.1,,,brain tumor,i.v.,5.4,,Bodipy,none,,,23.8,1932
+1938,micelle,mPEG2000-PLA2000,1.0,,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,DiR,none,,,1,1938
+1938,micelle,mPEG2000-PLA2000,1.0,,none,peptide,stapled RGD,receptor mediated,,αvβ3,0.0,,33.7,0.054,-1.67,,,brain tumor,i.v.,,,DiR,none,,,1.9,1938
+1938,micelle,mPEG2000-PLA2000,1.0,,none,peptide,cylic RGD,receptor mediated,,αvβ3,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,1.2,1938
+1952,albumin nanoparticles,Bovine serum albumin,0.0,,none,none,,,,,1.0,sinapic acid,32.67,,8.33,,,brain tumor,i.v.,,,FITC,none,,,1.62,1952
+1952,,,,,,,,,,,,,,,,,,,,,,,,,,,1952
+1991,others,,1.0,,none,peptide,I6P7,receptor mediated,amino acid transporter,IL-6R,0.0,,99.0,,15.9,,,brain tumor,i.v.,,,DNA,none,,64,2.46,1991
+1991,others,,1.0,,none,peptide,I6P7scr,receptor mediated,amino acid transporter,IL-6R ,0.0,,111.6,,17.5,,,brain tumor,i.v.,,,DNA,none,,26,,1991
+1991,,,,,,,,,,,,,,,,,,,,,,,,,,,1991
+1998,others,PEG-PLA,1.0,,none,none,,,others,,,,,,,,,brain tumor,i.v.,,,,none,,0.75,,1998
+1998,others,PEG-PLA,1.0,,none,peptide,cRGD,receptor mediated,others,αvβ3,0.0,,,,,,,brain tumor,i.v.,,,,none,,1.21,1.613,1998
+1998,others,PEG-PLA,1.0,,none,peptide,sRGD,receptor mediated,others,αvβ3,0.0,,,,,,,brain tumor,i.v.,,,,none,,1.8,2.4,1998
+1998,,,,,,,,,,,,,,,,,,,,,,,,,,,1998
+2025,gold nanoparticles,Au/PEG/2-Cyano-6-aminobenzothiazole,1.0,,none,peptide,R8-RGD,receptor mediated,others,αvβ3,0.0,,172.9,,,,,brain tumor,i.v.,,,Cy5.5,none,,,2.565,2025
+2025,gold nanoparticles,Au/PEG/2-Cyano-6-aminobenzothiazole,1.0,,none,none,,,,,,,202.3,,,,,brain tumor,i.v.,,,Cy5.5,none,,,1.911,2025
+2025,gold nanoparticles,Au/PEG,1.0,,none,peptide,R8-RGD,receptor mediated,others,αvβ3,0.0,,32.41,0.301,-8.77,,,brain tumor,i.v.,,,Cy5.5,none,,,1.468,2025
+2025,gold nanoparticles,Au/PEG,1.0,,none,none,,,,,,,33.09,0.275,-12.23,,,brain tumor,i.v.,,,Cy5.5,none,,,1,2025
+2025,gold nanoparticles,Au/PEG/2-Cyano-6-aminobenzothiazole,1.0,,none,peptide,R8-RGD,receptor mediated,others,αvβ3,0.0,,172.9,,,,,brain tumor,i.v.,,,Cy5.5,none,,,1.491526,2025
+2025,gold nanoparticles,Au/PEG/2-Cyano-6-aminobenzothiazole,1.0,,none,none,,,,,,,202.3,,,,,brain tumor,i.v.,,,Cy5.5,none,,,1.466102,2025
+2025,gold nanoparticles,Au/PEG,1.0,,none,peptide,R8-RGD,receptor mediated,others,αvβ3,0.0,,32.41,0.301,-8.77,,,brain tumor,i.v.,,,Cy5.5,none,,,1.279661,2025
+2025,gold nanoparticles,Au/PEG,1.0,,none,none,,,,,,,33.09,0.275,-12.23,,,brain tumor,i.v.,,,Cy5.5,none,,,1,2025
+2025,,,,,,,,,,,,,,,,,,,,,,,,,,,2025
+2026,polymer-based nanoparticles,Pluronic F127,0.0,,none,none,,passive transport,,,0.0,,20.73,0.17,,,,normal,i.v.,,,DiR,none,,,1,2026
+2026,polymer-based nanoparticles,Pluronic F127/D-α-tocopheryl polyethylene glycol succinate (TPGS),0.0,,none,none,,passive transport,,,1.0,D-α-tocopheryl polyethylene glycol succinate (TPGS),20.03,0.18,,,,normal,i.v.,,,DiR,none,,,5.375,2026
+2026,,,,,,,,,,,,,,,,,,,,,,,,,,,2026
+2027,polymer-based nanoparticles,β‑cyclodextrin (CD)/poly(L‑lysine) dendron (PLLD),0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DOX,none,0.003928,,,2027
+2027,,,,,,,,,,,,,,,,,,,,,,,,,,,2027
+2068,liposome,DPC/DPPC/DOTA/DPE,1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Cy5.5,none,,,1,2068
+2068,liposome,DPC/DPPC/DOTA/DPE,1.0,,none,others,integrin antagonist ,receptor mediated,others,αvβ3,0.0,,100.0,,,,,brain tumor,i.v.,,,Cy5.5,none,,,2.81,2068
+2068,,,,,,,,,,,,,,,,,,,,,,,,,,,2068
+2070,others,boron,0.0,,none,peptide,RGD-k,receptor mediated,others,αvβ3,0.0,,90.0,,14.8,,,brain tumor,i.v.,,,,none,0.05055,,,2070
+2071,gold nanoparticles,Au,1.0,,insulin,none,,receptor mediated,insulin receptor,insulin receptor,0.0,,33.93,,-2.92,,,normal,i.v.,,,,none,0.001324,,,2071
+2071,gold nanoparticles,Au,1.0,,insulin,none,,receptor mediated,insulin receptor,insulin receptor,0.0,,70.18,,-4.08,,,normal,i.v.,,,,none,0.001581,,,2071
+2071,gold nanoparticles,Au,1.0,,insulin,none,,receptor mediated,insulin receptor,insulin receptor,0.0,,94.05,,-4.1,,,normal,i.v.,,,,none,0.00011,,,2071
+2071,,,,,,,,,,,,,,,,,,,,,,,,,,,2071
+2093,free drug,,,,none,,,,,,0.0,,,,,,,brain tumor,i.v.,,,farnesylthiosalicylic acid,none,4.6e-05,1,,2093
+2093,free drug,,,,none,,,,,,0.0,,,,,,,brain tumor,i.n.,,,farnesylthiosalicylic acid,none,2e-05,1,,2093
+2093,polymer-based nanoparticles,PLGA,1.0,30.0,none,none,,absorption mediated,,,0.0,,164.3,0.192,-12.0,97.7,0.035,brain tumor,i.v.,,,farnesylthiosalicylic acid,none,0.000316,6.8695652173913,,2093
+2093,polymer-based nanoparticles,PLGA,1.0,30.0,none,none,,absorption mediated,,,0.0,,164.3,0.192,-12.0,97.7,0.035,brain tumor,i.n.,,,farnesylthiosalicylic acid,none,0.000373,18.65,,2093
+2098,others,"Mesoporous
+silica",0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,,,2098
+2098,others,"Mesoporous
+silica",1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,,1.90526315789474,2098
+2098,others,"Mesoporous
+silica",1.0,,none,peptide,"IL-13
+peptide",receptor mediated,others,IL13 receptor α2,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,,2.16578947368421,2098
+2105,extracellular vesicles,Macrophage exosomes,0.0,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,116.2,0.134,-18.0,,,others,i.v.,,,none,none,0.00215,,,2105
+2105,extracellular vesicles,Macrophage exosomes,0.0,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,116.2,0.134,-18.0,,,normal,i.v.,,,none,none,0.000372,,,2105
+2105,extracellular vesicles,BDNF-Macrophage exosomes complex,0.0,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,209.5,,,,,others,i.v.,,,none,none,0.0007476,2.21,,2105
+2105,extracellular vesicles,BDNF-Macrophage exosomes complex,0.0,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,209.5,,,,,normal,i.v.,,,none,none,0.0002056,1.39,,2105
+2105,free drug,,,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,36.1,,,,,others,i.v.,,,none,none,0.0003388,1,,2105
+2105,free drug,,,,none,none,none,receptor mediated,others,C-type lectin receptors and integrin LFA-1/ICAM-1,0.0,,36.1,,,,,normal,i.v.,,,none,none,0.0001476,1,,2105
+2112,polymer-based nanoparticles,PLA,0.0,,none,peptide,AP1,receptor mediated,others,interleukin-4 receptor,0.0,,120.0,,-26.3,53.74,0.0137,brain tumor,i.v.,,,doxorubicin,none,,,,2112
+2112,polymer-based nanoparticles,PLA,0.0,,none,none,none,passive transport,,,0.0,,110.0,,-29.7,56.33,0.0143,brain tumor,i.v.,,,doxorubicin,none,,,,2112
+2112,free drug,,0.0,,none,none,none,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,,,2112
+2113,others,Dextran–spermine,0.0,,none,none,none,receptor mediated,transferrin receptor,,0.0,,96.0,0.23,6.0,,,brain tumor,i.v.,44.0,20.0,Capecitabine,magnectic field,,,0.0124752366552393,2113
+2113,others,Dextran–spermine,0.0,,none,none,none,absorption mediated,,,0.0,,80.0,0.178,19.0,26.1,0.116,brain tumor,i.v.,,,Capecitabine,magnectic field,,,1,2113
+2115,others,mPEG2000-PLA2000,1.0,50.0,none,none,none,passive transport,,,0.0,,24.78,0.082,,82.32,25.83,brain tumor,i.v.,,,PTX,none,,,1,2115
+2115,others,AE-PEG3000-PLA2000,0.0,,none,peptide,L-AE,receptor mediated,others,receptors EGFR and EGFRvIII,0.0,,28.06,0.093,,84.65,23.41,brain tumor,i.v.,,,PTX,none,,,1.30555555555556,2115
+2115,others,AE-PEG3000-PLA2000,0.0,,none,peptide,RI-AE,receptor mediated,others,receptors EGFR and EGFRvIII,0.0,,26.7,0.103,,85.63,25.02,brain tumor,i.v.,,,PTX,none,,,1.08333333333333,2115
+2115,others,AE-PEG3000-PLA2000,0.0,,none,peptide,D-AE,receptor mediated,others,receptors EGFR and EGFRvIII,0.0,,27.4,0.075,,83.02,24.32,brain tumor,i.v.,,,PTX,none,,,2,2115
+2115,,,,,,,,,,,,,,,,,,,,,,,,,,,2115
+2134,others,multiwalled carbon nanotubes,0.0,,polysorbate,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,BRB,none,,3.6096,,2134
+2134,others,multiwalled carbon nanotubes,0.0,,phospholipid,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,BRB,none,,3.8008,,2134
+2134,others,multiwalled carbon nanotubes,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,BRB,none,,2.7012,,2134
+2135,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,166.95,0.287,-32.12,29.16,,normal,i.v.,,,MAOS,none,,2.3437,,2135
+2140,polymer-based nanoparticles,PLGA,0.0,,polysorbate 80,non-antibody protein,anti-nestin antibody,receptor mediated,others,anti-nestin,0.0,,106.1,0.291,-22.3,73.2,,normal,i.v.,,,TMZ,none,,0.84,,2140
+2140,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,anti-nestin antibody，transferrin antibody,receptor mediated,transferrin receptor,anti-nestin，transferrin,0.0,,86.01,0.331,-11.11,75.5,,normal,i.v.,,,TMZ,none,,2.72,,2140
+2150,polymer-based nanoparticles,PLGA,1.0,,cell membrane coating,none,,passive transport,,,0.0,,,,-26.7,97.0,,normal,i.v.,,,Fluorescein,none,,,1,2150
+2150,polymer-based nanoparticles,PLGA,1.0,,cell membrane coating,peptide,CDX peptide,receptor mediated,choline transporter,nicotinic acetylcholine receptors,0.0,,75.0,,-22.2,101.0,,normal,i.v.,,,Fluorescein,none,,,1.62,2150
+2155,free drug,,,,,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,Coumarin 6,none,0.008215,1,,2155
+2155,polymer-based nanoparticles,poly (N-butyl) cyanoacrylate,0.0,,none,none,,passive transport,,,0.0,,175.6,0.264,-28.5,,,others,i.v.,,,Coumarin 6,none,0.045126,5.49298861,1,2155
+2155,polymer-based nanoparticles,poly (N-butyl) cyanoacrylate,1.0,,none,none,,passive transport,,,0.0,,185.4,0.133,-0.66,,,others,i.v.,,,Coumarin 6,none,0.069842,8.50153374,1.54770642,2155
+2156,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,docetaxel,none,0.000224,1,,2156
+2156,liposome,SPC/cholesterol,0.0,,none,none,,passive transport,,,0.0,,45.9,0.27,-56.8,,,normal,i.v.,,,docetaxel,none,5e-05,4.52727273,,2156
+2157,free drug,,,,,none,,passive transport,,,,,,,,,,normal,i.n.,,,Rivastigmine hydrogen tartarate,none,0.016,1,,2157
+2157,liposome,DsPE-PE/lecithin/didecyldimethyl ammonium bromide(DDAB)/Tween 80 ,1.0,2.0,none,none,,passive transport,,,0.0,,478.0,0.557,-8.0,48.0,,normal,i.n.,,,Rivastigmine hydrogen tartarate,none,0.076374,1.8,,2157
+2180,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,1,,2180
+2180,micelle,poly(2-ethyl-2-oxazoline) pyridyl disulfide,0.0,,none,none,,passive transport,,,0.0,,160.2,,,,,brain tumor,i.v.,,,doxorubicin,none,,1.36,,2180
+2180,micelle,poly(2-ethyl-2-oxazoline) pyridyl disulfide,0.0,,none,none,,passive transport,,,0.0,,140.6,,,,,brain tumor,i.v.,,,doxorubicin,none,,1.4,,2180
+2180,micelle,poly(2-ethyl-2-oxazoline) pyridyl disulfide,0.0,,none,none,,passive transport,,,0.0,,97.3,,,,,brain tumor,i.v.,,,doxorubicin,none,,2.44,,2180
+2181,liposome,SPC,1.0,,none,peptide,"a dual receptor recognizing cell penetrating peptideRRRRRRRRdGR (R8dGR, lower case letter representsd-amino acid residue)",receptor mediated,others, both integrin αvβ3 and neuropilin-1 receptors,0.0,,100.0,,-4.6,70.0,,brain tumor,i.v.,,,ZD6474（tyrosine kinase inhibitor）,none,0.024,3.43,2.53,2181
+2181,liposome,,,5.0,none,none,,passive transport,,,,,,,-5.0,,,brain tumor,i.v.,,,ZD6474（tyrosine kinase inhibitor）,none,0.0095,1.36,,2181
+2181,free drug,,,,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,ZD6474（tyrosine kinase inhibitor）,none,0.007,1,,2181
+2181,liposome,,,,none,peptide,"a dual receptor recognizing cell penetrating peptideRRRRRRRRdGR (R8dGR, lower case letter representsd-amino acid residue)",receptor mediated,others, both integrin αvβ3 and neuropilin-1 receptors,0.0,,100.0,,-4.6,90.0,,brain tumor,i.v.,,,hydroxychloroquine,none,0.021792,4.94,2.51,2181
+2181,liposome,,,5.0,none,none,,passive transport,,,,,,,-5.0,,,brain tumor,i.v.,,,hydroxychloroquine,none,0.00864,1.97,,2181
+2181,free drug,,,,none,none,,passive transport,,,,,,,,,,brain tumor,i.v.,,,hydroxychloroquine,none,0.004383,1,,2181
+2186,polymer-based nanoparticles,PLGA,0.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein receptor-related protein,0.0,,30.0,0.16,-48.0,91.0,1.8,brain tumor,i.v.,,179.0,DOX,none,0.00565056,,1.98,2186
+2186,,,,,,,,,,,,,,,,,,,,,,,none,0.005292,,1.86,2186
+2186,,,,,,,,,,,,,,,,,,,,,,,none,0.002844,,1,2186
+2187,polymer-based nanoparticles,PLGA,1.0,,none,others,Ascorbic acid,transporter mediated,others,Sodium dependent-vitamin C transporters,0.0,,96.4,0.098,-7.9,80.1,,Alzheimer's disease,i.v.,,,galantamine,none,0.0036,7.2,3.44,2187
+2187,polymer-based nanoparticles,PLGA,1.0,,none,others,Ascorbic acid,transporter mediated,others,Sodium dependent-vitamin C transporters,0.0,,96.2,,-6.3,80.7,,Alzheimer's disease,i.v.,,,galantamine,none,0.00103,2.09,,2187
+2187,polymer-based nanoparticles,PLGA,1.0,,none,others,Ascorbic acid,transporter mediated,others,Sodium dependent-vitamin C transporters,0.0,,,,,,,Alzheimer's disease,i.v.,,,galantamine,none,0.0012,2.4,,2187
+2187,polymer-based nanoparticles,PLGA,1.0,,none,others,Ascorbic acid,transporter mediated,others,Sodium dependent-vitamin C transporters,0.0,,,,,,,Alzheimer's disease,i.v.,,,galantamine,none,0.0005,,,2187
+2189,polymer-based nanoparticles,Carboxymethyl chitosan,0.0,,,none,,,,,0.0,,216.5,0.189,34.9,33.72,,others,i.n.,,,carbamazepine,none,,2.93,,2189
+2193,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,1,,2193
+2193,inorganic nanoparticles,SiO2,0.0,,none,none,,passive transport,,,0.0,,196.0,,-11.2,,,brain tumor,i.v.,,,doxorubicin,none,,1.36111111,,2193
+2193,inorganic nanoparticles,SiO2,0.0,,none,antibody,Bevacizumab,receptor mediated,others,VEGF,0.0,,253.0,,-11.9,,,brain tumor,i.v.,,,doxorubicin,none,,1.66666667,,2193
+2193,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,,1,,2193
+2193,inorganic nanoparticles,SiO2,0.0,,none,none,,passive transport,,,0.0,,196.0,,-11.2,,,brain tumor,i.v.,,,doxorubicin,none,,1,,2193
+2193,inorganic nanoparticles,SiO2,0.0,,none,antibody,Bevacizumab,receptor mediated,others,VEGF,0.0,,253.0,,-11.9,,,brain tumor,i.v.,,,doxorubicin,none,,1.57142857,,2193
+2226,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,cardiogreen,none,,1,,2226
+2226,polymer-based nanoparticles,PLGA-PEG,1.0,,none,none,,passive transport,,,0.0,,81.5,0.12,-2.4,,,brain tumor,i.v.,,,cardiogreen,none,,2.29251701,1,2226
+2226,polymer-based nanoparticles,PLGA-PEG,1.0,,none,antibody,ITEM4 antibody,receptor mediated,others,Fn14,0.0,,94.2,0.17,-4.8,,,brain tumor,i.v.,,,cardiogreen,none,,3.2244898,1.40652819,2226
+2241,liposome,SPC/cholesterol,0.0,,none,none,,passive transport,,,0.0,,45.9,0.27,-56.8,87.81,5.48,normal,i.v.,,,Docetaxel (DTX),none,4.5e-05,4.4,,2241
+2241,free drug,,,,,none,,passive transport,,,,,,,,,,normal,i.v.,,,Docetaxel (DTX),none,1e-05,,,2241
+2242,liposome,"DSPE-PEG/EPC/didecyldimethyl
+ammonium bromide (DDAB)/ Tween 80",1.0,2.0,none,none,,passive transport,,,,,478.0,0.557,-8.0,48.89,,normal,i.n.,,,Rivastigmine ,,0.000315,1.81,,2242
+2242,free drug,,,,,none,,passive transport,,,,,,,,,,normal,i.n.,,,Rivastigmine ,,0.000174,,,2242
+2265,polymer-based nanoparticles,DSPE-PEG2000/Gd-DOTAMA(C18)2,1.0,,none,peptide,C*NNSKSHTC*,receptor mediated,others,VCAM-1,0.0,,17.0,0.2,,,,others,i.v.,,,,none,0.0031,,,2265
+2316,polymer-based nanoparticles,PLA2000,0.0,,none,none,none,passive transport,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,1,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,none,none,passive transport,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,2.95,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Lc(LyP-1)(CGNKRTRGC),receptor mediated,others, cell-surface protein p32/gC1qR,0.0,,,,,,,normal,i.v.,,,DiR,none,,,3.16,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Dc(LyP-1)(CGNKRTRGC),receptor mediated,others, cell-surface protein p32/gC1qR,0.0,,,,,,,normal,i.v.,,,DiR,none,,,3.16,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,D CDX(GREIRTGRAERWSEKF),receptor mediated,choline transporter, cell-surface protein p32/gC1qR+nicotinic acetylcholine receptor,0.0,,,,,,,normal,i.v.,,,DiR,none,,,5.7,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Lc(LyP-1)+D CDX,receptor mediated,choline transporter, cell-surface protein p32/gC1qR+nicotinic acetylcholine receptor,0.0,,,,,,,normal,i.v.,,,DiR,none,,,5.59,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Dc(LyP-1)+D CDX,receptor mediated,choline transporter, cell-surface protein p32/gC1qR+nicotinic acetylcholine receptor,0.0,,,,,,,normal,i.v.,,,DiR,none,,,5.32,2316
+2316,polymer-based nanoparticles,PLA2000,0.0,,none,none,none,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,1,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,none,none,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,10,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Lc(LyP-1)+D CDX,receptor mediated,choline transporter, cell-surface protein p32/gC1qR+nicotinic acetylcholine receptor,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,32.5,2316
+2316,polymer-based nanoparticles,mPEG-PLA2000,1.0,,none,peptide,Dc(LyP-1)+D CDX,receptor mediated,choline transporter, cell-surface protein p32/gC1qR+nicotinic acetylcholine receptor,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,18,2316
+2327,solid lipid nanoparticles,"Glyceryl monostearate/poloxamer 188/1,2-dipalmitoyl-sn-glycero-3-phosphocholine",0.0,,none,none,none,passive transport,,,0.0,,,,-13.5,98.7,,others,i.v.,,,Dil,none,,,1,2327
+2327,solid lipid nanoparticles,"Glyceryl monostearate/poloxamer 188/1,2-dipalmitoyl-sn-glycero-3-phosphocholine",0.0,,none,peptide, N-Acetyl Pro–Gly–Pro (PGP) ,cell mediated,,neutrophil mediated,0.0,,,,-12.6,99.1,,others,i.v.,,,Dil,none,,,4.6,2327
+2344,polymer-based nanoparticles,mPEG-PLA,1.0,,none,none,none,passive transport,,none,0.0,,62.4,,-22.48,91.23,,normal,i.n.,,,rotigotine,none,,,1,2344
+2344,polymer-based nanoparticles,mPEG-PLA,1.0,,none,peptide,lactoferrin,receptor mediated,,lactoferrin receptor,0.0,,118.4,,-21.94,88.07,,normal,i.n.,,,rotigotine,none,,,10,2344
+2368,liposome,cholestrol/EPC,0.0,,none,none,none,passive transport,,,0.0,,,,-4.77,,,normal,i.v.,,,DiR,none,,,1,2368
+2368,liposome,cholestrol/EPC/DSPE-PEG,1.0,,none,peptide, rabies virus glycoprotein (RVG) derivative,receptor mediated,choline transporter,acetylcholine receptors,0.0,,98.6,0.27,-3.94,,,normal,i.v.,,,DiR,none,,,2.33,2368
+2373,solid lipid nanoparticles,monostearate/PEG-monostearate/EPC,1.0,,none,none,none,,,,0.0,,87.0,0.088,-24.59,,,normal,i.v.,,,Cy7,none,,,1,2373
+2373,solid lipid nanoparticles,monostearate/PEG-monostearate/EPC,1.0,,none,others,borneol,,,,0.0,,86.9,0.017,-24.97,,,normal,i.v.,,,Cy7,none,,,8.16,2373
+2382,free drug,,,,none,none,none,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,methotrexate,none,,1,,2382
+2382,polymer-based nanoparticles,PLGA,0.0,,none,none,none,passive transport,,,0.0,,72.17,,-12.56,87.0,,brain tumor,i.v.,,,methotrexate,none,,5.32,1,2382
+2382,polymer-based nanoparticles,PLGA,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,86.43,,-11.21,78.2,,brain tumor,i.v.,,,methotrexate,none,,6.32,1.19,2382
+2382,polymer-based nanoparticles,PLGA,0.0,,polysorbate 80,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,97.24,,-10.03,73.6,,brain tumor,i.v.,,,methotrexate,none,,40.72,7.65,2382
+2382,polymer-based nanoparticles,PLGA,0.0,,polysorbate 80,non-antibody protein,transferrin+folic acid,receptor mediated,transferrin receptor,transferrin receptor,0.0,,109.7,,-9.38,71.0,,brain tumor,i.v.,,,methotrexate,none,,15.44,2.9,2382
+2389,gold nanoparticles,Au,1.0,,none,none,none,passive transport,,,0.0,,92.6,0.079,-27.2,,,normal,i.v.,,,,none,9.72e-05,,1,2389
+2389,gold nanoparticles,Au,1.0,,none,none,isotye IgG,passive transport,,,0.0,,75.1,0.249,-24.9,,,normal,i.v.,,8.8,,none,0.00018,,1.85185185,2389
+2389,gold nanoparticles,Au,1.0,,none,antibody,Anti-TfRA,receptor mediated,transferrin receptor,transferrin receptor,0.0,,75.2,0.217,-21.4,,,normal,i.v.,,6.5,,none,0.000216,,2.22222222,2389
+2389,gold nanoparticles,Au,1.0,,none,antibody,Anti-TfRD,receptor mediated,transferrin receptor,transferrin receptor,0.0,,74.8,0.245,-167.0,,,normal,i.v.,,8.6,,none,0.00036,,3.7037037,2389
+2389,gold nanoparticles,Au,1.0,,none,antibody,Anti-TfRA/BACE1,receptor mediated,transferrin receptor,transferrin receptor,0.0,,77.0,0.25,-24.1,,,normal,i.v.,,7.5,,none,0.001296,,13.3333333,2389
+2393,polymer-based nanoparticles,PLGA,0.0,,none,antibody,none,passive transport,,,0.0,,,,,,,encephalomyelitis,i.v.,,,Indocyanine green,none,,,1,2393
+2393,polymer-based nanoparticles,PLGA,0.0,,none,antibody,CD 47,receptor mediated,others,T cell receptor,0.0,,,,,,,encephalomyelitis,i.v.,,,Indocyanine green,none,,,3.19,2393
+2407,magnetic nanoparticles,PLGA/PCL-b-PEG/PLGA-b-PEG/SPION,1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,,none,0.001692,,,2407
+2407,magnetic nanoparticles,PLGA/PCL-b-PEG/PLGA-b-PEG/SPION,1.0,,polysorbate 80,none,,passive transport,,,0.0,,250.0,0.11,-18.0,30.0,0.87,brain tumor,i.v.,,,,none,0.001692,,,2407
+2407,magnetic nanoparticles,PLGA/PCL-b-PEG/PLGA-b-PEG/SPION,1.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,,magnetic field,0.002232,,,2407
+2423,free drug,,,,none,,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Cy5.5,none,,1,,2423
+2423,polymer-based nanoparticles,DSPE-PEG,1.0,,none,none,,passive transport,,,0.0,,104.0,,,90.0,,brain tumor,i.v.,,,Cy5.5,none,,2.83,,2423
+2423,polymer-based nanoparticles,DSPE-PEG,1.0,,none,peptide,CSSPIQGSWTWENGK(C)WTWGIIRLEQ,receptor mediated,amino acid transporter,"extra-domain
+B",0.0,,112.0,,,90.0,,brain tumor,i.v.,,,Cy5.5,none,,6.12,2.16,2423
+2425,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,5.001e-05,1,,2425
+2425,polymer-based nanoparticles,poly-(metronidazole)25,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.00201999,40.3917217,,2425
+2425,polymer-based nanoparticles,poly-(metronidazole)48,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,doxorubicin,none,0.00203001,40.5920816,,2425
+2425,polymer-based nanoparticles,PLGA,1.0,,none,none,,passive transport,,,0.0,,79.52,0.23,,,,brain tumor,i.v.,,,doxorubicin,none,0.00167001,33.3935213,,2425
+2425,polymer-based nanoparticles,DSPE-PEG2000/lecithin/angiopep-2-DSPE-PEG2000/poly-(metronidazole)25,1.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,61.66,0.21,,,,brain tumor,i.v.,,,doxorubicin,none,0.00249999,49.989802,,2425
+2425,polymer-based nanoparticles,DSPE-PEG2000/ lecithin/ angiopep-2-DSPE-PEG2000 /poly-(metronidazole)48,1.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,76.71,0.26,,,,brain tumor,i.v.,,,doxorubicin,none,0.00261,52.1895621,,2425
+2435,free drug,,,,,,,passive transport,,,0.0,,,,,,,Parkinson's disease,i.v.,,,Epigallocatechin gallate,none,4.32e-05,1,,2435
+2435,polymer-based nanoparticles,SPION/DSPE-PEG,1.0,,none,peptide,B6,receptor mediated,transferrin receptor,transferrin receptor,0.0,,80.0,,-0.68,,,Parkinson's disease,i.v.,,,Epigallocatechin gallate,none,0.00864,200,,2435
+2435,polymer-based nanoparticles,SPION/DSPE-PEG,1.0,,none,peptide,B6+mazindol,receptor mediated,transferrin receptor+dopamine receptor,transferrin receptor+dopamine receptor,0.0,,80.0,,-0.65,,,Parkinson's disease,i.v.,,,Epigallocatechin gallate,none,0.01098,254.166667,,2435
+2447,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,temozolomide,none,,1,,2447
+2447,dendrimer,PAMAM/chitosan,0.0,,none,none,,passive transport,,,0.0,,201.4,0.84,24.0,72.58,,normal,i.v.,,,temozolomide,none,,1.92,,2447
+2452,others,,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,indocyanine green,none,,,,2452
+2452,others,SiO2,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,indocyanine green,none,,2.851485149,,2452
+2452,others,SiO2,0.0,,none,none,,,,,0.0,,,,,,,brain tumor,i.v.,,,indocyanine green,ultrasound,,11.52475248,,2452
+2456,inorganic nanoparticles,selenium nanoparticle,1.0,,none,antibody,HER2 antibody,receptor mediated,,HER2,0.0,,150.0,,7.35,,,normal,i.v.,,,Fe,none,0.023,,,2456
+2456,inorganic nanoparticles,selenium nanoparticle,1.0,,none,antibody,HER2 antibody,receptor mediated,,HER2,0.0,,150.0,,7.35,,,normal,i.v.,,,Se,none,0.0628,,,2456
+2457,micelle,mPEG2000-PLA,1.0,,none,none,,,,,0.0,,22.0,,,,,brain tumor,i.v.,,,DiR,none,,,1,2457
+2457,micelle,mPEG2000-PLA,1.0,,none,peptide,LVS (VSWFSRHRYSPFAVS),receptor mediated,others,α6β1 and αvβ3,0.0,,22.0,,,,,brain tumor,i.v.,,,DiR,none,,,1.081966255,2457
+2457,micelle,mPEG2000-PLA,1.0,,none,peptide,DVS (VSWFSRHRYSPFAVS),receptor mediated,others,α6β1 and αvβ3,0.0,,22.0,,,,,brain tumor,i.v.,,,DiR,none,,,1.266392985,2457
+2474,liposome,distearoylphosphatidylcholine/cholesterol/mPEG2000/distearoylphosphatidylethanolamine,1.0,,none,none,none,passive transport,,,0.0,,156.3,0.201,,,,ischemic stroke,i.v.,,,DiR,none,,,1,2474
+2474,liposome,distearoylphosphatidylcholine/cholesterol/mPEG2000/distearoylphosphatidylethanolamine,1.0,,none,antibody,anti-PirB antibody,receptor mediated,others, Paired immunoglobulin-like receptor B,0.0,,167.1,0.124,,,,ischemic stroke,i.v.,,,DiR,none,,,2.64,2474
+2485,free drug,,,,none,none,,,,,0.0,,,,,,,brain tumor,i.v.,,,Cy5,none,,1,,2485
+2485,albumin nanoparticles,bovine serum albumin,0.0,,none,none,,,,,0.0,,123.7,0.22,-16.8,,,brain tumor,i.v.,,,Cy5,none,,34.48,1,2485
+2485,albumin nanoparticles,bovine serum albumin,0.0,,none,peptide,mannose,receptor mediated,transferrin receptor,mannose receptor,0.0,,128.0,0.087,-17.1,,,brain tumor,i.v.,,,Cy5,none,,40.245,1.167198376,2485
+2485,albumin nanoparticles,bovine serum albumin,0.0,,none,others,"T12
+(THRPPMWSPVWP) and mannose",receptor mediated,transferrin receptor,transferrin receptor and mannose receptor,0.0,,132.2,0.14,-18.7,,,brain tumor,i.v.,,,Cy5,none,,50.775,1.472592807,2485
+2535,polymer-based nanoparticles,mPEG-PLGA,1.0,,none,peptide,RVG29-Cyspeptide,receptor mediated,acetylcholine receptors,nicotinic acetylcholine receptor (nAchR),0.0,,116.5,,-8.16,,,brain tumor,i.v.,,,Docetaxel,none,0.02503,,2.132027257,2535
+2535,polymer-based nanoparticles,mPEG-PLGA,1.0,,none,none,,passive transport,,,,,95.0,,-10.16,,,brain tumor,i.v.,,,Docetaxel,none,0.01174,,1,2535
+2535,free drug,,,,,,,,,,,,,,,,,brain tumor,i.v.,,,Docetaxel,none,0.00877,,,2535
+2535,,,,,,,,,,,,,,,,,,,,,,,,,,,2535
+2535,,,,,,,,,,,,,,,,,,,,,,,,,,,2535
+2544,liposome,lipid S100/cholesterol/mPEG2000-DSPE,1.0,,none,none,,passive transport,,,0.0,,114.8,0.195,-17.0,55.3,6.46,normal,i.v.,,,"N-3,4-bis(pivaloyloxy)-dopamine",none,,,1,2544
+2544,liposome,lipid S100/mal-PEG2000-DSPE/mPEG2000-DSPE,1.0,,none,peptide,RVG29,receptor mediated,choline transporter,choline transporter,0.0,,134.7,0.25,-13.5,52.52,6.15,normal,i.v.,,,"N-3,4-bis(pivaloyloxy)-dopamine",none,,,13.1346643178704,2544
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,6.5,,10.8,,,brain tumor,i.v.,,,,none,,,,2561
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,5.6,,0.04,,,brain tumor,i.v.,,,,none,,,,2561
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,5.2,,-15.3,,,brain tumor,i.v.,,,,none,,,,2561
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,6.5,,10.8,,,brain tumor,i.v.,,,,ultrasound,,,,2561
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,5.6,,0.04,,,brain tumor,i.v.,,,,ultrasound,0.016,,,2561
+2561,gold nanoparticles,HAuCl4/CuCl2,1.0,,none,none,,passive transport,,,0.0,,5.2,,-15.3,,,brain tumor,i.v.,,,,ultrasound,,,,2561
+2605,liposome,SPC,1.0,,none,none,,,,,,,97.66,0.206,-9.86,93.15,,brain tumor,i.v.,,,,,,,,2605
+2605,liposome,SPC,1.0,,none,folic acid,Folic,receptor mediated,others,others,0.0,,98.42,0.211,-10.8,92.29,,brain tumor,i.v.,,,DID,none,,,1.34042553191489,2605
+2605,liposome,SPC,1.0,,none,peptide,"KIKKVKKKGRKKIKKVKKKGRK-cys, dNP2-cys",receptor mediated,others,others,0.0,,96.05,0.189,-4.36,92.83,,brain tumor,i.v.,,,DID,none,,,2.72340425531915,2605
+2605,liposome,SPC,1.0,,none,others,"Folic AND KIKKVKKKGRKKIKKVKKKGRK-cys, dNP2-cys",receptor mediated,others,others,0.0,,104.1,0.23,-6.52,92.83,,brain tumor,i.v.,,,DID,none,,,3.53191489361702,2605
+2605,liposome,SPC,1.0,,none,others,"acid-cleavable Folic AND KIKKVKKKGRKKIKKVKKKGRK-cys, dNP2-cys",receptor mediated,others,others,0.0,,103.4,0.211,-6.64,92.37,,brain tumor,i.v.,,,DID,none,,,3.74468085106383,2605
+2613,polymer-based nanoparticles,PLGA,1.0,30.0,polysorbate 80,none,,passive transport,,,0.0,,250.0,0.11,-18.0,30.0,,brain tumor,i.v.,,,Fe,magnetic field,0.0022,,1.27580607747622,2613
+2613,polymer-based nanoparticles,PLGA,1.0,30.0,polysorbate 80,none,,passive transport,,,,,203.0,0.07,-21.0,31.0,,brain tumor,i.v.,,,,none,0.0016956,,0.983298538622129,2613
+2613,polymer-based nanoparticles,PLGA,1.0,30.0,none,none,,passive transport,,,,,,,,,,,,,,,none,0.0017244,,1,2613
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE ,1.0,5.0,none,none,,,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,1,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/DA7R-PEG3400-DSPE,1.0,6.0,none,peptide,DA7R (DRDPDPDLDWDTDA),receptor mediated,others,"vascular endothelial growth factor receptor 2, vascular endothelial growth factor receptor 2",0.0,,,,,,,normal,i.v.,,,DiR,none,,,1.384615,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/MC-PEG3400-DSPE,1.0,6.0,none,others,Myristic acid (MC),receptor mediated,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,4.884615,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/MC-PEG3400-DSPE,1.0,6.0,none,others,"Myristic acid-DRDPDPDLDWDTDA, MC-DA7R",receptor mediated,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,,6,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE ,1.0,5.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,1,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/MC-PEG3400-DSPE,1.0,6.0,none,peptide,DA7R (DRDPDPDLDWDTDA),receptor mediated,others,"vascular endothelial growth factor receptor 2, vascular endothelial growth factor receptor 2",0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,1.652174,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/MC-PEG3400-DSPE,1.0,6.0,none,others,Myristic acid (MC),receptor mediated,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,3.782609,2625
+2625,liposome,cholesterol/HSPC/mPEG2000-DSPE/MC-PEG3400-DSPE,1.0,6.0,none,others,"Myristic acid-DRDPDPDLDWDTDA, MC-DA7R",receptor mediated,,,0.0,,,,,,,brain tumor,i.v.,,,DiR,none,,,8.086957,2625
+2626,gold nanoparticles,Cu/Au,0.0,,none,none,,passive transport,,,0.0,,5.6,,-0.4,,,brain tumor,i.v.,,,64Cu,none,0.666,,,2626
+2629,others,layered double hydroxide/bovine serum albumin,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Cy7,none,,,,2629
+2629,others,layered double hydroxide/bovine serum albumin,0.0,,none,peptide,Angiopep-2(TFFYGGSRGKRNNFKTEEYC),receptor mediated,low density lipoprotein-related receptor,,0.0,,175.0,0.193,-15.0,,,brain tumor,i.v.,,,Cy7,none,,,1.75,2629
+2629,others,layered double hydroxide/bovine serum albumin,0.0,,none,peptide,RVG29 (TWMPENPRPGTPCDIFTNSRGKRASNGGGGGGC) ,receptor mediated,choline transporter,nicotinic acetylcholine receptors (nAchR) ,0.0,,176.0,0.185,-13.8,,,brain tumor,i.v.,,,Cy7,none,,,1,2629
+2631,polymer-based nanoparticles,PAMAM(G4),0.0,,none,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,Cy5,none,0.03816842105,,,2631
+2631,polymer-based nanoparticles,PAMAM(G4),0.0,,none,glycosol,Mannose,receptor mediated,hexose transporter,Mannose receptor [Cluster of Differentiation (CD) 206] ,0.0,,,,,,,others,i.v.,,,Cy5,none,0.05334736842,,"1.397683398
+",2631
+2637,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,0.0,,12.0,,-19.0,,,normal,i.v.,,,,laser,0.090064795,,,2637
+2637,gold nanoparticles,Au,1.0,33.3,none,peptide,Transferrin (230 peptides),receptor mediated,transferrin receptor,,0.0,,12.0,,2.0,,,normal,i.v.,,,,laser,0.00213822894,,2.374100719,2637
+2637,gold nanoparticles,Au nanorod,0.0,,none,none,,passive transport,,,0.0,,,,2.0,,,normal,i.v.,,,,laser,0.074514,,,2637
+2637,gold nanoparticles,Au nanorod,1.0,33.3,none,peptide,Transferrin (169 peptides),receptor mediated,transferrin receptor,,0.0,,,,2.8,,,normal,i.v.,,,,laser,0.100432,,1.347826087,2637
+2637,gold nanoparticles,Au nanorod,1.0,33.3,none,peptide,Transferrin (169 peptides),receptor mediated,transferrin receptor,,0.0,,,,2.8,,,normal,i.v.,,,,laser,0.207991,,2.791304348,2637
+2637,,,,,,,,,,,,,,,,,,,,,,,,,,,2637
+2650,others,SPION,1.0,,none,none,,passive transport,,,0.0,,113.2,,-28.1,,,brain tumor,i.v.,,,Dil,none,,,1,2650
+2650,others,SPION,1.0,,none,peptide,RGE(RGERPPR),receptor mediated,others,NPR-1,0.0,,122.7,,-24.1,,,brain tumor,i.v.,,,Dil,none,,,2.85,2650
+2656,others,CeO2,1.0,,oleic acid,none,,,,,,,,,,,,,,,,,,,,,2656
+2656,others,CeO2,1.0,,oleic acid,peptide,Angiopep-2 (TFFYGGSRGKRNNFKTEEYC) ,receptor mediated,,,,,,,,,,,,,,,,,,,2656
+2706,liposome,DOPE/DOTAP/cholesterol,1.0,,none,none,,passive transport,,,0.0,,,,,,,,i.v.,,,DiR,none,0.030204,,1,2706
+2706,liposome,DOPE/DOTAP/cholesterol,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,,,,,,,i.v.,,,DiR,none,0.028296,,0.93682956,2706
+2706,liposome,DOPE/DOTAP/cholesterol,1.0,,none,peptide,penetratin,absorption mediated,others,,0.0,,,,,,,,i.v.,,,DiR,none,0.029628,,0.98092968,2706
+2706,liposome,DOPE/DOTAP/cholesterol,1.0,,none,others,transferrin and penetratin,others,others,,0.0,,,,,,,,i.v.,,,DiR,none,0.043128,,1.42789035,2706
+2723,free drug,,,,,,,passive transport,,,,,,,,,,brain tumor,i.v.,,,IR780,none,,1,,2723
+2723,others,,0.0,,none,none,,passive transport,,,0.0,,172.0,,13.0,,,brain tumor,i.v.,,,IR780,none,,12.879746835443,,2723
+2723,others, cell-penetrating peptide TAT-D-α-tocopheryl polyethylene glycol succinate (TPGS),0.0,,none,cell-penetrating peptide,cell-penetrating peptide TAT,absorption mediated,,,0.0,,177.0,,22.0,,,brain tumor,i.v.,,,IR780,none,,17.9746835443038,1.3955773955774,2723
+2728,free drug,,,,,,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,,none,,1,,2728
+2728,cationic liposome,DOTAP/cholesterol/DOPC/DSPE-PEG2000,1.0,10.0,none,others,Angiopep-2,receptor mediated,others,LRP-1,0.0,,88.0,,9.54,,,brain tumor,i.v.,0.5,,Cy5-siRNA,none,,3.2700000025477,,2728
+2764,polymer-based nanoparticles,oxidized nanocrystalline mesoporous carbon,1.0,,none,peptide,pep-22,receptor mediated,low density lipoprotein-related receptor,LDLR,0.0,,224.8,,-40.5,,,brain tumor,i.v.,,,DOX,none,,,1.4549356223176,2764
+2764,polymer-based nanoparticles,oxidized nanocrystalline mesoporous carbon,1.0,,none,none,,passive transport,,,0.0,,156.1,,-58.0,,,brain tumor,i.v.,,,DOX,none,,,1,2764
+2769,polymer-based nanoparticles,NH2 of PEG,1.0,,none,peptide,RVG,receptor mediated,choline transporter,acetylcholine receptor,0.0,,101.0,,6.4,,,normal,i.v.,,,Ru,none,,,,2769
+2769,polymer-based nanoparticles,NH2 of PEG,1.0,,,none,,passive transport,,,,,110.0,,-24.9,,,normal,i.v.,,,Ru,none,,,,2769
+2775,solid lipid nanoparticles,Glyceryl monostearate/SL/stearic acid,0.0,,tween 80,none,,passive transport,,,,,79.0,0.21,-20.0,90.0,,brain tumor,i.v.,,,DTX,none,0.00332316,1.65001340602377,,2775
+2775,solid lipid nanoparticles,Glyceryl monostearate/SL/stearic acid,0.0,,tween 80,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,LRP-1,0.0,,111.4,0.31,-16.4,87.0,,brain tumor,i.v.,,,DTX,none,0.0081567,4.04995978192868,,2775
+2805,free drug,,,,,,,,,,0.0,,,,,,,brain tumor,i.v.,,,paclitaxel,none,0.000792,1,,2805
+2805,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,220.4,,1.2,76.5,0.0364,brain tumor,i.v.,,,paclitaxel,none,0.00087,1.09848484848485,,2805
+2805,polymer-based nanoparticles,PLGA,0.0,,none,peptide,L-carnitine,receptor mediated,others,Na+-coupled carnitine transporter 2,0.0,,275.3,,1.8,65.4,0.031,brain tumor,i.v.,,,paclitaxel,none,0.00614,7.75252525252525,7.05747126436782,2805
+2805,polymer-based nanoparticles,PEG500-PLGA,1.0,,none,peptide,L-carnitine,receptor mediated,others,Na+-coupled carnitine transporter 2,0.0,,204.1,,1.5,71.0,0.0338,brain tumor,i.v.,,,paclitaxel,none,0.0040446,5.10681818181818,4.64896551724138,2805
+2805,polymer-based nanoparticles,PEG1000-PLGA,1.0,,none,peptide,L-carnitine,receptor mediated,others,Na+-coupled carnitine transporter 2,0.0,,205.6,,1.2,91.4,0.0435,brain tumor,i.v.,,,paclitaxel,none,0.009049,11.4255050505051,10.4011494252874,2805
+2805,polymer-based nanoparticles,PEG2000-PLGA,1.0,,none,peptide,L-carnitine,receptor mediated,others,Na+-coupled carnitine transporter 2,0.0,,206.9,,1.4,57.8,0.0275,brain tumor,i.v.,,,paclitaxel,none,0.0009,1.13636363636364,1.03448275862069,2805
+2843,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,DiR,none,0.1030928,1,,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide,0.0,,none,none,,passive transport,,,0.0,,107.0,,-40.9,,,normal,i.v.,,,DiR,none,0.2247423,2.18,1,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide/PS,0.0,,none,others,phosphatidylserine (PS),cell mediated,,,0.0,,124.0,,-46.1,,,normal,i.v.,,,DiR,none,0.3608247,3.5,1.605505,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide/PA,0.0,,none,others,phosphatidic acid (PA),cell mediated,,,0.0,,137.0,,-50.6,,,normal,i.v.,,,DiR,none,0.2948454,2.86,1.311927,2843
+2843,free drug,,,,,,,,,,,,,,,,,normal,i.p.,,,DiR,none,0.123711,1,,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide,0.0,,none,none,,passive transport,,,0.0,,107.0,,-40.9,,,normal,i.p.,,,DiR,none,0.216495,1.75,1,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide/PS,0.0,,none,others,phosphatidylserine (PS),cell mediated,,,0.0,,124.0,,-46.1,,,normal,i.p.,,,DiR,none,0.352577,2.85,1.628571,2843
+2843,solid lipid nanoparticles,stearic acid/phospholpon 90G/nicotinamide/PA,0.0,,none,others,phosphatidic acid (PA),cell mediated,,,0.0,,137.0,,-50.6,,,normal,i.p.,,,DiR,none,0.276289,2.233333,1.27619,2843
+2847,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,156.9,,,,,brain tumor,i.v.,,,DiR,none,,,1,2847
+2847,polymer-based nanoparticles,PLGA,0.0,,none,none,,cell mediated,,,0.0,,10000.0,,,,,brain tumor,i.v.,,,DiR,none,,,2.541667,2847
+2854,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,336.5,0.33,-12.45,5.1,,others,i.n.,,,DiR,none,0.086364,,,2854
+2868,polymer-based nanoparticles,PLGA,1.0,,oleic acid,others,WGA,absorption mediated,,GlcNAc,0.0,,139.0,,-23.3,59.99,,ischemic stroke/reperfusion,i.n.,,,DIR,none,,,1.259,2868
+2899,micelle,DSPE-PEG-Bor/DSPE-PEG-Pep-1/DSPE-PEG /DOPE,1.0,,none,peptide and others,Pep-1 peptide；Borneol(Bor),receptor mediated,amino acid transporter,Interleukin-13 receptor(IL-13R),,,32.6,0.113,-21.3,95.5,3.4,brain tumor,i.v.,,,Carmustine(CMS),none,,,8.34,2899
+2899,micelle,DSPE-PEG-Bor/DSPE-PEG-Pep-1/DSPE-PEG /DOPE,1.0,,none,peptide,Pep-1 peptide,receptor mediated,amino acid transporter,Interleukin-13 receptor(IL-13R),,,30.1,0.102,-19.3,94.5,3.1,brain tumor,i.v.,,,Carmustine(CMS),none,,,3.67,2899
+2899,micelle,DSPE-PEG/DOPE,1.0,,none,none,,,,,,,27.5,0.084,-22.9,96.5,3.3,brain tumor,i.v.,,,Carmustine(CMS),none,,,1,2899
+2901,micelle, ch-K5(s-s)R8-An/pEGFP,0.0,,none,peptide,MMP-2-responsive peptides,receptor mediated,low density lipoprotein-related receptor,Angiopep-2,,,119.5,,25.0,,,brain tumor,i.v.,,,,none,,,2.6,2901
+2937,liposome,EPC/cholesterol/DSPE-PEG,1.0,,none,none,,passive transport,,,0.0,,92.5,,20.7,,,normal,i.v.,,,doxorubicin,none,,,1,2937
+2941-2960,liposome,DOTAP/EPC/cholesterol/DSPE-PEG,1.0,,oleic acid,cell-penetrating peptide,octa-arginine (R8),absorption mediated,,,0.0,,95.4,,12.1,,,normal,i.v.,,,doxorubicin,none,,,2.4,2941-2960
+2964,albumin nanoparticles,human serum albumin,0.0,,none,none,,passive transport,,,0.0,,191.4,,-49.0,,,brain tumor,i.v.,,,Cy5.5,others(ultrasound),,,1.55,2964
+2964,albumin nanoparticles,human serum albumin,0.0,,none,none,,passive transport,,,0.0,,191.4,,-49.0,,,brain tumor,i.v.,,,Cy5.5,none,,,1,2964
+2975,solid lipid nanoparticles,Glyceryl monostearate,0.0,,none,none,,passive transport,,,0.0,,386.0,0.481,-3.61,89.01,,normal,i.n.,,,Vinpocetine (VPN),none,,,,2975
+2975,others,,0.0,,none,none,,passive transport,,,0.0,,590.0,0.444,1.89,97.34,,normal,i.n.,,,Vinpocetine (VPN),none,,,,2975
+2975,liposome,,1.0,25.0,none,none,,passive transport,,,0.0,,205.0,0.494,-52.27,59.05,,normal,i.n.,,,Vinpocetine (VPN),none,,,,2975
+2975,others,,0.0,,none,none,,passive transport,,,1.0,TPGS,13.0,0.484,-2.79,100.0,,normal,i.n.,,,Vinpocetine (VPN),none,0.001588,,9.925,2975
+2975,others,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,Vinpocetine (VPN),none,0.00016,,1,2975
+2975,,,,,,,,,,,,,,,,,,,,,,,,,,,2975
+2993,gold nanoparticles,Au,1.0,,none,antibody,OX26,receptor mediated,transferrin receptor,transferrin receptor,0.0,,32.0,,3.4,,,normal,i.v.,,,,none,,,35.5,2993
+2993,gold nanoparticles,Au,0.0,,none,none,,passive transport,,,0.0,,25.27,,-40.4,,,normal,i.v.,,,,none,,,1,2993
+3076,polymer-based nanoparticles,cholera toxin B subunit/chelated gadolinium,0.0,,none,others,cholera toxin B subunit,cell mediated,others,monosialoganglioside GM1,0.0,,110.0,,-11.0,,,Alzheimer's disease,i.n.,,,Cy5.5,none,,,1.43776824,3076
+3076,albumin nanoparticles,bovine serum albumin/chelated gadolinium,0.0,,none,none,,passive transport,,,0.0,,143.0,,-14.7,,,Alzheimer's disease,i.n.,,,Cy5.5,none,,,,3076
+3078,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,MTX,none,1.0,,,3078
+3078,solid lipid nanoparticles,sodium stearate/PVA9000,0.0,,none,none,,passive transport,,,0.0,,353.0,0.24,,,,normal,i.v.,,,MTX,none,0.000463,,1,3078
+3078,solid lipid nanoparticles,sodium stearate/PVA9000/,0.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,0.0,,437.0,0.122,,,,normal,i.v.,,,MTX,none,0.000289,,0.625,3078
+3078,solid lipid nanoparticles,sodium stearate/PVA9000/,0.0,,none,others,insulin,receptor mediated,insulin receptor,,0.0,,429.0,0.222,,,,normal,i.v.,,,MTX,none,0.000289,,0.625,3078
+3078,solid lipid nanoparticles,sodium stearate/PVA9000/stearyl-PEG-maleimide,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,,0.0,,500.0,0.209,,,,normal,i.v.,,,MTX,none,0.001561,,3.375,3078
+3078,solid lipid nanoparticles,sodium stearate/PVA9000/stearyl-PEG-maleimide,1.0,,none,others,insulin,receptor mediated,insulin receptor,,0.0,,445.0,0.103,,,,normal,i.v.,,,MTX,none,0.001908,,4.125,3078
+3081,emulsion,Indinaviroleic acid/α-tocopherol/span 8 / olive oil ,0.0,,oleic acid,none,,others,others,,0.0,,110.3,0.2,-34.6,,,normal,i.v.,,,Indinaviroleic acid,none,0.00414,,1,3081
+3081,emulsion,Indinaviroleic acid/α-tocopherol/span 8 / olive oil ,0.0,,oleic acid,non-antibody protein, Lactoferrin ,receptor mediated,transferrin receptor,,0.0,,112.6,0.19,-33.2,,,normal,i.v.,,,Indinaviroleic acid,none,0.00934,,2.25,3081
+3098,others,,0.0,,none,none,,passive transport,others,,0.0,,,,,,,normal,i.v.,,,native nimotuzumab,none,0.001224,,1,3098
+3098,,,0.0,,none,others,"Acetylcholine,Choline",receptor mediated,choline transporter," nicotinic acetylcholine receptor (nAChRs),choline transporter (ChT)",0.0,,25.0,,,,,normal,i.v.,,,native nimotuzumab,none,0.0216,,17.64,3098
+3118,others,mesoporous silica,,,none,none,,passive transport,,,,,105.77,,-15.9,95.1,,normal,i.p.,,,Thymoquinone（TQ）,none,0.055578,1.11,,3118
+3118,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.p.,,,Thymoquinone（TQ）,none,0.049766,1,,3118
+3120,others,mPEG-PCL/SPION,1.0,,none,none,,passive transport,,,,,137.0,0.12,-6.5,78.5,15.5,normal,i.v.,,,naproxen,magnetic field,0.01315,3.67,,3120
+3120,others,mPEG-PCL/SPION,1.0,,none,none,,passive transport,,,,,242.0,0.26,-4.8,84.3,15.0,normal,i.v.,,,naproxen,magnetic field,0.00655,1.83,,3120
+3120,free drug,,,,,,,passive transport,,,,,,,,,,normal,i.v.,,,naproxen,none,0.0036,1,,3120
+3139,solid lipid nanoparticles,PLGA,0.0,,SDS,none,,passive transport,,,,,60.3,0.27,-31.0,51.3,,normal,i.v.,,,,none,0.035774,,,3139
+3145,others,Kolliphor HS15/lipoid S75/Labrafac lipophile WL 1349,0.0,,none,none,,passive transport,,,,,21.11,0.037,,,,normal,i.v.,,,DiD,none,0.0018,,,3145
+3145,others,Kolliphor HS15/lipoid S75/Labrafac lipophile WL 1349,0.0,,none,none,,passive transport,,,,,40.43,0.105,,,,normal,i.v.,,,DiD,none,0.0011,,,3145
+3145,others,Kolliphor HS15/lipoid S75/Labrafac lipophile WL 1349,0.0,,none,none,,passive transport,,,,,38.6,0.106,,,,normal,i.v.,,,DiD,none,0.003,,,3145
+3145,others,Kolliphor HS15/lipoid S75/Labrafac lipophile WL 1349,0.0,,cannabidiol,none,,passive transport,,,,,52.4,0.064,,,,normal,i.v.,,,DiD,none,0.0011,,,3145
+3152,solid lipid nanoparticles,cetyl palmitate/Cremephor RH 40/Peceo/propylene glycol ,1.0,,none,peptide,iRGD (CCRGDKGPDC),receptor mediated,others,αv integrin,0.0,,15.4,,,,,brain tumor,i.v.,,,,none,,,1,3152
+3168,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,cy5.5,none,,1,,3168
+3168,gold nanoparticles,Au,1.0,,none,none,,passive transport,,,0.0,,18.03,,,,,normal,i.v.,,,cy5.5,none,,10.8609271523179,,3168
+3171,polymer-based nanoparticles,PEG-phenylboronic ester-modified polylysine,1.0,100.0,none,none,,passive transport,,,0.0,,58.7,0.18,5.27,,,ischemic stroke/reperfusion,i.v.,,,BODIPY,none,0.00027,,,3171
+3171,polymer-based nanoparticles,PEG-phenylboronic ester-modified polylysine,1.0,100.0,none,peptide,fibrin-binding peptide (CREKA),absorption mediated,,,0.0,,65.8,0.16,6.42,,,ischemic stroke/reperfusion,i.v.,,,BODIPY,none,0.00037,,1.37037037037037,3171
+3181,others,Se,1.0,,none,antibody,OX26,receptor mediated,transferrin receptor,,0.0,,12.0,,1.17,,,"stroke(ischemic stroke, hemorrhagic stroke)",i.p.,,,none,none,0.0001,,,3181
+3181,others,Se,1.0,,none,none,,passive transport,,,0.0,,,,-24.0,,,"stroke(ischemic stroke, hemorrhagic stroke)",i.p.,,,none,none,0.0,,,3181
+3199,polymer-based nanoparticles,PLGA-PLL,1.0,10.0,none,peptide,Angiopep-2,receptor mediated,others,LRP1,0.0,,116.5,0.129,-9.54,94.46,8.63,normal,i.v.,,178.0,Doxorubicin,none,,,1.36080586080586,3199
+3199,polymer-based nanoparticles,PLGA-PLL,1.0,10.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Doxorubicin,none,,,1,3199
+3199,polymer-based nanoparticles,PLGA-PLL,1.0,10.0,none,peptide,Angiopep-2,receptor mediated,others,LRP1,0.0,,116.5,0.129,-9.54,94.46,8.63,normal,i.v.,,178.0,Doxorubicin,none,,,1.40710382513661,3199
+3199,polymer-based nanoparticles,PLGA-PLL,1.0,10.0,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Doxorubicin,none,,,1,3199
+3199,,,,,,,,,,,,,,,,,,,,,,,,,,,3199
+3213,polymer-based nanoparticles,pluronic F127,0.0,,none,peptide,RGDyK,receptor mediated,,,0.0,,70.0,,,,,brain tumor,i.v.,,,DTX,none,0.011675664,,,3213
+3213,polymer-based nanoparticles,pluronic F127,0.0,,none,,,passive transport,,,0.0,,70.0,,,,,brain tumor,i.v.,,,DTX,none,0.002335176,,,3213
+3213,,,,,,,,,,,,,,,,,,,,,,,,,,,3213
+3222,polymer-based nanoparticles,chitosan,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,"Nicardipine hy-
+drochloride",none,0.006336,,,3222
+3222,polymer-based nanoparticles,chitosan,0.0,,HAMC gel,none,,absorption mediated,,,0.0,,439.6,0.307,21.05,,0.1779,normal,i.n.,,,"Nicardipine hy-
+drochloride",none,0.00552,,0.87,3222
+3222,polymer-based nanoparticles,chitosan,0.0,,HAMC gel+PMMA film,none,,absorption mediated,,,0.0,,,,,,,normal,i.n.,,,"Nicardipine hy-
+drochloride",none,0.007056,,1.11,3222
+3222,polymer-based nanoparticles,chitosan,0.0,,HAMC gel+PLA film,none,,absorption mediated,,,0.0,,,,,,,normal,i.n.,,,"Nicardipine hy-
+drochloride",none,0.003888,,0.61,3222
+3222,,,,,,,,,,,,,,,,,,,,,,,,,,,3222
+3246,liposome,DOPE/DOTAP/cholesterol/DSPE-PEG ,1.0,4.0,none,non-antibody protein,HIV-1 trans-activating protein (TAT),absorption mediated,,,0.0,,,,,,,normal,i.v.,4.0,,none,none,0.0112212,,,3246
+3246,liposome,DOPE/DOTAP/cholesterol/DSPE-PEG ,1.0,4.0,none,non-antibody protein,HIV-1 trans-activating protein (TAT) and transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,,,,,,normal,i.v.,4.0,,none,none,0.02754,,,3246
+3288,emulsion,mixing fish oil,0.0,,none,none,,cell mediated,,,0.0,,155.6,0.067,25.3,,,normal,i.v.,,,Rapamycin,none,0.004,,,3288
+3288,emulsion,mixing fish oil,1.0,0.3,none,none,,cell mediated,,,0.0,,138.6,0.049,17.0,,,normal,i.v.,,,Rapamycin,none,0.0069,,,3288
+3288,emulsion,mixing fish oil,0.0,,none,none,,cell mediated,,,0.0,,455.7,0.45,27.2,,,normal,i.v.,,,Rapamycin,none,0.0046,,,3288
+3288,emulsion,mixing fish oil,1.0,0.3,none,none,,cell mediated,,,0.0,,870.2,0.21,24.3,,,normal,i.v.,,,Rapamycin,none,0.0064,,,3288
+3288,free drug,,0.0,,none,none,,cell mediated,,,0.0,,,,,,,normal,i.v.,,,Rapamycin,none,0.0094,,,3288
+3288,,,,,,,,,,,,,,,,,,,,,,,,,,,3288
+3304,polymer-based nanoparticles,PVA/PEG,1.0,,none,antibody,anti-VCAM-1 antibody,others,others,VCAM1,0.0,,200.0,,,,,others,i.v.,,,tritium,none,0.01681491,,4.272727,3304
+3304,polymer-based nanoparticles,PVA/PEG,1.0,,none,none,,passive transport,,,0.0,,200.0,,,,,others,i.v.,,,tritium,none,0.0039354,,,3304
+3304,polymer-based nanoparticles,PVA/PEG,1.0,,none,antibody,anti-VCAM-1 antibody,others,others,VCAM1,0.0,,,,,,,others,i.v.,,,tritium,none,0.01806708,,4.391304348,3304
+3304,polymer-based nanoparticles,PVA/PEG,1.0,,none,none,,passive transport,,,0.0,,,,,,,others,i.v.,,,tritium,none,0.00411429,,,3304
+3308,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,bevacizumab,none,0.019,1,,3308
+3308,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,185.0,0.056,,82.47,,normal,i.n.,,,bevacizumab,none,0.0354,1.863158,,3308
+3313,polymer-based nanoparticles,poly(methacrylic acid)-polysorbate 80-grafted starch,0.0,,none,none,,passive transport,,,0.0,,138.0,0.22,-42.3,,,brain tumor,i.v.,,,HiLyte Fluor 750 (HF 750) ,none,,,,3313
+3313,polymer-based nanoparticles,poly(methacrylic acid)-polysorbate 80-grafted starch,0.0,,none,peptide,iRGD,receptor mediated,others,αvβ3 and αvβ5,0.0,,126.0,0.2,-43.6,,,brain tumor,i.v.,,,HiLyte Fluor 750 (HF 750) ,none,,,2.636363636,3313
+3356,polymer-based nanoparticles,mPEG-PCL,1.0,,none,none,,passive transport,,,0.0,,107.15,0.22,0.79,,,Alzheimer's disease,p.o.,,,Donepezil hydrochloride (DNP),none,0.077616,0.77,1,3356
+3356,polymer-based nanoparticles,mPEG-PCL,1.0,,none,peptide,amyloid beta,transporter mediated,others,ApoE3,0.0,,124.26,0.17,-6.97,,,Alzheimer's disease,p.o.,,,Donepezil hydrochloride (DNP),none,0.120008,1.19,1.55,3356
+3356,polymer-based nanoparticles,mPEG-PCL,1.0,,polysorbate 80,peptide,amyloid beta,transporter mediated,others,ApoE3,0.0,,137.65,0.19,-2.08,,,Alzheimer's disease,p.o.,,,Donepezil hydrochloride (DNP),none,0.218176,2.17,2.81,3356
+3356,free drug,,,,,,,,,,,,,,,,,Alzheimer's disease,p.o.,,,Donepezil hydrochloride (DNP),none,0.100544,1,,3356
+3393,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,Memantine,none,2.925e-05,1,,3393
+3393,polymer-based nanoparticles,PAMAM,0.0,,none,none,,passive transport,,,0.0,,11.54,0.19,19.21,,,normal,i.v.,,,Memantine,none,6.588e-05,2.25230769,,3393
+3393,polymer-based nanoparticles,PAMAM,0.0,,none,peptide,lactoferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,131.72,0.16,20.13,,,normal,i.v.,,,Memantine,none,0.00037314,12.7569231,5.66393443,3393
+3415,free drug,,,,,,,,,,0.0,,,,,,,normal,i.v.,,,siRNR,none,0.0123,1,,3415
+3415,others,,0.0,,none,peptide,15-amino acid peptide GYRPVHNIRGHWAPG (GYR peptide),receptor mediated,transferrin receptor,transferrin receptor,0.0,,169.0,,1.55,,,normal,i.v.,,,siRNR,none,0.0246,2,,3415
+3415,,,,,,,,,,,,,,,,,,,,,,,,,,,3415
+3429,others,SPION,1.0,,none,folic acid,folic acid (FA),receptor mediated,others,folate receptor,0.0,,58.61,0.25,-29.85,61.0,6.85,brain tumor,i.v.,,,Temozolomide (TMZ),magnectic field,,,1.76083707,3429
+3429,others,SPION,1.0,,none,folic acid,folic acid (FA),receptor mediated,others,folate receptor,0.0,,58.61,0.25,-29.85,61.0,6.85,brain tumor,i.v.,,,Temozolomide (TMZ),none,,,1.45720250521921,3429
+3429,others,SPION,1.0,,none,none,,passive transport,,,0.0,,55.24,0.194,-34.61,68.0,7.34,brain tumor,i.v.,,,Temozolomide (TMZ),magnectic field,,,1,3429
+3429,others,SPION,1.0,,none,none,,passive transport,,,0.0,,55.24,0.194,-34.61,68.0,7.34,brain tumor,i.v.,,,Temozolomide (TMZ),none,,,1,3429
+3450,polymer-based nanoparticles,PLGA,0.0,,none,peptide,specific peptide against Tf receptor,receptor mediated,transferrin receptor,transferrin receptor,0.0,,216.3,0.067,-19.6,,,normal,i.n.,,,Venlafaxine,none,,,,3450
+3450,polymer-based nanoparticles,PLGA,0.0,,none,peptide,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,218.6,0.078,-19.5,,,normal,i.n.,,,Venlafaxine,none,,,,3450
+3450,polymer-based nanoparticles,PLGA,0.0,,none,none,,passive transport,,,0.0,,206.3,0.041,-26.5,,,normal,i.n.,,,Venlafaxine,none,,,,3450
+3457,polymer-based nanoparticles,Trimethyl Chitosan Hydrogel ,0.0,,none,none,,passive transport,,,0.0,,204.0,0.25,27.0,80.0,,normal,i.n.,,,D-9-progesterone,none,0.0427,,,3457
+3457,,,,,,,,,,,,,,,,,,,,,,,,,,,3457
+3458,others,Iron Oxide ,0.0,,none,none,,passive transport,,,0.0,,33.0,,,,,normal,i.v.,,,none,none,0.013457,,,3458
+3458,,,,,,,,,,,,,,,,,,,,,,,,,,,3458
+3444,liposome,PEG2000-DSPE,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,177.45,0.212,-6.5,65.32,,normal,i.v.,,,DOX,none,,8.3,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,cell-penetrating peptide,TAT,absorption mediated,,,0.0,,173.6,0.259,20.35,66.91,,normal,i.v.,,,DOX,none,,7.4,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,cell-penetrating peptide,QLPVM,absorption mediated,,,0.0,,171.9,0.197,19.27,65.06,,normal,i.v.,,,DOX,none,,7.6,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,174.9,0.254,15.03,65.72,,normal,i.v.,,,DOX,none,,15.3,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,175.57,0.246,14.87,66.47,,normal,i.v.,,,DOX,none,,14.8,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,174.45,0.173,5.85,64.8,,normal,i.v.,,,DOX,none,,2.3,,3444
+3444,free drug,,,,none,,,,,,0.0,,,,,,,normal,i.v.,,,DOX,none,,1,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,177.45,0.212,-6.5,53.84,,normal,i.v.,,,erlotinib,none,,1.76,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,cell-penetrating peptide,TAT,absorption mediated,,,0.0,,173.6,0.259,20.35,52.67,,normal,i.v.,,,erlotinib,none,,1.16,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,cell-penetrating peptide,QLPVM,absorption mediated,,,0.0,,171.9,0.197,19.27,51.28,,normal,i.v.,,,erlotinib,none,,1.05,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,174.9,0.254,15.03,54.61,,normal,i.v.,,,erlotinib,none,,2.83,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,175.57,0.246,14.87,53.37,,normal,i.v.,,,erlotinib,none,,2.79,,3444
+3444,liposome,PEG2000-DSPE,1.0,,none,,,,,,0.0,,174.45,0.173,5.85,53.79,,normal,i.v.,,,erlotinib,none,,1.09,,3444
+3444,free drug,,,,,,,,,,0.0,,,,,,,normal,i.v.,,,erlotinib,none,,1,,3444
+3444,,,,,,,,,,,,,,,,,,,,,,,,,,,3444
+3531,liposome,SPC,1.0,0.4,none,peptide,rabies virus glycoprotein-derived peptide,receptor mediated,,,0.0,,,,,,,others,i.v.,,,Ruthenium Complex,none,,,1.71,3531
+3557,extracellular vesicles,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,DiR,none,,"1.603718744
+",,3557
+3633,polymer-based nanoparticles,,1.0,,none,none,none,passive transport,,,0.0,,182.3,0.217,-7.31,96.4,,normal,i.v.,,,docetaxel,none,0.0011,,,3633
+3637,polymer-based nanoparticles,PEG-PLA,1.0,,none,none,,passive transport,,,0.0,,,,,,,Alzheimer's disease,i.n.,,,DiR,none,,,1,3637
+3637,polymer-based nanoparticles,PEG-PLA,1.0,,none,others,Wheat germ agglutinin,absorption mediated,others,oligosaccharides,0.0,,191.0,0.25,,75.6,,Alzheimer's disease,i.n.,,,DiR,none,,,1.21,3637
+3670,polymer-based nanoparticles,PEG-b-PCL,1.0,31.7,none,peptide,Angiopep-2,transporter mediated,low density liproprotein-related receptor,"low-density lipoprotein receptor-related protein
+(LRP)",0.0,,42.0,,,73.6,12.8,normal,i.v.,,,DiR,none,,,2.18,3670
+3670,polymer-based nanoparticles,PEG-b-PCL,1.0,31.7,none,none,,passive transport,,,0.0,,22.2,,,74.1,12.9,normal,i.v.,,,DiR,none,,,,3670
+3670,,,,,,,,,,,,,,,,,,,,,,,,,,,3670
+3679,others,,0.0,,none,peptide,Angiopep-2,transporter mediated,low density liproprotein-related receptor,"low-density lipoprotein receptor-related protein
+(LRP)",0.0,,120.0,,,,,brain tumor,i.p.,,,Camptothecin (CPT),none,,,,3679
+3679,,,,,,,,,,,,,,,,,,,,,,,,,,,3679
+3678,magnetic nanoparticles,Fe2O3,1.0,,none,none,,passive transport,,,0.0,,10.09,,-28.0,,,brain tumor,i.v.,,,Fe,none,0.08532,,1,3678
+3678,magnetic nanoparticles,Fe2O3,1.0,,none,peptide,"Angiopep-2 (ANG, TFFYGGSRGKRNNFKTEEY",receptor mediated,low density lipoprotein-related receptor,lipoprotein receptor-related protein ,0.0,,14.6,,-46.1,,,brain tumor,i.v.,,,Fe,none,0.09072,,1.06329114,3678
+3678,magnetic nanoparticles,Fe2O3,1.0,,none,none,,passive transport,,,0.0,,10.09,,-28.0,,,brain tumor,i.v.,,,Fe,none,,,1,3678
+3678,magnetic nanoparticles,Fe2O3,1.0,,none,peptide,"Angiopep-2 (ANG, TFFYGGSRGKRNNFKTEEY",receptor mediated,low density lipoprotein-related receptor,lipoprotein receptor-related protein ,0.0,,14.6,,-46.1,,,brain tumor,i.v.,,,Fe,none,,,2.1,3678
+3691,others,Vitamin C/methionine/sodium thiosulfate,0.0,,none,none,,passive transport,,,0.0,,53.0,,,,,normal,i.v.,,,ruthenium,none,,,1,3691
+3691,others,Vitamin C/methionine/sodium thiosulfate/poly-α-cyanoacrylate/Triton-100,0.0,,none,none,,passive transport,,,0.0,,2100.0,,,,,normal,i.v.,,,ruthenium,none,,,1,3691
+3691,others,Vitamin C/methionine/sodium thiosulfate/poly-α-cyanoacrylate/riton-100,0.0,,none,none,,passive transport,,,0.0,,2100.0,,,,,normal,i.v.,,,ruthenium,ultra sound,,,16.547619,3691
+3691,,,,,,,,,,,,,,,,,,,,,,,,,,,3691
+3685,polymer-based nanoparticles,PLGA,0.0,,none,peptide,RGD,receptor mediated,others,αvβ3 receptor,1.0,Glucose ,192.2,0.189,,52.2,3.2,brain tumor,i.v.,,,DOX,none,,,0.833338916619209,3685
+3685,polymer-based nanoparticles,PLGA,0.0,,none,none,,,,,1.0,Glucose ,182.2,0.147,,75.3,4.9,brain tumor,i.v.,,,DOX,none,,,1,3685
+3685,polymer-based nanoparticles,PLGA,0.0,,none,peptide,RGD,receptor mediated,others,αvβ3 receptor,1.0,Glucose ,192.2,0.189,,52.2,3.2,brain tumor,i.n.,,,DOX,none,,,2.03614119379274,3685
+3685,polymer-based nanoparticles,PLGA,0.0,,none,none,,,,,1.0,Glucose ,182.2,0.147,,75.3,4.9,brain tumor,i.n.,,,DOX,none,,,1,3685
+3687,polymer-based nanoparticles,PEG-b-PCL,1.0,,none,peptide,"Angiopep-2
+",receptor mediated,low density lipoprotein-related receptor,LRP,0.0,0,20.6,,,,,normal,i.v.,,,DIR,none,,6.56,2.18518498875173,3687
+3687,polymer-based nanoparticles,PEG-b-PCL,1.0,,,,,,,,,,17.9,,,,,normal,i.v.,,,DIR,none,,3,1,3687
+3712,free drug,PC,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Doxorubicin,ultrasound,,1,,3712
+3712,liposome,PC,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Doxorubicin,none,,1.46311475409836,,3712
+3712,liposome,PC,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,Doxorubicin,ultrasound,,2.25,,3712
+3720,free drug,,0.0,,none,none,,,,,0.0,,,,,,,normal,i.v.,,,pacli-taxel,none,,,,3720
+3720,others,Chitosan oligosaccharide,0.0,,none,none,,passive transport,,,0.0,,41.1,,,78.84,0.0729,normal,i.v.,,,,none,,,,3720
+3720,,,,,,,,,,,,,,,,,,,,,,,,,,,3720
+3720,,Chitosan oligosaccharide,0.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,LRP1,0.0,,73.7,,18.2,,,normal,i.v.,,,,none,,,,3720
+3761,polymer-based nanoparticles,PLGA,0.0,,,,,passive transport,,,,,97.36,0.263,-17.98,82.49,5.09,normal,i.n.,,,thymoquinone (THQ),none,0.004014,14.97,,3761
+3761,free drug,PLGA,0.0,,,,,passive transport,,,,,,,,,,normal,i.n.,,,,none,0.000268,1,,3761
+3761,inorganic nanoparticles,PLGA,0.0,,none,none,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.000972,5.43,,3761
+3761,free drug,PLGA,0.0,,,,,passive transport,,,,,,,,,,normal,i.v.,,,,none,0.000179,1,,3761
+3.251,liposome,DOPE/DOTAP,0.0,,none,peptide,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,130.6,0.147,22.5,83.6,,normal,i.v.,,,lissamine rhodamine-phosphatidylethanolamine,none,,,1.47,3.251
+3.251,,,,,,,,,,,,,132.1,0.143,33.2,86.1,,normal,i.v.,,,lissamine rhodamine-phosphatidylethanolamine,none,,,,3.251
+3769,magnetic nanoparticles,PLGA/SPION,0.0,,none,none,,passive transport,,,,,87.56,0.641,9.14,,,brain tumor,i.v.,,,radiosensitizers  IUdR,magnetic field,0.0031,,1.17,3769
+3769,,,,,,,,,,,,,,,,,,,,,,radiosensitizers  IUdR,,0.0027,,,3769
+3770,micelle,MA4-PEG-CA8/CBA4-PEG-CA8,0.0,,none,none,maltobionic acid,transporter mediated,others,GLUT1 ,0.0,,140.2,0.201,,90.0,,brain tumor,i.v.,,,Cy 7.5,none,,4.06,,3770
+3770,,,,,,,,,,,,,,,,,,,,,,,,,1.11,3.67,3770
+3770,,,,,,,,,,,,,,,,,,,,,,,,,0.97,4.19,3770
+3770,,,,,,,,,,,,,,,,,,,,,,,,,0.985,4.12,3770
+3770,,,,,,,,,,,,,,,,,,,,,,,,,,,3770
+3783,liposome,SPC/cholesterol/DSPE-PEG2000-OMe/DSPE-PEG2000-R6dGR,1.0,5.0,none,peptide,R6dGR,receptor mediated,others,αvβ3,0.0,,100.0,,,,,brain tumor,i.v.,,,PPR/ p DNA-cy5,none,,"2.304
+",,3783
+3788,free drug, catechin hydrate,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,catechin hydrate,none,0.001413,1,,3788
+3788,free drug, catechin hydrate,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,catechin hydrate,none,0.000729,1,,3788
+3788,polymer-based nanoparticles, catechin hydrate/PVA/PLGA,0.0,,none,none,,passive transport,,,0.0,,93.69,0.104,-12.39,,,normal,i.n.,,,catechin hydrate,none,0.011256,7.967742,,3788
+3788,polymer-based nanoparticles, catechin hydrate/PVA/PLGA/chitosan,0.0,,chitosan,none,,passive transport,,,0.0,,106.31,0.239,21.64,80.36,0.0598,normal,i.n.,,,catechin hydrate,none,0.018091,12.80645,1.607287449,3788
+3788,polymer-based nanoparticles, catechin hydrate/PVA/PLGA,0.0,,none,none,,passive transport,,,0.0,,93.69,0.104,-12.39,,,normal,i.v.,,,catechin hydrate,none,0.001732,2.375,,3788
+3788,polymer-based nanoparticles, catechin hydrate/PVA/PLGA/chitosan,0.0,,chitosan,none,,passive transport,,,0.0,,106.31,0.239,21.64,80.36,0.0598,normal,i.v.,,,catechin hydrate,none,0.002278,3.125,1.315789474,3788
+3798,liposome,COATSOME NC-50/stearyl cyclic SLS derivative (SLS-STR peptide)/cholesterol,0.0,,none,peptide,stearyl cyclic SLS derivative (SLS-STR peptide),receptor mediated,,,0.0,,150.0,,,,,normal,i.v.,,,DiO,none,0.021564,,,3798
+3813,,,,,,,,,,,,,,,,,,,,,,,,,,,3813
+3869,cationic liposome,DSPE-PEG2000,1.0,,none,none,,transcytosis,,,0.0,,67.1,,8.7,,,brain tumor,i.v.,,,NIR-dye,none,0.396,,,3869
+3869,cationic liposome,DSPE-PEG2000,1.0,,none,none,,transcytosis,,,0.0,,60.2,,13.0,,,brain tumor,i.v.,,,NIR-dye,none,0.504,,,3869
+3869,cationic liposome,DSPE-PEG2000,1.0,,none,none,,transcytosis,,,0.0,,64.6,,14.6,,,brain tumor,i.v.,,,NIR-dye,none,0.3564,,,3869
+3835,inorganic nanoparticles,phospholipin 90G/propylene glycol/vitamin E,0.0,,none,none,,passive transport,,,0.0,,209.7,0.366,,,,normal,i.n.,,,Tramadol,none,0.024821,6.79,,3835
+3835,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,Tramadol,none,0.003657,1,,3835
+3877,dendrimer,PAMAM（G5）,0.0,,none,none,,passive transport,,,0.0,,6.4,,25.9,,,brain tumor,i.v.,,,Arsenic trioxide,none,0.009936,,,3877
+3877,dendrimer,PAMAM（G5）,0.0,,none,peptide,iRGD,receptor mediated,others,αvβ3,0.0,,21.8,,23.5,,,brain tumor,i.v.,,,Arsenic trioxide,none,0.01926,,,3877
+3877,dendrimer,PAMAM（G5）,0.0,,none,peptide, TGN peptide (TGNYKALHPHNG),receptor mediated,others,,0.0,,24.3,,24.3,,,brain tumor,i.v.,,,Arsenic trioxide,none,0.024984,,,3877
+3877,dendrimer,PAMAM（G5）,0.0,,none,peptide,iRGD and TGN,receptor mediated,others,αvβ3,0.0,,27.4,,17.6,,,brain tumor,i.v.,,,Arsenic trioxide,none,0.027684,,,3877
+3887,free drug,,,,,,,,,,0.0,,,,,,,brain tumor,i.n.,,,Levofloxacin,none,8.1e-05,1,,3887
+3887,solid lipid nanoparticles,Compritol 888 ATO/Stearic acid,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.n.,,,Levofloxacin,none,0.000946,11.679012345679,,3887
+3887,free drug,,,,,,,,,,0.0,,,,,,,brain tumor,i.n.,,,Doxycycline,none,0.000348,1,,3887
+3887,solid lipid nanoparticles,Compritol 888 ATO/Stearic acid,0.0,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.n.,,,Doxycycline,none,0.00081,2.32758620689655,,3887
+3890,free drug,,,,,,,,,,0.0,,,,,,,Alzheimer's disease,i.n.,,,memantine,none,0.008352,1,,3890
+3890,emulsion,Labrasol,0.0,,none,none,,passive transport,,,0.0,,11.0,0.08,-19.6,,,Alzheimer's disease,i.n.,,,memantine,none,0.01296,1.55172413793103,,3890
+3890,emulsion,Labrasol,0.0,,none,none,,passive transport,,,0.0,,11.0,0.08,-19.6,,,Alzheimer's disease,i.g.,,,memantine,none,0.002016,,,3890
+3890,emulsion,Labrasol,0.0,,none,none,,passive transport,,,0.0,,11.0,0.08,-19.6,,,Alzheimer's disease,i.v.,,,memantine,none,0.006228,,,3890
+3892,liposome,DOPC/CH/L-α-phosphatidic acid,0.0,,none,none,,passive transport,,,0.0,,,,,,,Parkinson's disease,i.p.,,,dopamine,none,,,,3892
+3892,liposome,DOPC/CH/L-α-phosphatidic acid,0.0,,none,non-antibody protein,amyloid precursor protein,receptor mediated,,,0.0,,100.0,,-27.0,,,Parkinson's disease,i.p.,0.5,,dopamine,none,,,11.2,3892
+3894,polymer-based nanoparticles,poly(ethylene glycol)-block-poly(2-methyl-2-benzoxycarbonyl-propylene carbonate),1.0,100.0,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,BRD4 inhibitor JQ1,none,0.00016,,,3894
+3894,polymer-based nanoparticles,poly(ethylene glycol)-block-poly(2-methyl-2-benzoxycarbonyl-propylene carbonate),1.0,100.0,none,peptide,ApoE mimetic peptide,receptor mediated,low density lipoprotein-related receptor,very low-density lipoprotein (VLDL) receptor,0.0,,,,,,,brain tumor,i.v.,,,BRD4 inhibitor JQ1,none,0.0005,,3.125,3894
+3895,polymer-based nanoparticles,PEG-polycaprolactone,1.0,,none,none,,passive transport,,,0.0,,72.6,,5.98,85.7,,brain tumor,i.n.,,,coumarin,none,,,,3895
+3895,polymer-based nanoparticles,PEG-polycaprolactone,1.0,,none,peptide,Bombesin peptide (GQWAVGHLM),receptor mediated,others,gastrin-releasing peptide receptor (GRPR),0.0,,68.1,,6.74,73.3,,brain tumor,i.n.,,,coumarin,none,,,0.554750194149625,3895
+3904,emulsion,"isopropyl myristate/ethyl oleate
+",0.0,,none,none,,passive transport,,,0.0,,45.52,,-21.28,,,normal,p.o.,,,Stiripentol,none,0.004452,2.32253016,,3904
+3904,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,Stiripentol,none,0.001917,1,,3904
+3907,liposome,bovine serum albumin-poly(ε-caprolactone,0.0,,none,none,,passive transport,,,0.0,,180.0,0.164,-38.7,,,brain tumor,i.t.,,,doxorubicin,none,0.393,2.46,,3907
+3907,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.t.,,,doxorubicin,none,0.16,1,,3907
+3926,liposome,DSPC/DSPE-mPEG2000/DOPC,1.0,,none,none,,passive transport,,,0.0,,134.31,0.105,,,,brain tumor,i.v.,,,DiR,none,,,1,3926
+3926,liposome,DSPC/DSPE-mPEG2000/DOPC,1.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,143.74,0.104,,,,brain tumor,i.v.,,,DiR,none,,,2.4893617,3926
+3926,liposome,DSPC/DSPE-mPEG2000/DOPC,1.0,,none,none,,passive transport,,,0.0,,134.31,0.105,,,,brain tumor,i.v.,,,DiR,ultrasound,,,3.87234043,3926
+3926,liposome,DSPC/DSPE-mPEG2000/DOPC,1.0,,none,peptide,angiopep-2,receptor mediated,low density lipoprotein-related receptor,low density lipoprotein-related receptor,0.0,,143.74,0.104,,,,brain tumor,i.v.,,,DiR,ultrasound,,,5,3926
+3934,liposome,DOPE/DOTAP/Cholesterol,1.0,,none,cell-penetrating peptide, R9F2,absorption mediated,,,0.0,,164.2,,31.4,,,,,,,DiR,none,0.008604,,,3934
+3934,liposome,DOPE/DOTAP/Cholesterol,1.0,,none,cell-penetrating peptide+transferrin, R9F2+transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,159.7,,27.3,,,,,,,DiR,none,0.023256,,,3934
+3934,,,,,,,,,,,,,,,,,,,,,,,,,,,3934
+3923,others,PEG-PLL,1.0,,none,glycosol,Glucose,transporter mediated,hexose transporter,GLUT,1.0,Glucose,45.0,0.15,,58.78,,Alzheimer's disease,i.v.,25.0,,3D6-Fab,none,,,17.2352941176471,3923
+3923,others,PEG-PLL,1.0,,none,none,,passive transport,,,,,45.0,0.15,,,,Alzheimer's disease,i.v.,,,3D6-Fab,none,,,1,3923
+3923,others,PEG-PLL,1.0,,none,none,,passive transport,,,,,,,,,,Alzheimer's disease,i.v.,,,3D6-Fab,none,,,,3923
+3923,others,PEG-PLL,1.0,,none,none,,passive transport,,,,,,,,,,Alzheimer's disease,i.v.,,,3D6-Cit-Fab,none,,,,3923
+3927,liposome,DSPE-PEG2000-Amine/Cholesterol/DOPE,1.0,,none,peptide,RGDK,receptor mediated,others,αvβ3/αvβ35,0.0,,136.6,0.236,-7.2,,,brain tumor,i.v.,,,WP1066/NIR dye,none,,,,3927
+3927,liposome,DSPE-PEG2000-Amine/Cholesterol/DOPE,1.0,,none,peptide,RGEK,passive transport,,,0.0,,157.0,0.202,-15.5,,,brain tumor,i.v.,,,WP1066/NIR dye,none,,,,3927
+3938,liposome,DOPE/DOTAP/Cholesterol,1.0,,none,non-antibody protein,transferrin,receptor mediated,transferrin receptor,transferrin receptor,0.0,,168.7,,25.0,80.0,,normal,i.v.,,,pDNA,none,,,,3938
+3938,liposome,DOPE/DOTAP/Cholesterol,1.0,,none,cell-penetrating peptide,R9F2,absorption mediated,,,0.0,,164.2,,30.4,80.0,,normal,i.v.,,,pDNA,none,,,,3938
+3949,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,p.o.,,,Topiramate,none,0.056,1,,3949
+3949,emulsion,capmul MCM C8,0.0,,none,none,,passive transport,,,0.0,,4.73,,10.74,,0.047,normal,p.o.,,,Topiramate,none,0.09025,1.61160714285714,,3949
+3949,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,Topiramate,none,0.06175,1,,3949
+3949,emulsion,capmul MCM C8,0.0,,none,none,,passive transport,,,0.0,,4.73,,10.74,,0.047,normal,i.n.,,,Topiramate,none,0.086,1.39271255060729,,3949
+3951,emulsion,Labrafac PG 8/Labrafac WL-1349/Peceol/Maisine,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,,none,0.000576,,,3951
+3951,emulsion,Labrafac PG 8/Labrafac WL-1349/Peceol/Maisine,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,,none,0.001656,,,3951
+3951,emulsion,Labrafac PG 8/Labrafac WL-1349/Peceol/Maisine,0.0,,none,none,,passive transport,,,0.0,,21.2,0.355,-14.12,,,normal,i.n.,,,,none,0.002047,,,3951
+3951,,,,,,,,,,,,,,,,,,,,,,,,,,,3951
+4019,emulsion,"ethyl oleate/Cremophor® RH 40/1,2-propanediol",0.0,,none,none,,passive transport,,,0.0,,45.52,0.076,-21.67,,,others,p.o.,,,stiripentol (STP) ,none,,2.32,,4019
+4021,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,, pyridine-2-aldoxime methochloride (2-PAM),none,0.007895,1,,4021
+4021,cationic liposome,"SPC/alkanediyl-α,ω-bis(N-hexadecyl-N-2-hydroxyethyl-N-methylammonium bromide/pyridine-2-aldoxime methochloride",0.0,,none,none,,passive transport,,,0.0,,115.0,0.096,45.0,72.0,47.0,normal,i.v.,,, pyridine-2-aldoxime methochloride (2-PAM),none,0.016138,"2.044025157
+",,4021
+4056,liposome,DOTAP/cholesterol/DSPE-PEG,1.0,,,none,,passive transport,,,0.0,0,148.0,0.102,33.0,,,normal,i.v.,,,miR 603,none,,,,4056
+4056,,,,,,,,,,,,,,,,,,,,,,,,,,,4056
+4056,,,,,,,,,,,,,,,,,,,,,,,,,,,4056
+4056,,DOTAP/cholesterol/{succinyl[methoxy(polyethylene glycol)2000]} (PEG2000-Cer16) (cer-PEG),1.0,,none,others,{succinyl[methoxy(polyethylene glycol)2000]} (PEG2000-Cer16) (cer-PEG),passive transport,others,,0.0,0,148.0,0.102,16.0,,,normal,i.v.,,,miR 603,none,, ,2.34,4056
+4110,solid lipid nanoparticles,GYNASAN 114/glycerol/Lipoid S75,1.0,,none,none,,passive transport,,,0.0,,80.0,0.26,-55.0,70.0,,normal,i.v.,,,pralidoxime chloride,none,0.0176,,,4110
+4111,others,stearic acid/SPC/PLGA,1.0,,none,none,,passive transport,,,0.0,,362.2,0.39,,,,normal,i.v.,,,DiR,none,0.0096,,,4111
+4116,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.n.,,,alendronate,none,,1,,4116
+4116,polymer-based nanoparticles,chitosan/sodium tripolyphosphate,0.0,,none,none,,passive transport,,,0.0,,173.66,0.49,22.0,72.46,,normal,i.n.,,,alendronate,none,,4.57,,4116
+4122,solid lipid nanoparticles,glycerol monostearate,0.0,,none,none,,passive transport,,,0.0,,121.38,0.077,-29.55,83.17,,Alzheimer's disease,i.v.,,,DiR,none,,,1,4122
+4122,solid lipid nanoparticles,glycerol monostearate,1.0,5.0,none,others,DSPE-PEG-triphenylphosphine (TPP),absorption mediated,,,0.0,,122.51,0.132,24.64,82.48,,Alzheimer's disease,i.v.,5.0,,DiR,none,,,1.54,4122
+4122,solid lipid nanoparticles,glycerol monostearate,1.0,7.5,none,peptide,DSPE-PEG-RVG29 peptide,receptor mediated,,,0.0,,124.23,0.101,-32.27,81.76,,Alzheimer's disease,i.v.,7.5,,DiR,none,,,7.67,4122
+4122,solid lipid nanoparticles,glycerol monostearate,1.0,12.5,none,others,DSPE-PEG-triphenylphosphine (TPP)+DSPE-PEG-RVG29 peptide,receptor mediated,,,0.0,,123.19,0.167,19.13,82.31,,Alzheimer's disease,i.v.,12.5,,DiR,none,,,8.19,4122
+4142,gold nanoparticles,Au,0.0,,none,none,,transporter mediated,transferrin receptor,transferrin receptor 1,0.0,,13.17,,,,,brain tumor,i.v.,,,C6,none,,4.61,,4142
+4142,free drug,,,,none,none,,passive transport,,,0.0,,,,,,,brain tumor,i.v.,,,C6,none,,1,,4142
+4152,liposome,HSPC/PEG-PE/Cholesterol,1.0,5.0,none,none,,passive transport,,,0.0,,85.1,0.059,-5.61,,,brain tumor,convention-enhanced delivery (CED),,,DiR,none,,,,4152
+4152,liposome,HSPC/PEG-PE/Cholesterol/DOTAP,1.0,3.85,none,none,,passive transport,,,0.0,,80.8,0.076,8.9,,,brain tumor,convention-enhanced delivery (CED),,,DiR,none,,,,4152
+4152,liposome,HSPC/PEG-PE/Cholesterol/DOTAP,1.0,3.85,none,none,,passive transport,,,0.0,,83.6,0.091,13.9,,,brain tumor,convention-enhanced delivery (CED),,,DiR,none,,,,4152
+4152,liposome,HSPC/DOTAP,0.0,,none,none,,passive transport,,,0.0,,73.9,0.094,52.7,,,brain tumor,convention-enhanced delivery (CED),,,DiR,none,,,,4152
+4153,polymer-based nanoparticles,PLGA,1.0,,none,none,,passive transport,,,0.0,,,,,,,"stroke(ischemic stroke, hemorrhagic stroke)",i.n.,,,miRNA-124,none,,,,4153
+4153,polymer-based nanoparticles,PLGA,0.0,,none,none,,receptor mediated,peptide,nicotinic acetylcholine receptor (nAchR),0.0,,,,,,,"stroke(ischemic stroke, hemorrhagic stroke)",i.n.,,,miRNA-124,none,,,,4153
+4153,polymer-based nanoparticles,PLGA,1.0,,none,none,,receptor mediated,peptide,nicotinic acetylcholine receptor (nAchR),0.0,,204.0,,,28.2,,"stroke(ischemic stroke, hemorrhagic stroke)",i.n.,,,miRNA-124,none,,,1.84,4153
+4161,albumin nanoparticles,bovine serum albumin,0.0,,none,glycosol,Chondroitin sulfate,receptor mediated,others,CD44,0.0,,222.3,0.217,-32.8,62.0,4.0,normal,i.v.,,,Temozolomide,none,,1.48743196471454,,4161
+4161,albumin nanoparticles,bovine serum albumin,0.0,,none,,,,,,0.0,,160.6,0.153,-25.3,71.0,10.0,normal,i.v.,,,Temozolomide,none,,1.34993933305351,,4161
+4161,free drug,,,,,,,,,,,,,,,,,normal,i.v.,,,Temozolomide,none,,1,,4161
+4163,others,4-aminophenylboronic acid/methacrylic anhydride,0.0,,none,peptide,Lactoferrin,receptor mediated,others,Lactoferrin receptor,0.0,,193.9,0.125,-21.63,83.33,18.18,normal,i.v.,,,DOX,none,,10.01,11.2448979591837,4163
+4163,others,5-aminophenylboronic acid/methacrylic anhydride,0.0,,none,,,,,,0.0,,117.1,0.249,-35.77,,,normal,i.v.,,,DOX,none,,0.89,,4163
+4163,,,,,,,,,,,,,,,,,,,,,,,,,,,4163
+4182,free drug,,,,,,,,,,,,,,,,,,,,,obidoxime (LuH-6）,,,1,,4182
+4182,liposome, SPC/ DOPS/cholesterol/DSPE-PEG2000,1.0,4.0,none,none,,,,,0.0,,135.1,0.092,-32.19,,,normal,i.v.,,,obidoxime (LuH-6）,none,,2.72,,4182
+4182,liposome, SPC/ DOPS/cholesterol/DSPE-PEG2001,1.0,4.0,none,peptide,transferrin receptor (TfR) aptamer,receptor mediated,transferrin receptor ,transferrin receptor (TfR),0.0,,138.7,0.066,-31.5,61.4,,normal,i.v.,,,obidoxime (LuH-6）,none,,10.89,4,4182
+4182,,,,,,,,,,,,,,,,,,,,,,,,,,,4182
+4255,micelle,P(MeOx39-b-PBuOx25-b-PMeOx39),0.0,,none,,,,,,,,41.5,0.03,3.81,98.36,,brain tumor,i.v.,,,vismodegib,none,,2.47,,4255
+4268,free drug,,0.0,,none,none,,passive transport,,,,,,,,,,normal,i.n.,,,bexarotene,none,0.023684,1,,4268
+4268,polymer-based nanoparticles,PCL,0.0,,none,none,,passive transport,,,0.0,,103.5,0.109,-39.9,67.2,,normal,i.n.,,,bexarotene,none,0.030789,1.594202899,,4268
+4268,polymer-based nanoparticles,PCL-PEG,1.0,5.0,none,none,,passive transport,,,0.0,,120.2,0.149,-19.7,66.8,,normal,i.n.,,,bexarotene,none,0.059684,2.739130435,1.718181818,4268
+4271,free drug,,0.0,,none,none,,passive transport,,,0.0,,,,,,,normal,i.v.,,,levetiracetam,none,0.0058666666666666,1,,4271
+4271,albumin nanoparticles,bovine serum albumin,0.0,,none,none,,passive transport,,,0.0,,153.7,,-10.08,,,normal,i.v.,,,levetiracetam,none,0.0113222222222222,1.94,,4271
+4271,albumin nanoparticles,bovine serum albumin,0.0,,polysorbate 80,none,,absorption mediated,,,0.0,,,,,,,normal,i.v.,,,levetiracetam,none,0.0206,3.54,1.824742268,4271
