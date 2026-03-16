@@ -17,3 +17,5 @@ Datasets:
 
 Brain Delivery(https://www.cell.com/cell-biomaterials/fulltext/S3050-5623(25)00121-7)
                    PLGA Nanoparticle Formulations(https://www.nature.com/articles/s41597-025-05520-9)
+
+Model now has Bayesian Optimization Capabilities. To run predictions, see FINAL_ENS.ipynb. To run optimization, see RUN MODEL.ipynb
