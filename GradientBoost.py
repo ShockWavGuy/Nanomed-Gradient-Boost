@@ -325,7 +325,7 @@ def cv_regression_catboost(
 
         print("trained!")
         x_pred = model.predict(X_train)
-        print(f"diddy: r2={r2_score(y_train_fold,x_pred)}")
+        print(f"Measure of Training Data Fit: r2={r2_score(y_train_fold,x_pred)}")
 
         y_pred = model.predict(X_val)
         oof_preds[val_idx] = y_pred
